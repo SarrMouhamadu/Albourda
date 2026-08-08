@@ -12,6 +12,7 @@ struct ChapterDetailView: View {
     @EnvironmentObject var appState: AppState
     @State private var verses: [Verse] = []
     @State private var showingThemePicker: Bool = false
+    @State private var isCurtainOpen: Bool = false
     
     var body: some View {
         ZStack {
@@ -188,6 +189,15 @@ struct ChapterDetailView: View {
                     }
                 }
             }
+            
+            // Animation Théâtrale : Ouverture des Rideaux à l'entrée du Chapitre
+            CurtainRevealOverlay(
+                primaryColor: appState.activeTheme.primaryColor,
+                accentColor: appState.activeTheme.accentGlow,
+                chapterTitle: chapter.titleArabic,
+                chapterNumber: chapter.chapterNumber,
+                isCurtainOpen: $isCurtainOpen
+            )
         }
         .navigationTitle("Chapitre \(chapter.chapterNumber)")
         .navigationBarTitleDisplayMode(.inline)
@@ -197,6 +207,95 @@ struct ChapterDetailView: View {
         }
         .onAppear {
             self.verses = DataService.shared.getVerses(for: chapter.id)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.12) {
+                withAnimation(.spring(response: 0.85, dampingFraction: 0.82)) {
+                    isCurtainOpen = true
+                }
+            }
         }
+    }
+}
+
+// Composant Visuel de l'Animation des Rideaux qui s'ouvrent
+struct CurtainRevealOverlay: View {
+    let primaryColor: Color
+    let accentColor: Color
+    let chapterTitle: String
+    let chapterNumber: Int
+    @Binding var isCurtainOpen: Bool
+    
+    var body: some View {
+        GeometryReader { geo in
+            ZStack {
+                // Rideau Gauche
+                HStack(spacing: 0) {
+                    ZStack(alignment: .trailing) {
+                        Rectangle()
+                            .fill(
+                                LinearGradient(
+                                    colors: [primaryColor, primaryColor.opacity(0.95)],
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                )
+                            )
+                        
+                        // Galon doré vertical
+                        Rectangle()
+                            .fill(accentColor)
+                            .frame(width: 3)
+                    }
+                    .frame(width: geo.size.width / 2)
+                    .offset(x: isCurtainOpen ? -geo.size.width / 2 : 0)
+                    
+                    Spacer(minLength: 0)
+                }
+                
+                // Rideau Droit
+                HStack(spacing: 0) {
+                    Spacer(minLength: 0)
+                    
+                    ZStack(alignment: .leading) {
+                        Rectangle()
+                            .fill(
+                                LinearGradient(
+                                    colors: [primaryColor.opacity(0.95), primaryColor],
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                )
+                            )
+                        
+                        // Galon doré vertical
+                        Rectangle()
+                            .fill(accentColor)
+                            .frame(width: 3)
+                    }
+                    .frame(width: geo.size.width / 2)
+                    .offset(x: isCurtainOpen ? geo.size.width / 2 : 0)
+                }
+                
+                // Sceau / Emblème central au milieu des rideaux
+                VStack(spacing: 12) {
+                    ZStack {
+                        Circle()
+                            .fill(accentColor)
+                            .frame(width: 68, height: 68)
+                            .shadow(color: accentColor.opacity(0.6), radius: 12, x: 0, y: 4)
+                        
+                        Image(systemName: "sparkles")
+                            .font(.system(size: 30, weight: .bold))
+                            .foregroundColor(.white)
+                    }
+                    
+                    Text("Chapitre \(chapterNumber)")
+                        .font(.system(size: 18, weight: .bold, design: .serif))
+                        .foregroundColor(.white)
+                        .shadow(color: Color.black.opacity(0.3), radius: 4, x: 0, y: 2)
+                }
+                .scaleEffect(isCurtainOpen ? 1.3 : 1.0)
+                .opacity(isCurtainOpen ? 0 : 1)
+            }
+            .ignoresSafeArea()
+        }
+        .allowsHitTesting(!isCurtainOpen)
     }
 }
