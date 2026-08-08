@@ -11,16 +11,11 @@ struct VerseRowView: View {
     let verse: Verse
     let chapter: Chapter
     @EnvironmentObject var appState: AppState
-    @ObservedObject var audioService = AudioService.shared
     @State private var isTafsirExpanded: Bool = false
-    
-    var isCurrentAudioVerse: Bool {
-        audioService.currentVerse?.id == verse.id
-    }
     
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
-            // Entête de la carte du verset : Numéro, Favori et Bouton Audio
+            // Entête de la carte du verset : Numéro et Favori
             HStack {
                 // Badge numéro du verset
                 Text("Verset \(verse.verseNumber)")
@@ -32,16 +27,6 @@ struct VerseRowView: View {
                     .cornerRadius(8)
                 
                 Spacer()
-                
-                // Bouton Audio
-                Button(action: {
-                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
-                    audioService.playVerse(verse, chapter: chapter)
-                }) {
-                    Image(systemName: isCurrentAudioVerse && audioService.isPlaying ? "waveform.circle.fill" : "play.circle")
-                        .font(.system(size: 22))
-                        .foregroundColor(chapter.accentColor)
-                }
                 
                 // Bouton Favori
                 Button(action: {
@@ -128,12 +113,12 @@ struct VerseRowView: View {
         .padding(16)
         .background(
             RoundedRectangle(cornerRadius: 16)
-                .fill(isCurrentAudioVerse ? chapter.accentColor.opacity(0.1) : Color.appCardBackground)
+                .fill(Color.appCardBackground)
                 .shadow(color: Color.black.opacity(0.04), radius: 6, x: 0, y: 2)
         )
         .overlay(
             RoundedRectangle(cornerRadius: 16)
-                .stroke(isCurrentAudioVerse ? chapter.accentColor : Color.appBorder, lineWidth: isCurrentAudioVerse ? 2 : 1)
+                .stroke(Color.appBorder, lineWidth: 1)
         )
         .padding(.horizontal, 16)
     }

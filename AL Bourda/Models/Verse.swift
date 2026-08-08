@@ -15,7 +15,6 @@ struct Verse: Identifiable, Codable, Hashable {
     let phoneticText: String
     let frenchText: String
     let tafsirNote: String
-    let audioFileName: String
     
     // Normalized Arabic text without Tashkeel/diacritics for search tolerance
     var normalizedArabic: String {

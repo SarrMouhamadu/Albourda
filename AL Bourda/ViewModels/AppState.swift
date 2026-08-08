@@ -11,7 +11,6 @@ import Combine
 
 class AppState: ObservableObject {
     @Published var selectedReadingMode: ReadingMode = .bilingualPhonetic
-    @Published var selectedBackground: BackgroundOption = .none
     @Published var bookmarkedVerseIds: Set<String> = []
     @Published var lastReadVerseId: String? = UserDefaults.standard.string(forKey: "lastReadVerseId") {
         didSet {

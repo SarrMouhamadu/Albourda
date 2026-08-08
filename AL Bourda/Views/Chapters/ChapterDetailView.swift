@@ -10,9 +10,7 @@ import SwiftUI
 struct ChapterDetailView: View {
     let chapter: Chapter
     @EnvironmentObject var appState: AppState
-    @ObservedObject var audioService = AudioService.shared
     @State private var verses: [Verse] = []
-    @State private var showBackgroundPicker: Bool = false
     
     var body: some View {
         ZStack {
@@ -60,76 +58,52 @@ struct ChapterDetailView: View {
                             .clipShape(Circle())
                             .foregroundColor(chapter.darkTextColor)
                     }
-                    
-                    // Choix de l'arrière-plan immersif
-                    Button(action: {
-                        showBackgroundPicker = true
-                    }) {
-                        Image(systemName: "photo.on.rectangle")
-                            .font(.system(size: 14, weight: .semibold))
-                            .padding(8)
-                            .background(Color.white)
-                            .clipShape(Circle())
-                            .foregroundColor(chapter.darkTextColor)
-                    }
                 }
                 .padding(.horizontal, 16)
                 .padding(.vertical, 8)
                 .background(chapter.accentColor.opacity(0.08))
                 
                 // Liste défilante des versets du chapitre
-                ScrollViewReader { proxy in
-                    ScrollView {
-                        LazyVStack(spacing: 16) {
-                            // Entête stylisé du chapitre
-                            VStack(spacing: 8) {
-                                Text("Chapitre \(chapter.chapterNumber)")
-                                    .font(.system(size: 14, weight: .bold, design: .rounded))
-                                    .foregroundColor(chapter.accentColor)
-                                
-                                Text(chapter.titleArabic)
-                                    .font(.system(size: 28, weight: .bold, design: .serif))
-                                    .foregroundColor(chapter.darkTextColor)
-                                    .multilineTextAlignment(.center)
-                                
-                                Text(chapter.titleFrench)
-                                    .font(.system(size: 16, weight: .medium))
-                                    .foregroundColor(Color.appMutedForeground)
-                                    .multilineTextAlignment(.center)
-                                
-                                Text("\(chapter.verseCount) Versets")
-                                    .font(.system(size: 12, weight: .medium))
-                                    .padding(.horizontal, 10)
-                                    .padding(.vertical, 3)
-                                    .background(chapter.accentColor.opacity(0.12))
-                                    .cornerRadius(10)
-                                    .foregroundColor(chapter.accentColor)
-                            }
-                            .padding(.vertical, 20)
+                ScrollView {
+                    LazyVStack(spacing: 16) {
+                        // Entête stylisé du chapitre
+                        VStack(spacing: 8) {
+                            Text("Chapitre \(chapter.chapterNumber)")
+                                .font(.system(size: 14, weight: .bold, design: .rounded))
+                                .foregroundColor(chapter.accentColor)
                             
-                            // Versets
-                            ForEach(verses) { verse in
-                                VerseRowView(verse: verse, chapter: chapter)
-                                    .id(verse.id)
-                            }
+                            Text(chapter.titleArabic)
+                                .font(.system(size: 28, weight: .bold, design: .serif))
+                                .foregroundColor(chapter.darkTextColor)
+                                .multilineTextAlignment(.center)
+                            
+                            Text(chapter.titleFrench)
+                                .font(.system(size: 16, weight: .medium))
+                                .foregroundColor(Color.appMutedForeground)
+                                .multilineTextAlignment(.center)
+                            
+                            Text("\(chapter.verseCount) Versets")
+                                .font(.system(size: 12, weight: .medium))
+                                .padding(.horizontal, 10)
+                                .padding(.vertical, 3)
+                                .background(chapter.accentColor.opacity(0.12))
+                                .cornerRadius(10)
+                                .foregroundColor(chapter.accentColor)
                         }
-                        .padding(.vertical, 16)
-                    }
-                    .onChange(of: audioService.currentVerse) { oldValue, newVerse in
-                        if let targetId = newVerse?.id {
-                            withAnimation {
-                                proxy.scrollTo(targetId, anchor: .center)
-                            }
+                        .padding(.vertical, 20)
+                        
+                        // Versets
+                        ForEach(verses) { verse in
+                            VerseRowView(verse: verse, chapter: chapter)
+                                .id(verse.id)
                         }
                     }
+                    .padding(.vertical, 16)
                 }
             }
         }
         .navigationTitle("Chapitre \(chapter.chapterNumber)")
         .navigationBarTitleDisplayMode(.inline)
-        .sheet(isPresented: $showBackgroundPicker) {
-            BackgroundPickerSheet()
-        }
         .onAppear {
             self.verses = DataService.shared.getVerses(for: chapter.id)
         }
