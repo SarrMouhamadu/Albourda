@@ -29,8 +29,14 @@ struct ContentView: View {
                 .tabItem {
                     Label("Guide Virtuel", systemImage: "sparkles")
                 }
+            
+            // Onglet 4 : À propos (Développeur & Contact)
+            AboutView()
+                .tabItem {
+                    Label("À propos", systemImage: "info.circle.fill")
+                }
         }
-        .accentColor(Color.appPrimary)
+        .accentColor(appState.activeTheme.primaryColor)
         .environmentObject(appState)
     }
 }
