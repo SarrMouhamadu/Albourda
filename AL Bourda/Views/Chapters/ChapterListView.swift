@@ -16,7 +16,7 @@ struct ChapterListView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                // Fond spirituel Serigne Tidiane personnalisable
+                // Fond unifié et sobre
                 appState.activeTheme.backgroundGradient.ignoresSafeArea()
                 
                 ScrollView {
@@ -27,7 +27,7 @@ struct ChapterListView: View {
                                 VStack(alignment: .leading, spacing: 4) {
                                     Text("القصيدة البردة")
                                         .font(.system(size: 26, weight: .bold, design: .serif))
-                                        .foregroundColor(Color.appForeground)
+                                        .foregroundColor(appState.activeTheme.textColor)
                                     
                                     Text("Qasidat Al-Burda · Le Poème du Manteau")
                                         .font(.system(size: 14, weight: .semibold))
@@ -39,8 +39,8 @@ struct ChapterListView: View {
                                 }) {
                                     HStack(spacing: 4) {
                                         Image(systemName: "paintpalette.fill")
-                                            .font(.system(size: 16))
-                                        Text("Fond")
+                                            .font(.system(size: 14))
+                                        Text("Thème")
                                             .font(.system(size: 12, weight: .bold))
                                     }
                                     .padding(.horizontal, 10)
@@ -48,87 +48,76 @@ struct ChapterListView: View {
                                     .background(appState.activeTheme.primaryColor)
                                     .foregroundColor(.white)
                                     .cornerRadius(12)
-                                    .shadow(color: appState.activeTheme.primaryColor.opacity(0.3), radius: 3, x: 0, y: 2)
                                 }
                             }
                             
                             Text("Découvrez les 10 chapitres sacrés composés par l'Imam Al-Busiri pour le Gamou et la méditation quotidienne.")
                                 .font(.system(size: 13, weight: .regular))
-                                .foregroundColor(Color.appMutedForeground)
+                                .foregroundColor(appState.activeTheme.textColor.opacity(0.7))
                                 .lineSpacing(2)
-                            
-                            HStack(spacing: 6) {
-                                Image(systemName: appState.activeTheme.iconName)
-                                    .font(.system(size: 12))
-                                Text("Thème actif : \(appState.activeTheme.title)")
-                                    .font(.system(size: 11, weight: .semibold))
-                            }
-                            .foregroundColor(appState.activeTheme.accentGlow)
-                            .padding(.top, 2)
                         }
                         .padding(16)
                         .background(
-                            RoundedRectangle(cornerRadius: 18)
-                                .fill(Color.white.opacity(0.9))
+                            RoundedRectangle(cornerRadius: 16)
+                                .fill(appState.activeTheme.cardBackground)
                         )
                         .overlay(
-                            RoundedRectangle(cornerRadius: 18)
-                                .stroke(appState.activeTheme.primaryColor.opacity(0.2), lineWidth: 1)
+                            RoundedRectangle(cornerRadius: 16)
+                                .stroke(Color.appBorder, lineWidth: 1)
                         )
-                        .shadow(color: Color.black.opacity(0.04), radius: 6, x: 0, y: 2)
+                        .shadow(color: Color.black.opacity(0.03), radius: 4, x: 0, y: 2)
                         .padding(.horizontal, 16)
                         .padding(.top, 8)
                         
                         // En-tête de la liste
                         HStack {
                             Text("Les 10 Chapitres (الفصول العشرة)")
-                                .font(.system(size: 17, weight: .bold))
-                                .foregroundColor(Color.appForeground)
+                                .font(.system(size: 16, weight: .bold))
+                                .foregroundColor(appState.activeTheme.textColor)
                             Spacer()
                         }
                         .padding(.horizontal, 16)
-                        .padding(.top, 8)
+                        .padding(.top, 4)
                         
-                        // Grille des 10 chapitres avec leurs couleurs chromatiques spécifiques et animation d'entrée
+                        // Grille des 10 chapitres avec design unifié et sobre
                         ForEach(Array(chapters.enumerated()), id: \.element.id) { index, chapter in
                             NavigationLink(destination: ChapterDetailView(chapter: chapter)) {
                                 HStack(spacing: 16) {
-                                    // Badge Numéroté avec couleur d'accent du chapitre
+                                    // Badge Numéroté unifié (Émeraude / Or)
                                     ZStack {
-                                        RoundedRectangle(cornerRadius: 14)
-                                            .fill(chapter.accentColor)
-                                            .frame(width: 52, height: 52)
-                                            .shadow(color: chapter.accentColor.opacity(0.3), radius: 4, x: 0, y: 2)
+                                        RoundedRectangle(cornerRadius: 12)
+                                            .fill(appState.activeTheme.primaryColor)
+                                            .frame(width: 48, height: 48)
                                         
                                         Text("\(chapter.chapterNumber)")
-                                            .font(.system(size: 20, weight: .bold, design: .rounded))
+                                            .font(.system(size: 18, weight: .bold, design: .rounded))
                                             .foregroundColor(.white)
                                     }
                                     
                                     VStack(alignment: .leading, spacing: 4) {
                                         HStack {
                                             Text(chapter.titleFrench)
-                                                .font(.system(size: 16, weight: .bold))
-                                                .foregroundColor(Color.appForeground)
+                                                .font(.system(size: 15, weight: .bold))
+                                                .foregroundColor(appState.activeTheme.textColor)
                                                 .lineLimit(1)
                                             
                                             Spacer()
                                             
                                             Text(chapter.titleArabic)
-                                                .font(.system(size: 18, weight: .bold, design: .serif))
-                                                .foregroundColor(chapter.darkTextColor)
+                                                .font(.system(size: 17, weight: .bold, design: .serif))
+                                                .foregroundColor(appState.activeTheme.primaryColor)
                                         }
                                         
                                         Text(chapter.description)
                                             .font(.system(size: 12, weight: .regular))
-                                            .foregroundColor(Color.appMutedForeground)
+                                            .foregroundColor(appState.activeTheme.textColor.opacity(0.65))
                                             .lineLimit(2)
                                             .multilineTextAlignment(.leading)
                                         
                                         HStack {
                                             Label("\(chapter.verseCount) versets", systemImage: "text.quote")
                                                 .font(.system(size: 11, weight: .medium))
-                                                .foregroundColor(chapter.accentColor)
+                                                .foregroundColor(appState.activeTheme.accentGlow)
                                             
                                             Spacer()
                                             
@@ -139,21 +128,21 @@ struct ChapterListView: View {
                                         .padding(.top, 2)
                                     }
                                 }
-                                .padding(16)
+                                .padding(14)
                                 .background(
                                     RoundedRectangle(cornerRadius: 16)
-                                        .fill(chapter.lightCardBg)
-                                        .shadow(color: Color.black.opacity(0.04), radius: 6, x: 0, y: 2)
+                                        .fill(appState.activeTheme.cardBackground)
                                 )
                                 .overlay(
                                     RoundedRectangle(cornerRadius: 16)
-                                        .stroke(chapter.accentColor.opacity(0.25), lineWidth: 1)
+                                        .stroke(Color.appBorder, lineWidth: 1)
                                 )
+                                .shadow(color: Color.black.opacity(0.03), radius: 4, x: 0, y: 2)
                             }
                             .padding(.horizontal, 16)
                             .opacity(animateCards ? 1 : 0)
-                            .offset(y: animateCards ? 0 : 25)
-                            .animation(.easeOut(duration: 0.35).delay(Double(index) * 0.04), value: animateCards)
+                            .offset(y: animateCards ? 0 : 16)
+                            .animation(.easeOut(duration: 0.3).delay(Double(index) * 0.03), value: animateCards)
                         }
                     }
                     .padding(.bottom, 90)
@@ -167,7 +156,7 @@ struct ChapterListView: View {
                         showingThemePicker = true
                     }) {
                         Image(systemName: "paintpalette.fill")
-                            .font(.system(size: 16))
+                            .font(.system(size: 15))
                             .foregroundColor(appState.activeTheme.primaryColor)
                     }
                 }

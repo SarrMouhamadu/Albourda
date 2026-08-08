@@ -15,7 +15,7 @@ struct ChapterDetailView: View {
     
     var body: some View {
         ZStack {
-            // Fond spirituel Serigne Tidiane personnalisable
+            // Fond spirituel sobre et unifié
             appState.activeTheme.backgroundGradient.ignoresSafeArea()
             
             VStack(spacing: 0) {
@@ -36,30 +36,30 @@ struct ChapterDetailView: View {
                         }
                         .padding(.horizontal, 12)
                         .padding(.vertical, 6)
-                        .background(Color.white)
+                        .background(appState.activeTheme.cardBackground)
                         .cornerRadius(16)
-                        .foregroundColor(chapter.darkTextColor)
-                        .shadow(color: Color.black.opacity(0.05), radius: 2, x: 0, y: 1)
+                        .foregroundColor(appState.activeTheme.textColor)
+                        .shadow(color: Color.black.opacity(0.04), radius: 2, x: 0, y: 1)
                     }
                     
                     Spacer()
                     
-                    // Bouton Sélecteur de Fond Serigne Tidiane
+                    // Bouton Sélecteur de Thème
                     Button(action: {
                         showingThemePicker = true
                     }) {
                         HStack(spacing: 4) {
                             Image(systemName: "paintpalette.fill")
                                 .font(.system(size: 13))
-                            Text("Fond")
+                            Text("Thème")
                                 .font(.system(size: 12, weight: .bold))
                         }
                         .padding(.horizontal, 10)
                         .padding(.vertical, 6)
-                        .background(Color.white)
+                        .background(appState.activeTheme.cardBackground)
                         .cornerRadius(16)
                         .foregroundColor(appState.activeTheme.primaryColor)
-                        .shadow(color: Color.black.opacity(0.05), radius: 2, x: 0, y: 1)
+                        .shadow(color: Color.black.opacity(0.04), radius: 2, x: 0, y: 1)
                     }
                     
                     // Ajustement de la taille de police
@@ -73,44 +73,44 @@ struct ChapterDetailView: View {
                         Image(systemName: "textformat.size")
                             .font(.system(size: 14, weight: .semibold))
                             .padding(8)
-                            .background(Color.white)
+                            .background(appState.activeTheme.cardBackground)
                             .clipShape(Circle())
-                            .foregroundColor(chapter.darkTextColor)
+                            .foregroundColor(appState.activeTheme.textColor)
                     }
                 }
                 .padding(.horizontal, 16)
                 .padding(.vertical, 8)
-                .background(chapter.accentColor.opacity(0.08))
+                .background(appState.activeTheme.primaryColor.opacity(0.06))
                 
                 // Liste défilante des versets du chapitre avec animation fluide
                 ScrollViewReader { proxy in
                     ScrollView {
                         LazyVStack(spacing: 16) {
-                            // Entête stylisé du chapitre
+                            // Entête stylisé et sobre du chapitre
                             VStack(spacing: 8) {
                                 Text("Chapitre \(chapter.chapterNumber)")
                                     .font(.system(size: 14, weight: .bold, design: .rounded))
-                                    .foregroundColor(chapter.accentColor)
+                                    .foregroundColor(appState.activeTheme.primaryColor)
                                 
                                 Text(chapter.titleArabic)
                                     .font(.system(size: 28, weight: .bold, design: .serif))
-                                    .foregroundColor(chapter.darkTextColor)
+                                    .foregroundColor(appState.activeTheme.primaryColor)
                                     .multilineTextAlignment(.center)
                                 
                                 Text(chapter.titleFrench)
                                     .font(.system(size: 16, weight: .medium))
-                                    .foregroundColor(Color.appMutedForeground)
+                                    .foregroundColor(appState.activeTheme.textColor.opacity(0.7))
                                     .multilineTextAlignment(.center)
                                 
                                 Text("\(chapter.verseCount) Versets")
                                     .font(.system(size: 12, weight: .medium))
                                     .padding(.horizontal, 10)
                                     .padding(.vertical, 3)
-                                    .background(chapter.accentColor.opacity(0.12))
+                                    .background(appState.activeTheme.primaryColor.opacity(0.1))
                                     .cornerRadius(10)
-                                    .foregroundColor(chapter.accentColor)
+                                    .foregroundColor(appState.activeTheme.primaryColor)
                             }
-                            .padding(.vertical, 20)
+                            .padding(.vertical, 16)
                             
                             // Versets avec animation de lecture de ligne
                             ForEach(verses) { verse in
@@ -123,10 +123,10 @@ struct ChapterDetailView: View {
                                 VStack(alignment: .leading, spacing: 14) {
                                     HStack(spacing: 8) {
                                         Image(systemName: "sparkles")
-                                            .foregroundColor(chapter.accentColor)
+                                            .foregroundColor(appState.activeTheme.primaryColor)
                                         Text("Invocations & Prières Complémentaires")
                                             .font(.system(size: 15, weight: .bold))
-                                            .foregroundColor(chapter.darkTextColor)
+                                            .foregroundColor(appState.activeTheme.textColor)
                                     }
                                     .padding(.top, 16)
                                     
@@ -137,39 +137,39 @@ struct ChapterDetailView: View {
                                                     .font(.system(size: 12, weight: .bold))
                                                     .padding(.horizontal, 10)
                                                     .padding(.vertical, 4)
-                                                    .background(chapter.accentColor.opacity(0.12))
-                                                    .foregroundColor(chapter.accentColor)
+                                                    .background(appState.activeTheme.primaryColor.opacity(0.1))
+                                                    .foregroundColor(appState.activeTheme.primaryColor)
                                                     .cornerRadius(8)
                                                 Spacer()
                                             }
                                             
                                             Text(supp.arabicText)
                                                 .font(.system(size: 20 * appState.fontSizeMultiplier, weight: .semibold, design: .serif))
-                                                .foregroundColor(Color.appForeground)
+                                                .foregroundColor(appState.activeTheme.textColor)
                                                 .multilineTextAlignment(.trailing)
                                                 .environment(\.layoutDirection, .rightToLeft)
                                             
                                             VStack(alignment: .leading, spacing: 6) {
                                                 Text(supp.phoneticText)
                                                     .font(.system(size: 13, weight: .medium))
-                                                    .foregroundColor(chapter.accentColor)
+                                                    .foregroundColor(appState.activeTheme.accentGlow)
                                                 
                                                 Text(supp.frenchText)
                                                     .font(.system(size: 14))
-                                                    .foregroundColor(Color.appForeground)
+                                                    .foregroundColor(appState.activeTheme.textColor)
                                                 
                                                 Text(supp.note)
                                                     .font(.system(size: 12, weight: .regular))
-                                                    .foregroundColor(Color.appMutedForeground)
+                                                    .foregroundColor(appState.activeTheme.textColor.opacity(0.6))
                                                     .padding(.top, 4)
                                             }
                                             .environment(\.layoutDirection, .leftToRight)
                                             .frame(maxWidth: .infinity, alignment: .leading)
                                         }
                                         .padding(14)
-                                        .background(Color.white)
+                                        .background(appState.activeTheme.cardBackground)
                                         .cornerRadius(12)
-                                        .shadow(color: Color.black.opacity(0.04), radius: 3, x: 0, y: 1)
+                                        .shadow(color: Color.black.opacity(0.03), radius: 3, x: 0, y: 1)
                                     }
                                 }
                                 .padding(.horizontal, 16)

@@ -25,7 +25,7 @@ class AppState: ObservableObject {
            let theme = TidianeTheme(rawValue: raw) {
             return theme
         }
-        return .tivaouaneEmerald
+        return .emeraldGold
     }() {
         didSet {
             UserDefaults.standard.set(activeTheme.rawValue, forKey: "activeTidianeTheme")

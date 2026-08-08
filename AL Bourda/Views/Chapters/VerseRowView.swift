@@ -23,7 +23,7 @@ struct VerseRowView: View {
         VStack(alignment: .leading, spacing: 14) {
             // Entête de la carte du verset : Numéro, Marqueur Ligne Active et Favori
             HStack {
-                // Badge numéro du verset
+                // Badge numéro du verset unifié
                 HStack(spacing: 6) {
                     Text("Verset \(verse.verseNumber)")
                         .font(.system(size: 13, weight: .bold, design: .rounded))
@@ -38,8 +38,8 @@ struct VerseRowView: View {
                 }
                 .padding(.horizontal, 10)
                 .padding(.vertical, 4)
-                .background(isActiveReadingLine ? appState.activeTheme.accentGlow.opacity(0.2) : chapter.accentColor.opacity(0.15))
-                .foregroundColor(isActiveReadingLine ? appState.activeTheme.primaryColor : chapter.accentColor)
+                .background(isActiveReadingLine ? appState.activeTheme.accentGlow.opacity(0.18) : appState.activeTheme.primaryColor.opacity(0.1))
+                .foregroundColor(isActiveReadingLine ? appState.activeTheme.accentGlow : appState.activeTheme.primaryColor)
                 .cornerRadius(8)
                 
                 if isActiveReadingLine {
@@ -58,7 +58,7 @@ struct VerseRowView: View {
                 }) {
                     Image(systemName: appState.isBookmarked(verseId: verse.id) ? "bookmark.fill" : "bookmark")
                         .font(.system(size: 20))
-                        .foregroundColor(appState.isBookmarked(verseId: verse.id) ? Color.yellow : Color.appMutedForeground)
+                        .foregroundColor(appState.isBookmarked(verseId: verse.id) ? Color.yellow : appState.activeTheme.textColor.opacity(0.4))
                 }
             }
             
@@ -70,13 +70,13 @@ struct VerseRowView: View {
                         .lineSpacing(12)
                         .multilineTextAlignment(.trailing)
                         .frame(maxWidth: .infinity, alignment: .trailing)
-                        .foregroundColor(Color.appForeground)
+                        .foregroundColor(appState.activeTheme.textColor)
                         .environment(\.layoutDirection, .rightToLeft)
                     
                     // Animation : Ligne de lecture interactive sous le texte arabe
                     ZStack(alignment: .trailing) {
                         Capsule()
-                            .fill(appState.activeTheme.accentGlow.opacity(isActiveReadingLine ? 0.8 : 0.15))
+                            .fill(appState.activeTheme.accentGlow.opacity(isActiveReadingLine ? 0.85 : 0.12))
                             .frame(height: isActiveReadingLine ? 3 : 1)
                             .animation(.spring(response: 0.4, dampingFraction: 0.7), value: isActiveReadingLine)
                     }
@@ -89,7 +89,7 @@ struct VerseRowView: View {
                 Text(verse.phoneticText)
                     .font(.system(size: 14 * appState.fontSizeMultiplier, weight: .medium, design: .rounded))
                     .italic()
-                    .foregroundColor(Color.appMutedForeground)
+                    .foregroundColor(appState.activeTheme.accentGlow)
                     .multilineTextAlignment(.leading)
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
@@ -99,7 +99,7 @@ struct VerseRowView: View {
                 Text(verse.frenchText)
                     .font(.system(size: 15 * appState.fontSizeMultiplier, weight: .regular))
                     .lineSpacing(4)
-                    .foregroundColor(Color.appForeground.opacity(0.9))
+                    .foregroundColor(appState.activeTheme.textColor.opacity(0.85))
                     .multilineTextAlignment(.leading)
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
@@ -117,17 +117,17 @@ struct VerseRowView: View {
                     HStack {
                         Image(systemName: "book.closed.fill")
                             .font(.system(size: 13))
-                            .foregroundColor(chapter.accentColor)
+                            .foregroundColor(appState.activeTheme.primaryColor)
                         
                         Text("Exégèse & Contexte Historique (Tafsir)")
                             .font(.system(size: 13, weight: .semibold))
-                            .foregroundColor(chapter.accentColor)
+                            .foregroundColor(appState.activeTheme.primaryColor)
                         
                         Spacer()
                         
                         Image(systemName: isTafsirExpanded ? "chevron.up" : "chevron.down")
                             .font(.system(size: 12))
-                            .foregroundColor(chapter.accentColor)
+                            .foregroundColor(appState.activeTheme.primaryColor)
                     }
                 }
                 
@@ -135,9 +135,9 @@ struct VerseRowView: View {
                     Text(verse.tafsirNote)
                         .font(.system(size: 13, weight: .regular))
                         .lineSpacing(4)
-                        .foregroundColor(Color.appMutedForeground)
+                        .foregroundColor(appState.activeTheme.textColor.opacity(0.65))
                         .padding(10)
-                        .background(chapter.lightCardBg.opacity(0.6))
+                        .background(appState.activeTheme.primaryColor.opacity(0.06))
                         .cornerRadius(8)
                         .transition(.opacity.combined(with: .move(edge: .top)))
                 }
@@ -147,13 +147,13 @@ struct VerseRowView: View {
         .background(
             ZStack(alignment: .leading) {
                 RoundedRectangle(cornerRadius: 16)
-                    .fill(isActiveReadingLine ? appState.activeTheme.primaryColor.opacity(0.04) : Color.appCardBackground)
+                    .fill(isActiveReadingLine ? appState.activeTheme.primaryColor.opacity(0.04) : appState.activeTheme.cardBackground)
                 
                 // Barre latérale animée pour la ligne de lecture active
                 if isActiveReadingLine {
                     RoundedRectangle(cornerRadius: 3)
                         .fill(appState.activeTheme.accentGlow)
-                        .frame(width: 5)
+                        .frame(width: 4)
                         .transition(.move(edge: .leading).combined(with: .opacity))
                 }
             }
@@ -161,12 +161,12 @@ struct VerseRowView: View {
         .cornerRadius(16)
         .overlay(
             RoundedRectangle(cornerRadius: 16)
-                .stroke(isActiveReadingLine ? appState.activeTheme.accentGlow : Color.appBorder, lineWidth: isActiveReadingLine ? 2 : 1)
+                .stroke(isActiveReadingLine ? appState.activeTheme.accentGlow : Color.appBorder, lineWidth: isActiveReadingLine ? 1.5 : 1)
         )
-        .shadow(color: isActiveReadingLine ? appState.activeTheme.accentGlow.opacity(0.15) : Color.black.opacity(0.04), radius: isActiveReadingLine ? 8 : 4, x: 0, y: 2)
+        .shadow(color: isActiveReadingLine ? appState.activeTheme.accentGlow.opacity(0.12) : Color.black.opacity(0.03), radius: isActiveReadingLine ? 6 : 3, x: 0, y: 2)
         .padding(.horizontal, 16)
         .opacity(isVisible ? 1 : 0)
-        .offset(y: isVisible ? 0 : 18)
+        .offset(y: isVisible ? 0 : 16)
         .onTapGesture {
             withAnimation(.spring(response: 0.35, dampingFraction: 0.75)) {
                 appState.activeReadingVerseId = verse.id
@@ -176,7 +176,7 @@ struct VerseRowView: View {
         }
         .onAppear {
             linePulse = true
-            withAnimation(.easeOut(duration: 0.35).delay(Double(verse.verseNumber % 8) * 0.03)) {
+            withAnimation(.easeOut(duration: 0.3).delay(Double(verse.verseNumber % 8) * 0.02)) {
                 isVisible = true
             }
         }
