@@ -96,7 +96,7 @@
       "accentColorHex": "#9B6EB8",
       "lightBgHex": "#F7F3FA",
       "darkTextHex": "#5A3272",
-      "verseCount": 12,
+      "verseCount": 13,
       "description": "Demande de pardon, repentir et espoir en l'intercession suprême du Messager ﷺ."
     },
     {
@@ -1378,8 +1378,8 @@
       "verseNumber": 2,
       "arabicText": "إِذْ قَلَّدَانِيَ مَا تُخْشَى عَوَاقِبُهُ ... كَأَنَّنِي بِهِمَا هَدْيٌ مِنَ النَّعَمِ",
       "phoneticText": "Idh qalladāniya mā tukhshā 'awāqibuhū ... Ka-annanī bihimā hadyun mina-n-na'ami",
-      "frenchText": "Car ces deux occupations m'avaient chargé d'un fardeau dont on redoute les conséquences, comme une offrande vouée au sacrifice.",
-      "tafsirNote": "La prise de conscience du fardeau des erreurs passées avant le retour vers Allah."
+      "frenchText": "Car ces deux occupations m'avaient charged d'un fardeau dont on redoute les conséquences, comme une offrande vouée au sacrifice.",
+      "tafsirNote": "La prise de conscience du fardeau des erreurs passées."
     },
     {
       "id": "ch9_v3",
@@ -1415,7 +1415,7 @@
       "arabicText": "إِنْ آتِ ذَنْبًا فَمَا عَهْدِي بِمُنْقَضِضٍ ... مِنَ النَّبِيِّ وَلا حَبْلِي بِمُنْصَرِمِ",
       "phoneticText": "In āti dhanban famā 'ahdī bi-munqaḍiḍin ... Mina-n-nabiyyi wa lā ḥablī bi-munṣarimi",
       "frenchText": "Si j'ai commis un péché, mon pacte avec le Prophète n'est point brisé, et mon lien avec lui n'est pas rompu !",
-      "tafsirNote": "L'espérance inébranlable en la miséricorde d'Allah et l'amour du Messager ﷺ malgré la faiblesse humaine."
+      "tafsirNote": "L'espérance inébranlable en la miséricorde d'Allah et l'amour du Messager ﷺ."
     },
     {
       "id": "ch9_v7",
@@ -1442,7 +1442,7 @@
       "arabicText": "حَاشَاهُ أَنْ يَحْرِمَ الرَّاجِي مَكَارِمَهُ ... أَوْ يَرْجِعَ الْجَارُ مِنْهُ غَيْرَ مُحْتَرَمِ",
       "phoneticText": "Ḥāshāhu an yaḥrima-r-rājī makārimahū ... Aw yarji'a-l-jāru minhu ghayra muḥtarami",
       "frenchText": "Loin de lui l'idée de priver de ses bienfaits celui qui espère en lui, ou de renvoyer son voisin sans honneur !",
-      "tafsirNote": "La générosité sans borne du Messager d'Allah ﷺ envers quiconque se place sous sa protection."
+      "tafsirNote": "La générosité sans borne du Messager d'Allah ﷺ."
     },
     {
       "id": "ch9_v10",
@@ -1451,7 +1451,7 @@
       "arabicText": "وَمُنْذُ أَلْزَمْتُ أَفْكَارِي مَدَائِحَهُ ... وَجَدْتُهُ لِخَلاَصِي خَيْرَ مُلْتَزِمِ",
       "phoneticText": "Wa mundhu alzamtu afkārī madā'iḥahū ... Wajadtuhū li-khalāṣī khayra multazimi",
       "frenchText": "Et depuis que j'ai consacré mes pensées à ses éloges, je l'ai trouvé le meilleur garant de mon salut !",
-      "tafsirNote": "L'expérience vécue par l'Imam Al-Busiri guéri de sa paralysie après avoir récité la Burda."
+      "tafsirNote": "L'expérience vécue par l'Imam Al-Busiri guéri de sa maladie."
     },
     {
       "id": "ch9_v11",
@@ -1460,7 +1460,7 @@
       "arabicText": "وَلَنْ يَفُوتَ الرِّضَى مِنْهُ يَدًا تَرِبَتْ ... إِنَّ الْحَيَا يُنْبِتُ الأَزْهَارَ فِي الأَكَمِ",
       "phoneticText": "Wa lan yafūta-r-riḍā minhu yadan taribat ... Inna-l-ḥayā yunbitu-l-azhāra fī-l-akami",
       "frenchText": "Sa satisfaction ne saura faire défaut à des mains réduites à la pauvreté ; car la pluie féconde fait éclore les fleurs jusque sur les collines arides !",
-      "tafsirNote": "Métaphorique divine : la pluie de la miséricorde ressuscite l'âme la plus desséchée."
+      "tafsirNote": "La pluie de la miséricorde ressuscite l'âme desséchée."
     },
     {
       "id": "ch9_v12",
@@ -1469,7 +1469,16 @@
       "arabicText": "وَلَمْ أُرِدْ زَهْرَةَ الدُّنْيَا الَّتِي اقْتَطَفَتْ ... يَدَا زُهَيْرٍ بِمَا أَثْنَى عَلَى هَرَمِ",
       "phoneticText": "Wa lam urid zahrata-d-dunyā-llatī-qtaṭafat ... Yadā Zuhayrin bi-mā athnā 'alā Harami",
       "frenchText": "Et je n'ai point recherché les fleurs éphémères du monde que cueillaient les mains du poète Zuhayr lorsqu'il célébrait le prince Haram !",
-      "tafsirNote": "Verset final du chapitre 9 : le poète affirme que ses éloges ne cherchent aucun gain financier mais la seule satisfaction divine."
+      "tafsirNote": "L'éloge désintéressé recherchant l'agrément divin."
+    },
+    {
+      "id": "ch9_v13",
+      "chapterId": 9,
+      "verseNumber": 13,
+      "arabicText": "أَبْيَاتُهَا قَدْ أَتَتْ سِتِّينَ مَعْ مِائَةٍ ... فَرِّجْ بِهَا كَرْبَنَا يَا وَاسِعَ الْكَرَمِ",
+      "phoneticText": "Abyātuhā qad atat sittīna ma' mi'atin ... Farrij bihā karbanā yā wāsi'a-l-karami",
+      "frenchText": "Ses versets ont atteint le nombre de cent soixante ; délivre-nous par leur bénédiction de nos peines, ô Toi dont la générosité est infinie !",
+      "tafsirNote": "Verset 13 (Fin du Chapitre 9) : Le verset traditionnel de clôture décomptant les 160 versets de la Burda et implorant le soulagement des peines."
     },
     {
       "id": "ch10_v1",
