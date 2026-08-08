@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            // Onglet 1 : Chapitres
+            // Onglet 1 : Chapitres (Les 10 Chapitres Sacrés)
             ChapterListView()
                 .tabItem {
                     Label("Chapitres", systemImage: "book.fill")
@@ -24,13 +24,7 @@ struct ContentView: View {
                     Label("Recherche", systemImage: "magnifyingglass")
                 }
             
-            // Onglet 3 : Guide Virtuel (Chatbot)
-            ChatView()
-                .tabItem {
-                    Label("Guide Virtuel", systemImage: "sparkles")
-                }
-            
-            // Onglet 4 : À propos (Développeur & Contact)
+            // Onglet 3 : À propos (Développeur & Contact)
             AboutView()
                 .tabItem {
                     Label("À propos", systemImage: "info.circle.fill")
