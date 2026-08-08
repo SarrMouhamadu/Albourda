@@ -115,7 +115,7 @@ struct ChapterDetailView: View {
                         }
                         .padding(.vertical, 16)
                     }
-                    .onChange(of: audioService.currentVerse) { newVerse in
+                    .onChange(of: audioService.currentVerse) { oldValue, newVerse in
                         if let targetId = newVerse?.id {
                             withAnimation {
                                 proxy.scrollTo(targetId, anchor: .center)
