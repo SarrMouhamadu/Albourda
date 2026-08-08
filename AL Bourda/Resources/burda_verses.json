@@ -85,7 +85,7 @@
       "accentColorHex": "#C4784A",
       "lightBgHex": "#FDF5EE",
       "darkTextHex": "#7A3810",
-      "verseCount": 21,
+      "verseCount": 22,
       "description": "Le courage héroïque des compagnons et la victoire de la vérité."
     },
     {
@@ -1352,7 +1352,16 @@
       "arabicText": "كَمْ أَعْزَرَتْ كَلِمَاتُ اللَّهِ مِنْ جَدَلٍ ... فِيهِ وَكَمْ خَصَمَ الْبُرْهَانُ مِنْ خَصِمِ",
       "phoneticText": "Kam a'zarat kalimātu-Llāhi min jadalin ... Fīhi wa kam khaṣama-l-burhānu min khaṣimi",
       "frenchText": "Que de polémiques les paroles d'Allah ont réduites au silence à son sujet, et que d'adversaires la preuve éclatante du Coran a confondus !",
-      "tafsirNote": "Verset 21 (Fin du Chapitre 8) : La victoire intellectuelle et théologique de la Révélation sur toutes les objections."
+      "tafsirNote": "La victoire intellectuelle et théologique de la Révélation."
+    },
+    {
+      "id": "ch8_v22",
+      "chapterId": 8,
+      "verseNumber": 22,
+      "arabicText": "كَفَاكَ بِالْعِلْمِ فِي الأُمِّيِّ مُعْجِزَةً ... فِي الْجَاهِلِيَّةِ وَالتَّأْدِيبِ فِي الْيَتَمِ",
+      "phoneticText": "Kafāka bi-l-'ilmi fī-l-ummiyyi mu'jizatan ... Fī-l-jāhiliyyati wa-t-ta'dībi fī-l-yatami",
+      "frenchText": "Il te suffit comme miracle d'admirer la science chez un Prophète illettré au milieu de l'ignorance, et la perfection du comportement chez un orphelin !",
+      "tafsirNote": "Verset 22 (Fin ultime du Chapitre 8) : Le miracle éclatant du savoir d'un Prophète Ummi (illettré) et orphelin éduqué directement par Allah."
     },
     {
       "id": "ch9_v1",
