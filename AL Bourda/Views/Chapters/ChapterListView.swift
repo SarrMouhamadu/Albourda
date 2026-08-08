@@ -23,32 +23,14 @@ struct ChapterListView: View {
                     VStack(spacing: 16) {
                         // Carte d'accueil spirituelle Gamou
                         VStack(alignment: .leading, spacing: 10) {
-                            HStack {
-                                VStack(alignment: .leading, spacing: 4) {
-                                    Text("القصيدة البردة")
-                                        .font(.system(size: 26, weight: .bold, design: .serif))
-                                        .foregroundColor(appState.activeTheme.textColor)
-                                    
-                                    Text("Qasidat Al-Burda · Le Poème du Manteau")
-                                        .font(.system(size: 14, weight: .semibold))
-                                        .foregroundColor(appState.activeTheme.primaryColor)
-                                }
-                                Spacer()
-                                Button(action: {
-                                    showingThemePicker = true
-                                }) {
-                                    HStack(spacing: 4) {
-                                        Image(systemName: "paintpalette.fill")
-                                            .font(.system(size: 14))
-                                        Text("Thème")
-                                            .font(.system(size: 12, weight: .bold))
-                                    }
-                                    .padding(.horizontal, 10)
-                                    .padding(.vertical, 6)
-                                    .background(appState.activeTheme.primaryColor)
-                                    .foregroundColor(.white)
-                                    .cornerRadius(12)
-                                }
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text("القصيدة البردة")
+                                    .font(.system(size: 26, weight: .bold, design: .serif))
+                                    .foregroundColor(appState.activeTheme.textColor)
+                                
+                                Text("Qasidat Al-Burda · Le Poème du Manteau")
+                                    .font(.system(size: 14, weight: .semibold))
+                                    .foregroundColor(appState.activeTheme.primaryColor)
                             }
                             
                             Text("Découvrez les 10 chapitres sacrés composés par l'Imam Al-Busiri pour le Gamou et la méditation quotidienne.")
@@ -57,6 +39,7 @@ struct ChapterListView: View {
                                 .lineSpacing(2)
                         }
                         .padding(16)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                         .background(
                             RoundedRectangle(cornerRadius: 16)
                                 .fill(appState.activeTheme.cardBackground)
