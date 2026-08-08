@@ -16,116 +16,81 @@ struct ChapterListView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                // Fond unifié et sobre
+                // Fond unifié et très épuré
                 appState.activeTheme.backgroundGradient.ignoresSafeArea()
                 
-                ScrollView {
-                    VStack(spacing: 16) {
-                        // Carte d'accueil spirituelle Gamou
-                        VStack(alignment: .leading, spacing: 10) {
-                            VStack(alignment: .leading, spacing: 4) {
-                                Text("القصيدة البردة")
-                                    .font(.system(size: 26, weight: .bold, design: .serif))
-                                    .foregroundColor(appState.activeTheme.textColor)
-                                
-                                Text("Qasidat Al-Burda · Le Poème du Manteau")
-                                    .font(.system(size: 14, weight: .semibold))
-                                    .foregroundColor(appState.activeTheme.primaryColor)
-                            }
+                ScrollView(showsIndicators: false) {
+                    VStack(spacing: 14) {
+                        // En-tête épuré et poétique
+                        VStack(spacing: 6) {
+                            Text("القصيدة البردة")
+                                .font(.system(size: 32, weight: .bold, design: .serif))
+                                .foregroundColor(appState.activeTheme.primaryColor)
                             
-                            Text("Découvrez les 10 chapitres sacrés composés par l'Imam Al-Busiri pour le Gamou et la méditation quotidienne.")
-                                .font(.system(size: 13, weight: .regular))
-                                .foregroundColor(appState.activeTheme.textColor.opacity(0.7))
-                                .lineSpacing(2)
+                            Text("Qasidat Al-Burda · 10 Chapitres Sacrés")
+                                .font(.system(size: 13, weight: .medium, design: .rounded))
+                                .foregroundColor(appState.activeTheme.textColor.opacity(0.6))
                         }
-                        .padding(16)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(
-                            RoundedRectangle(cornerRadius: 16)
-                                .fill(appState.activeTheme.cardBackground)
-                        )
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 16)
-                                .stroke(Color.appBorder, lineWidth: 1)
-                        )
-                        .shadow(color: Color.black.opacity(0.03), radius: 4, x: 0, y: 2)
-                        .padding(.horizontal, 16)
-                        .padding(.top, 8)
+                        .padding(.top, 16)
+                        .padding(.bottom, 8)
                         
-                        // En-tête de la liste
-                        HStack {
-                            Text("Les 10 Chapitres (الفصول العشرة)")
-                                .font(.system(size: 16, weight: .bold))
-                                .foregroundColor(appState.activeTheme.textColor)
-                            Spacer()
-                        }
-                        .padding(.horizontal, 16)
-                        .padding(.top, 4)
-                        
-                        // Grille des 10 chapitres avec design unifié et sobre
+                        // Grille des 10 chapitres au design minimaliste et épuré
                         ForEach(Array(chapters.enumerated()), id: \.element.id) { index, chapter in
                             NavigationLink(destination: ChapterDetailView(chapter: chapter)) {
-                                HStack(spacing: 16) {
-                                    // Badge Numéroté unifié (Émeraude / Or)
+                                HStack(spacing: 14) {
+                                    // Badge Numéroté élégant et discret
                                     ZStack {
-                                        RoundedRectangle(cornerRadius: 12)
-                                            .fill(appState.activeTheme.primaryColor)
-                                            .frame(width: 48, height: 48)
+                                        Circle()
+                                            .fill(appState.activeTheme.primaryColor.opacity(0.08))
+                                            .frame(width: 42, height: 42)
                                         
                                         Text("\(chapter.chapterNumber)")
-                                            .font(.system(size: 18, weight: .bold, design: .rounded))
-                                            .foregroundColor(.white)
+                                            .font(.system(size: 16, weight: .bold, design: .rounded))
+                                            .foregroundColor(appState.activeTheme.primaryColor)
                                     }
                                     
-                                    VStack(alignment: .leading, spacing: 4) {
-                                        HStack {
+                                    VStack(alignment: .leading, spacing: 3) {
+                                        HStack(alignment: .center) {
                                             Text(chapter.titleFrench)
-                                                .font(.system(size: 15, weight: .bold))
+                                                .font(.system(size: 15, weight: .semibold))
                                                 .foregroundColor(appState.activeTheme.textColor)
                                                 .lineLimit(1)
                                             
                                             Spacer()
                                             
                                             Text(chapter.titleArabic)
-                                                .font(.system(size: 17, weight: .bold, design: .serif))
+                                                .font(.system(size: 18, weight: .bold, design: .serif))
                                                 .foregroundColor(appState.activeTheme.primaryColor)
                                         }
                                         
-                                        Text(chapter.description)
-                                            .font(.system(size: 12, weight: .regular))
-                                            .foregroundColor(appState.activeTheme.textColor.opacity(0.65))
-                                            .lineLimit(2)
-                                            .multilineTextAlignment(.leading)
-                                        
                                         HStack {
-                                            Label("\(chapter.verseCount) versets", systemImage: "text.quote")
-                                                .font(.system(size: 11, weight: .medium))
-                                                .foregroundColor(appState.activeTheme.accentGlow)
+                                            Text("\(chapter.verseCount) versets")
+                                                .font(.system(size: 12, weight: .regular))
+                                                .foregroundColor(appState.activeTheme.textColor.opacity(0.5))
                                             
                                             Spacer()
                                             
                                             Image(systemName: "chevron.right")
-                                                .font(.system(size: 12, weight: .semibold))
-                                                .foregroundColor(Color.appMutedForeground)
+                                                .font(.system(size: 11, weight: .medium))
+                                                .foregroundColor(appState.activeTheme.textColor.opacity(0.3))
                                         }
-                                        .padding(.top, 2)
                                     }
                                 }
-                                .padding(14)
+                                .padding(.vertical, 14)
+                                .padding(.horizontal, 16)
                                 .background(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 14)
                                         .fill(appState.activeTheme.cardBackground)
                                 )
                                 .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
-                                        .stroke(Color.appBorder, lineWidth: 1)
+                                    RoundedRectangle(cornerRadius: 14)
+                                        .stroke(appState.activeTheme.primaryColor.opacity(0.08), lineWidth: 1)
                                 )
-                                .shadow(color: Color.black.opacity(0.03), radius: 4, x: 0, y: 2)
                             }
                             .padding(.horizontal, 16)
                             .opacity(animateCards ? 1 : 0)
-                            .offset(y: animateCards ? 0 : 16)
-                            .animation(.easeOut(duration: 0.3).delay(Double(index) * 0.03), value: animateCards)
+                            .offset(y: animateCards ? 0 : 12)
+                            .animation(.easeOut(duration: 0.3).delay(Double(index) * 0.025), value: animateCards)
                         }
                     }
                     .padding(.bottom, 90)
@@ -138,8 +103,8 @@ struct ChapterListView: View {
                     Button(action: {
                         showingThemePicker = true
                     }) {
-                        Image(systemName: "paintpalette.fill")
-                            .font(.system(size: 15))
+                        Image(systemName: "paintpalette")
+                            .font(.system(size: 16))
                             .foregroundColor(appState.activeTheme.primaryColor)
                     }
                 }

@@ -20,163 +20,141 @@ struct VerseRowView: View {
     }
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 14) {
-            // Entête de la carte du verset : Numéro, Marqueur Ligne Active et Favori
+        VStack(alignment: .leading, spacing: 12) {
+            // Entête épuré : Numéro du verset & Marque-page
             HStack {
-                // Badge numéro du verset unifié
                 HStack(spacing: 6) {
-                    Text("Verset \(verse.verseNumber)")
-                        .font(.system(size: 13, weight: .bold, design: .rounded))
+                    Text("\(verse.verseNumber)")
+                        .font(.system(size: 12, weight: .bold, design: .rounded))
+                        .foregroundColor(isActiveReadingLine ? appState.activeTheme.accentGlow : appState.activeTheme.primaryColor)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 3)
+                        .background(
+                            Capsule()
+                                .fill(isActiveReadingLine ? appState.activeTheme.accentGlow.opacity(0.15) : appState.activeTheme.primaryColor.opacity(0.08))
+                        )
                     
                     if isActiveReadingLine {
-                        Circle()
-                            .fill(appState.activeTheme.accentGlow)
-                            .frame(width: 6, height: 6)
-                            .scaleEffect(linePulse ? 1.4 : 0.8)
-                            .animation(.easeInOut(duration: 0.8).repeatForever(autoreverses: true), value: linePulse)
+                        Text("Ligne active")
+                            .font(.system(size: 11, weight: .medium))
+                            .foregroundColor(appState.activeTheme.accentGlow)
+                            .transition(.opacity)
                     }
-                }
-                .padding(.horizontal, 10)
-                .padding(.vertical, 4)
-                .background(isActiveReadingLine ? appState.activeTheme.accentGlow.opacity(0.18) : appState.activeTheme.primaryColor.opacity(0.1))
-                .foregroundColor(isActiveReadingLine ? appState.activeTheme.accentGlow : appState.activeTheme.primaryColor)
-                .cornerRadius(8)
-                
-                if isActiveReadingLine {
-                    Text("Ligne de lecture")
-                        .font(.system(size: 11, weight: .semibold))
-                        .foregroundColor(appState.activeTheme.accentGlow)
-                        .transition(.opacity.combined(with: .scale))
                 }
                 
                 Spacer()
                 
-                // Bouton Favori
+                // Bouton Marque-page minimaliste
                 Button(action: {
                     UIImpactFeedbackGenerator(style: .light).impactOccurred()
                     appState.toggleBookmark(for: verse.id)
                 }) {
                     Image(systemName: appState.isBookmarked(verseId: verse.id) ? "bookmark.fill" : "bookmark")
-                        .font(.system(size: 20))
-                        .foregroundColor(appState.isBookmarked(verseId: verse.id) ? Color.yellow : appState.activeTheme.textColor.opacity(0.4))
+                        .font(.system(size: 16, weight: .medium))
+                        .foregroundColor(appState.isBookmarked(verseId: verse.id) ? appState.activeTheme.accentGlow : appState.activeTheme.textColor.opacity(0.3))
                 }
             }
             
-            // 1. Texte Arabe (avec voyellation Amiri font) - Alignement à droite (RTL)
+            // 1. Texte ArabeVoyellé
             if appState.selectedReadingMode == .arabicOnly || appState.selectedReadingMode == .bilingualPhonetic {
                 VStack(alignment: .trailing, spacing: 6) {
                     Text(verse.arabicText)
-                        .font(.system(size: 24 * appState.fontSizeMultiplier, weight: .bold, design: .serif))
-                        .lineSpacing(12)
+                        .font(.system(size: 23 * appState.fontSizeMultiplier, weight: .bold, design: .serif))
+                        .lineSpacing(10)
                         .multilineTextAlignment(.trailing)
                         .frame(maxWidth: .infinity, alignment: .trailing)
                         .foregroundColor(appState.activeTheme.textColor)
                         .environment(\.layoutDirection, .rightToLeft)
                     
-                    // Animation : Ligne de lecture interactive sous le texte arabe
-                    ZStack(alignment: .trailing) {
+                    // Surlignage d'or discret de la ligne active
+                    if isActiveReadingLine {
                         Capsule()
-                            .fill(appState.activeTheme.accentGlow.opacity(isActiveReadingLine ? 0.85 : 0.12))
-                            .frame(height: isActiveReadingLine ? 3 : 1)
-                            .animation(.spring(response: 0.4, dampingFraction: 0.7), value: isActiveReadingLine)
+                            .fill(appState.activeTheme.accentGlow)
+                            .frame(height: 2)
+                            .transition(.opacity)
                     }
                 }
-                .padding(.vertical, 4)
+                .padding(.vertical, 2)
             }
             
-            // 2. Translittération Phonétique Latine (Italic)
+            // 2. Translittération Phonétique
             if appState.selectedReadingMode == .bilingualPhonetic {
                 Text(verse.phoneticText)
-                    .font(.system(size: 14 * appState.fontSizeMultiplier, weight: .medium, design: .rounded))
+                    .font(.system(size: 13.5 * appState.fontSizeMultiplier, weight: .medium, design: .rounded))
                     .italic()
                     .foregroundColor(appState.activeTheme.accentGlow)
                     .multilineTextAlignment(.leading)
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
             
-            // 3. Traduction Française Littéraire
+            // 3. Traduction Française
             if appState.selectedReadingMode == .frenchOnly || appState.selectedReadingMode == .bilingualPhonetic {
                 Text(verse.frenchText)
-                    .font(.system(size: 15 * appState.fontSizeMultiplier, weight: .regular))
-                    .lineSpacing(4)
-                    .foregroundColor(appState.activeTheme.textColor.opacity(0.85))
+                    .font(.system(size: 14.5 * appState.fontSizeMultiplier, weight: .regular))
+                    .lineSpacing(3)
+                    .foregroundColor(appState.activeTheme.textColor.opacity(0.8))
                     .multilineTextAlignment(.leading)
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
             
-            // 4. Accordéon dépliable pour la Note de Tafsir / Exégèse
+            // 4. Exégèse / Tafsir épuré
             if !verse.tafsirNote.isEmpty {
-                Divider()
-                    .padding(.vertical, 2)
-                
                 Button(action: {
-                    withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
+                    withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) {
                         isTafsirExpanded.toggle()
                     }
                 }) {
-                    HStack {
-                        Image(systemName: "book.closed.fill")
-                            .font(.system(size: 13))
+                    HStack(spacing: 6) {
+                        Image(systemName: "info.circle")
+                            .font(.system(size: 12))
                             .foregroundColor(appState.activeTheme.primaryColor)
                         
-                        Text("Exégèse & Contexte Historique (Tafsir)")
-                            .font(.system(size: 13, weight: .semibold))
+                        Text("Exégèse (Tafsir)")
+                            .font(.system(size: 12, weight: .semibold))
                             .foregroundColor(appState.activeTheme.primaryColor)
                         
                         Spacer()
                         
                         Image(systemName: isTafsirExpanded ? "chevron.up" : "chevron.down")
-                            .font(.system(size: 12))
-                            .foregroundColor(appState.activeTheme.primaryColor)
+                            .font(.system(size: 10))
+                            .foregroundColor(appState.activeTheme.primaryColor.opacity(0.6))
                     }
+                    .padding(.top, 2)
                 }
                 
                 if isTafsirExpanded {
                     Text(verse.tafsirNote)
-                        .font(.system(size: 13, weight: .regular))
-                        .lineSpacing(4)
-                        .foregroundColor(appState.activeTheme.textColor.opacity(0.65))
+                        .font(.system(size: 12.5, weight: .regular))
+                        .lineSpacing(3)
+                        .foregroundColor(appState.activeTheme.textColor.opacity(0.7))
                         .padding(10)
-                        .background(appState.activeTheme.primaryColor.opacity(0.06))
+                        .background(appState.activeTheme.primaryColor.opacity(0.04))
                         .cornerRadius(8)
                         .transition(.opacity.combined(with: .move(edge: .top)))
                 }
             }
         }
-        .padding(16)
+        .padding(14)
         .background(
-            ZStack(alignment: .leading) {
-                RoundedRectangle(cornerRadius: 16)
-                    .fill(isActiveReadingLine ? appState.activeTheme.primaryColor.opacity(0.04) : appState.activeTheme.cardBackground)
-                
-                // Barre latérale animée pour la ligne de lecture active
-                if isActiveReadingLine {
-                    RoundedRectangle(cornerRadius: 3)
-                        .fill(appState.activeTheme.accentGlow)
-                        .frame(width: 4)
-                        .transition(.move(edge: .leading).combined(with: .opacity))
-                }
-            }
+            RoundedRectangle(cornerRadius: 14)
+                .fill(isActiveReadingLine ? appState.activeTheme.accentGlow.opacity(0.05) : appState.activeTheme.cardBackground)
         )
-        .cornerRadius(16)
         .overlay(
-            RoundedRectangle(cornerRadius: 16)
-                .stroke(isActiveReadingLine ? appState.activeTheme.accentGlow : Color.appBorder, lineWidth: isActiveReadingLine ? 1.5 : 1)
+            RoundedRectangle(cornerRadius: 14)
+                .stroke(isActiveReadingLine ? appState.activeTheme.accentGlow.opacity(0.6) : appState.activeTheme.primaryColor.opacity(0.06), lineWidth: isActiveReadingLine ? 1 : 0.5)
         )
-        .shadow(color: isActiveReadingLine ? appState.activeTheme.accentGlow.opacity(0.12) : Color.black.opacity(0.03), radius: isActiveReadingLine ? 6 : 3, x: 0, y: 2)
         .padding(.horizontal, 16)
         .opacity(isVisible ? 1 : 0)
-        .offset(y: isVisible ? 0 : 16)
+        .offset(y: isVisible ? 0 : 10)
         .onTapGesture {
-            withAnimation(.spring(response: 0.35, dampingFraction: 0.75)) {
+            withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) {
                 appState.activeReadingVerseId = verse.id
                 appState.lastReadVerseId = verse.id
-                UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+                UIImpactFeedbackGenerator(style: .light).impactOccurred()
             }
         }
         .onAppear {
-            linePulse = true
-            withAnimation(.easeOut(duration: 0.3).delay(Double(verse.verseNumber % 8) * 0.02)) {
+            withAnimation(.easeOut(duration: 0.25).delay(Double(verse.verseNumber % 10) * 0.02)) {
                 isVisible = true
             }
         }
