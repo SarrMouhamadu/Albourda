@@ -19,6 +19,22 @@ class AppState: ObservableObject {
     }
     @Published var fontSizeMultiplier: Double = 1.0 // 0.8x - 1.4x
     
+    // Nouveau : Thème spirituel Serigne Tidiane personnalisable
+    @Published var activeTheme: TidianeTheme = {
+        if let raw = UserDefaults.standard.string(forKey: "activeTidianeTheme"),
+           let theme = TidianeTheme(rawValue: raw) {
+            return theme
+        }
+        return .tivaouaneEmerald
+    }() {
+        didSet {
+            UserDefaults.standard.set(activeTheme.rawValue, forKey: "activeTidianeTheme")
+        }
+    }
+    
+    // Nouveau : Verset en cours de lecture animée (Reading Line Highlight)
+    @Published var activeReadingVerseId: String? = nil
+    
     init() {
         loadBookmarks()
     }

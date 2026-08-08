@@ -12,19 +12,42 @@ struct VerseRowView: View {
     let chapter: Chapter
     @EnvironmentObject var appState: AppState
     @State private var isTafsirExpanded: Bool = false
+    @State private var isVisible: Bool = false
+    @State private var linePulse: Bool = false
+    
+    var isActiveReadingLine: Bool {
+        appState.activeReadingVerseId == verse.id
+    }
     
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
-            // Entête de la carte du verset : Numéro et Favori
+            // Entête de la carte du verset : Numéro, Marqueur Ligne Active et Favori
             HStack {
                 // Badge numéro du verset
-                Text("Verset \(verse.verseNumber)")
-                    .font(.system(size: 13, weight: .bold, design: .rounded))
-                    .padding(.horizontal, 10)
-                    .padding(.vertical, 4)
-                    .background(chapter.accentColor.opacity(0.15))
-                    .foregroundColor(chapter.accentColor)
-                    .cornerRadius(8)
+                HStack(spacing: 6) {
+                    Text("Verset \(verse.verseNumber)")
+                        .font(.system(size: 13, weight: .bold, design: .rounded))
+                    
+                    if isActiveReadingLine {
+                        Circle()
+                            .fill(appState.activeTheme.accentGlow)
+                            .frame(width: 6, height: 6)
+                            .scaleEffect(linePulse ? 1.4 : 0.8)
+                            .animation(.easeInOut(duration: 0.8).repeatForever(autoreverses: true), value: linePulse)
+                    }
+                }
+                .padding(.horizontal, 10)
+                .padding(.vertical, 4)
+                .background(isActiveReadingLine ? appState.activeTheme.accentGlow.opacity(0.2) : chapter.accentColor.opacity(0.15))
+                .foregroundColor(isActiveReadingLine ? appState.activeTheme.primaryColor : chapter.accentColor)
+                .cornerRadius(8)
+                
+                if isActiveReadingLine {
+                    Text("Ligne de lecture")
+                        .font(.system(size: 11, weight: .semibold))
+                        .foregroundColor(appState.activeTheme.accentGlow)
+                        .transition(.opacity.combined(with: .scale))
+                }
                 
                 Spacer()
                 
@@ -41,14 +64,24 @@ struct VerseRowView: View {
             
             // 1. Texte Arabe (avec voyellation Amiri font) - Alignement à droite (RTL)
             if appState.selectedReadingMode == .arabicOnly || appState.selectedReadingMode == .bilingualPhonetic {
-                Text(verse.arabicText)
-                    .font(.system(size: 24 * appState.fontSizeMultiplier, weight: .bold, design: .serif))
-                    .lineSpacing(12)
-                    .multilineTextAlignment(.trailing)
-                    .frame(maxWidth: .infinity, alignment: .trailing)
-                    .foregroundColor(Color.appForeground)
-                    .environment(\.layoutDirection, .rightToLeft)
-                    .padding(.vertical, 4)
+                VStack(alignment: .trailing, spacing: 6) {
+                    Text(verse.arabicText)
+                        .font(.system(size: 24 * appState.fontSizeMultiplier, weight: .bold, design: .serif))
+                        .lineSpacing(12)
+                        .multilineTextAlignment(.trailing)
+                        .frame(maxWidth: .infinity, alignment: .trailing)
+                        .foregroundColor(Color.appForeground)
+                        .environment(\.layoutDirection, .rightToLeft)
+                    
+                    // Animation : Ligne de lecture interactive sous le texte arabe
+                    ZStack(alignment: .trailing) {
+                        Capsule()
+                            .fill(appState.activeTheme.accentGlow.opacity(isActiveReadingLine ? 0.8 : 0.15))
+                            .frame(height: isActiveReadingLine ? 3 : 1)
+                            .animation(.spring(response: 0.4, dampingFraction: 0.7), value: isActiveReadingLine)
+                    }
+                }
+                .padding(.vertical, 4)
             }
             
             // 2. Translittération Phonétique Latine (Italic)
@@ -112,14 +145,40 @@ struct VerseRowView: View {
         }
         .padding(16)
         .background(
-            RoundedRectangle(cornerRadius: 16)
-                .fill(Color.appCardBackground)
-                .shadow(color: Color.black.opacity(0.04), radius: 6, x: 0, y: 2)
+            ZStack(alignment: .leading) {
+                RoundedRectangle(cornerRadius: 16)
+                    .fill(isActiveReadingLine ? appState.activeTheme.primaryColor.opacity(0.04) : Color.appCardBackground)
+                
+                // Barre latérale animée pour la ligne de lecture active
+                if isActiveReadingLine {
+                    RoundedRectangle(cornerRadius: 3)
+                        .fill(appState.activeTheme.accentGlow)
+                        .frame(width: 5)
+                        .transition(.move(edge: .leading).combined(with: .opacity))
+                }
+            }
         )
+        .cornerRadius(16)
         .overlay(
             RoundedRectangle(cornerRadius: 16)
-                .stroke(Color.appBorder, lineWidth: 1)
+                .stroke(isActiveReadingLine ? appState.activeTheme.accentGlow : Color.appBorder, lineWidth: isActiveReadingLine ? 2 : 1)
         )
+        .shadow(color: isActiveReadingLine ? appState.activeTheme.accentGlow.opacity(0.15) : Color.black.opacity(0.04), radius: isActiveReadingLine ? 8 : 4, x: 0, y: 2)
         .padding(.horizontal, 16)
+        .opacity(isVisible ? 1 : 0)
+        .offset(y: isVisible ? 0 : 18)
+        .onTapGesture {
+            withAnimation(.spring(response: 0.35, dampingFraction: 0.75)) {
+                appState.activeReadingVerseId = verse.id
+                appState.lastReadVerseId = verse.id
+                UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+            }
+        }
+        .onAppear {
+            linePulse = true
+            withAnimation(.easeOut(duration: 0.35).delay(Double(verse.verseNumber % 8) * 0.03)) {
+                isVisible = true
+            }
+        }
     }
 }
