@@ -97,6 +97,63 @@ struct ChapterDetailView: View {
                             VerseRowView(verse: verse, chapter: chapter)
                                 .id(verse.id)
                         }
+                        
+                        // Contenus complémentaires de récitation pour le Chapitre 10
+                        if chapter.id == 10 && !DataService.shared.supplements.isEmpty {
+                            VStack(alignment: .leading, spacing: 14) {
+                                HStack(spacing: 8) {
+                                    Image(systemName: "sparkles")
+                                        .foregroundColor(chapter.accentColor)
+                                    Text("Invocations & Prières Complémentaires")
+                                        .font(.system(size: 15, weight: .bold))
+                                        .foregroundColor(chapter.darkTextColor)
+                                }
+                                .padding(.top, 16)
+                                
+                                ForEach(DataService.shared.supplements) { supp in
+                                    VStack(alignment: .trailing, spacing: 10) {
+                                        HStack {
+                                            Text(supp.title)
+                                                .font(.system(size: 12, weight: .bold))
+                                                .padding(.horizontal, 10)
+                                                .padding(.vertical, 4)
+                                                .background(chapter.accentColor.opacity(0.12))
+                                                .foregroundColor(chapter.accentColor)
+                                                .cornerRadius(8)
+                                            Spacer()
+                                        }
+                                        
+                                        Text(supp.arabicText)
+                                            .font(.system(size: 20 * appState.fontSizeMultiplier, weight: .semibold, design: .serif))
+                                            .foregroundColor(Color.appForeground)
+                                            .multilineTextAlignment(.trailing)
+                                            .environment(\.layoutDirection, .rightToLeft)
+                                        
+                                        VStack(alignment: .leading, spacing: 6) {
+                                            Text(supp.phoneticText)
+                                                .font(.system(size: 13, weight: .medium))
+                                                .foregroundColor(chapter.accentColor)
+                                            
+                                            Text(supp.frenchText)
+                                                .font(.system(size: 14))
+                                                .foregroundColor(Color.appForeground)
+                                            
+                                            Text(supp.note)
+                                                .font(.system(size: 12, weight: .regular))
+                                                .foregroundColor(Color.appMutedForeground)
+                                                .padding(.top, 4)
+                                        }
+                                        .environment(\.layoutDirection, .leftToRight)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
+                                    }
+                                    .padding(14)
+                                    .background(Color.white)
+                                    .cornerRadius(12)
+                                    .shadow(color: Color.black.opacity(0.04), radius: 3, x: 0, y: 1)
+                                }
+                            }
+                            .padding(.horizontal, 16)
+                        }
                     }
                     .padding(.vertical, 16)
                 }

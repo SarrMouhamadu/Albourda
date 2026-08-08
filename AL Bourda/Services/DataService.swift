@@ -10,6 +10,7 @@ import Foundation
 struct BurdaDataContainer: Codable {
     let chapters: [Chapter]
     let verses: [Verse]
+    let supplements: [Supplement]?
 }
 
 class DataService {
@@ -17,6 +18,7 @@ class DataService {
     
     private(set) var chapters: [Chapter] = []
     private(set) var verses: [Verse] = []
+    private(set) var supplements: [Supplement] = []
     
     private init() {
         loadData()
@@ -24,7 +26,7 @@ class DataService {
     
     private func loadData() {
         guard let url = Bundle.main.url(forResource: "burda_verses", withExtension: "json") else {
-            print("⚠️ burda_verses.json introuvable dans le bundle principal. Chargement du fallback...")
+            print("⚠️ burda_verses.json introuvable dans le bundle principal.")
             return
         }
         
@@ -34,6 +36,7 @@ class DataService {
             let container = try decoder.decode(BurdaDataContainer.self, from: data)
             self.chapters = container.chapters
             self.verses = container.verses
+            self.supplements = container.supplements ?? []
         } catch {
             print("❌ Erreur lors du décodage de burda_verses.json: \(error)")
         }
