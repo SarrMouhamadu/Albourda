@@ -17,33 +17,33 @@ struct AboutView: View {
                 
                 ScrollView {
                     VStack(spacing: 20) {
-                        // Carte de Profil du Développeur avec Photo
+                        // Carte de Profil du Développeur avec Photo parfaitement cadrée sur le visage
                         VStack(spacing: 14) {
                             ZStack {
                                 Circle()
-                                    .fill(appState.activeTheme.accentGlow.opacity(0.2))
-                                    .frame(width: 140, height: 140)
+                                    .fill(appState.activeTheme.accentGlow.opacity(0.18))
+                                    .frame(width: 148, height: 148)
                                 
                                 Image("mouhamadou_sarr")
                                     .resizable()
                                     .aspectRatio(contentMode: .fill)
-                                    .frame(width: 128, height: 128)
+                                    .frame(width: 136, height: 136)
                                     .clipShape(Circle())
                                     .overlay(
                                         Circle()
-                                            .stroke(appState.activeTheme.accentGlow, lineWidth: 3)
+                                            .stroke(appState.activeTheme.accentGlow, lineWidth: 3.5)
                                     )
-                                    .shadow(color: Color.black.opacity(0.15), radius: 8, x: 0, y: 4)
+                                    .shadow(color: Color.black.opacity(0.18), radius: 10, x: 0, y: 4)
                             }
                             .padding(.top, 10)
                             
-                            VStack(spacing: 4) {
-                                Text("Mouhamadou Sarr")
+                            VStack(spacing: 6) {
+                                Text("Mouhamadou SARR")
                                     .font(.system(size: 22, weight: .bold, design: .serif))
                                     .foregroundColor(appState.activeTheme.textColor)
                                 
                                 Text("Data Science · Intelligence Artificielle · Développement")
-                                    .font(.system(size: 13, weight: .medium))
+                                    .font(.system(size: 13, weight: .semibold))
                                     .foregroundColor(appState.activeTheme.primaryColor)
                                     .multilineTextAlignment(.center)
                             }
@@ -122,7 +122,7 @@ struct AboutView: View {
                         .shadow(color: Color.black.opacity(0.03), radius: 3, x: 0, y: 1)
                         .padding(.horizontal, 16)
                         
-                        // 3. Me contacter (Boutons interactifs)
+                        // 3. Me contacter (Boutons interactifs avec icône WhatsApp officielle)
                         VStack(alignment: .leading, spacing: 12) {
                             HStack(spacing: 8) {
                                 Image(systemName: "envelope.fill")
@@ -132,12 +132,11 @@ struct AboutView: View {
                                     .foregroundColor(appState.activeTheme.textColor)
                             }
                             
-                            // WhatsApp
+                            // WhatsApp avec icône officielle WhatsApp verte
                             Link(destination: URL(string: "https://wa.me/221777091913")!) {
                                 HStack(spacing: 12) {
-                                    Image(systemName: "message.fill")
-                                        .foregroundColor(.green)
-                                        .font(.system(size: 18))
+                                    WhatsAppIconView(size: 28)
+                                    
                                     VStack(alignment: .leading, spacing: 2) {
                                         Text("WhatsApp")
                                             .font(.system(size: 12, weight: .semibold))
@@ -152,7 +151,7 @@ struct AboutView: View {
                                         .foregroundColor(Color.appMutedForeground)
                                 }
                                 .padding(12)
-                                .background(Color.green.opacity(0.08))
+                                .background(Color(hex: "25D366").opacity(0.1))
                                 .cornerRadius(12)
                             }
                             
@@ -161,7 +160,7 @@ struct AboutView: View {
                                 HStack(spacing: 12) {
                                     Image(systemName: "envelope.badge.fill")
                                         .foregroundColor(.blue)
-                                        .font(.system(size: 18))
+                                        .font(.system(size: 20))
                                     VStack(alignment: .leading, spacing: 2) {
                                         Text("Email")
                                             .font(.system(size: 12, weight: .semibold))
@@ -185,7 +184,7 @@ struct AboutView: View {
                                 HStack(spacing: 12) {
                                     Image(systemName: "link.circle.fill")
                                         .foregroundColor(Color(hex: "0A66C2"))
-                                        .font(.system(size: 18))
+                                        .font(.system(size: 20))
                                     VStack(alignment: .leading, spacing: 2) {
                                         Text("LinkedIn")
                                             .font(.system(size: 12, weight: .semibold))
@@ -248,7 +247,7 @@ struct AboutView: View {
                                 .font(.system(size: 12, weight: .medium))
                                 .foregroundColor(Color.appMutedForeground)
                             
-                            Text("Conçu avec dévotion par Mouhamadou Sarr")
+                            Text("Conçu avec dévotion par Mouhamadou SARR")
                                 .font(.system(size: 11, weight: .regular))
                                 .foregroundColor(Color.appMutedForeground.opacity(0.8))
                         }
@@ -259,6 +258,27 @@ struct AboutView: View {
             }
             .navigationTitle("À propos")
             .navigationBarTitleDisplayMode(.inline)
+        }
+    }
+}
+
+// Composant de l'icône officielle WhatsApp (Bulle verte avec téléphone blanc)
+struct WhatsAppIconView: View {
+    var size: CGFloat = 28
+    
+    var body: some View {
+        ZStack {
+            // Fond Vert Officiel WhatsApp (#25D366)
+            Circle()
+                .fill(Color(hex: "25D366"))
+                .frame(width: size, height: size)
+                .shadow(color: Color(hex: "25D366").opacity(0.3), radius: 3, x: 0, y: 1)
+            
+            // Symbole Téléphone Blanc
+            Image(systemName: "phone.fill")
+                .font(.system(size: size * 0.5, weight: .bold))
+                .foregroundColor(.white)
+                .rotationEffect(.degrees(10))
         }
     }
 }
