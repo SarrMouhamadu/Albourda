@@ -33,7 +33,7 @@ struct TidianeThemePickerView: View {
                     }
                     .padding(.top, 16)
                     
-                    // Liste des thèmes spirituels
+                    // Liste des thèmes spirituels avec animations interactives signées Apple
                     VStack(spacing: 12) {
                         ForEach(TidianeTheme.allCases) { theme in
                             Button(action: {
@@ -70,6 +70,7 @@ struct TidianeThemePickerView: View {
                                         Image(systemName: "checkmark.circle.fill")
                                             .font(.system(size: 24))
                                             .foregroundColor(theme.accentGlow)
+                                            .transition(.scale.combined(with: .opacity))
                                     }
                                 }
                                 .padding(14)
@@ -82,6 +83,7 @@ struct TidianeThemePickerView: View {
                                         .stroke(appState.activeTheme == theme ? theme.accentGlow : Color.appBorder, lineWidth: appState.activeTheme == theme ? 2 : 1)
                                 )
                             }
+                            .buttonStyle(.appleSpring)
                         }
                     }
                     .padding(.horizontal, 16)
@@ -99,6 +101,7 @@ struct TidianeThemePickerView: View {
                     }
                     .font(.system(size: 15, weight: .bold))
                     .foregroundColor(appState.activeTheme.primaryColor)
+                    .buttonStyle(.appleSpring(scale: 0.92))
                 }
             }
         }

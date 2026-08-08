@@ -13,7 +13,7 @@ struct VerseRowView: View {
     @EnvironmentObject var appState: AppState
     @State private var isTafsirExpanded: Bool = false
     @State private var isVisible: Bool = false
-    @State private var linePulse: Bool = false
+    @State private var isPressed: Bool = false
     
     var isActiveReadingLine: Bool {
         appState.activeReadingVerseId == verse.id
@@ -38,24 +38,27 @@ struct VerseRowView: View {
                         Text("Ligne active")
                             .font(.system(size: 11, weight: .medium))
                             .foregroundColor(appState.activeTheme.accentGlow)
-                            .transition(.opacity)
+                            .transition(.opacity.combined(with: .scale(scale: 0.8)))
                     }
                 }
                 
                 Spacer()
                 
-                // Bouton Marque-page minimaliste
+                // Bouton Marque-page minimaliste avec animation Apple
                 Button(action: {
                     UIImpactFeedbackGenerator(style: .light).impactOccurred()
-                    appState.toggleBookmark(for: verse.id)
+                    withAnimation(.spring(response: 0.3, dampingFraction: 0.6)) {
+                        appState.toggleBookmark(for: verse.id)
+                    }
                 }) {
                     Image(systemName: appState.isBookmarked(verseId: verse.id) ? "bookmark.fill" : "bookmark")
                         .font(.system(size: 16, weight: .medium))
                         .foregroundColor(appState.isBookmarked(verseId: verse.id) ? appState.activeTheme.accentGlow : appState.activeTheme.textColor.opacity(0.3))
                 }
+                .buttonStyle(.appleSpring(scale: 0.85))
             }
             
-            // 1. Texte ArabeVoyellé
+            // 1. Texte Arabe Voyellé
             if appState.selectedReadingMode == .arabicOnly || appState.selectedReadingMode == .bilingualPhonetic {
                 VStack(alignment: .trailing, spacing: 6) {
                     Text(verse.arabicText)
@@ -66,12 +69,12 @@ struct VerseRowView: View {
                         .foregroundColor(appState.activeTheme.textColor)
                         .environment(\.layoutDirection, .rightToLeft)
                     
-                    // Surlignage d'or discret de la ligne active
+                    // Surlignage d'or discret de la ligne active avec physique de ressort Apple
                     if isActiveReadingLine {
                         Capsule()
                             .fill(appState.activeTheme.accentGlow)
                             .frame(height: 2)
-                            .transition(.opacity)
+                            .transition(.opacity.combined(with: .scale(scale: 0.95)))
                     }
                 }
                 .padding(.vertical, 2)
@@ -100,7 +103,7 @@ struct VerseRowView: View {
             // 4. Exégèse / Tafsir épuré
             if !verse.tafsirNote.isEmpty {
                 Button(action: {
-                    withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) {
+                    withAnimation(.spring(response: 0.35, dampingFraction: 0.78)) {
                         isTafsirExpanded.toggle()
                     }
                 }) {
@@ -121,6 +124,7 @@ struct VerseRowView: View {
                     }
                     .padding(.top, 2)
                 }
+                .buttonStyle(.appleSpring(scale: 0.98))
                 
                 if isTafsirExpanded {
                     Text(verse.tafsirNote)
@@ -143,18 +147,20 @@ struct VerseRowView: View {
             RoundedRectangle(cornerRadius: 14)
                 .stroke(isActiveReadingLine ? appState.activeTheme.accentGlow.opacity(0.6) : appState.activeTheme.primaryColor.opacity(0.06), lineWidth: isActiveReadingLine ? 1 : 0.5)
         )
+        .scaleEffect(isPressed ? 0.975 : 1.0)
+        .opacity(isVisible ? (isPressed ? 0.92 : 1.0) : 0)
+        .offset(y: isVisible ? 0 : 12)
         .padding(.horizontal, 16)
-        .opacity(isVisible ? 1 : 0)
-        .offset(y: isVisible ? 0 : 10)
+        .animation(.spring(response: 0.25, dampingFraction: 0.65), value: isPressed)
         .onTapGesture {
-            withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) {
+            withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
                 appState.activeReadingVerseId = verse.id
                 appState.lastReadVerseId = verse.id
                 UIImpactFeedbackGenerator(style: .light).impactOccurred()
             }
         }
         .onAppear {
-            withAnimation(.easeOut(duration: 0.25).delay(Double(verse.verseNumber % 10) * 0.02)) {
+            withAnimation(.spring(response: 0.45, dampingFraction: 0.8).delay(Double(verse.verseNumber % 10) * 0.025)) {
                 isVisible = true
             }
         }

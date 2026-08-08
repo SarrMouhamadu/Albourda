@@ -34,7 +34,7 @@ struct ChapterListView: View {
                         .padding(.top, 16)
                         .padding(.bottom, 8)
                         
-                        // Grille des 10 chapitres au design minimaliste et épuré
+                        // Grille des 10 chapitres avec animations interactives signées Apple
                         ForEach(Array(chapters.enumerated()), id: \.element.id) { index, chapter in
                             NavigationLink(destination: ChapterDetailView(chapter: chapter)) {
                                 HStack(spacing: 14) {
@@ -87,10 +87,11 @@ struct ChapterListView: View {
                                         .stroke(appState.activeTheme.primaryColor.opacity(0.08), lineWidth: 1)
                                 )
                             }
+                            .buttonStyle(.appleSpring)
                             .padding(.horizontal, 16)
                             .opacity(animateCards ? 1 : 0)
-                            .offset(y: animateCards ? 0 : 12)
-                            .animation(.easeOut(duration: 0.3).delay(Double(index) * 0.025), value: animateCards)
+                            .offset(y: animateCards ? 0 : 18)
+                            .animation(.spring(response: 0.5, dampingFraction: 0.78).delay(Double(index) * 0.03), value: animateCards)
                         }
                     }
                     .padding(.bottom, 90)
@@ -107,6 +108,7 @@ struct ChapterListView: View {
                             .font(.system(size: 16))
                             .foregroundColor(appState.activeTheme.primaryColor)
                     }
+                    .buttonStyle(.appleSpring(scale: 0.88))
                 }
             }
             .sheet(isPresented: $showingThemePicker) {
