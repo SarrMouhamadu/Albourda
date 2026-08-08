@@ -190,7 +190,7 @@ struct ChapterDetailView: View {
                 }
             }
             
-            // Animation Théâtrale : Ouverture des Rideaux à l'entrée du Chapitre
+            // Animation Théâtrale : Ouverture des Rideaux à l'entrée du Chapitre (Ralentie et Majestueuse)
             CurtainRevealOverlay(
                 primaryColor: appState.activeTheme.primaryColor,
                 accentColor: appState.activeTheme.accentGlow,
@@ -207,8 +207,8 @@ struct ChapterDetailView: View {
         }
         .onAppear {
             self.verses = DataService.shared.getVerses(for: chapter.id)
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.12) {
-                withAnimation(.spring(response: 0.85, dampingFraction: 0.82)) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                withAnimation(.easeInOut(duration: 1.6)) {
                     isCurtainOpen = true
                 }
             }
@@ -216,7 +216,7 @@ struct ChapterDetailView: View {
     }
 }
 
-// Composant Visuel de l'Animation des Rideaux qui s'ouvrent
+// Composant Visuel de l'Animation des Rideaux qui s'ouvrent majestueusement
 struct CurtainRevealOverlay: View {
     let primaryColor: Color
     let accentColor: Color
