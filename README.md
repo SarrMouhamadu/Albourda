@@ -1,188 +1,164 @@
-# AL Bourda · القصيدة البردة
+# Burdatoul Madikh · القصيدة البردة
 
-AL Bourda est une application iOS native développée en Swift et SwiftUI sous Xcode. Elle offre une expérience complète dédiée à la lecture, l'écoute, l'apprentissage et l'étude spirituelle de la célèbre **Qasidat Al-Burda** (Le Poème du Manteau), chef-d'œuvre de la poésie islamique composé au XIIIe siècle par l'Imam Sharaf ad-Din al-Busiri.
+**Burdatoul Madikh** est une application iOS native développée en **Swift** et **SwiftUI** sous Xcode, dédiée à la lecture, l'étude spirituelle et la méditation de la célèbre **Qasidat Al-Burda** (Le Poème du Manteau), chef-d'œuvre de la poésie islamique composé au XIIIe siècle par l'Imam Sharaf ad-Din al-Busiri.
+
+L'application est **100 % gratuite**, **sans publicité**, **sans achat intégré**, **sans compte utilisateur** et **fonctionne intégralement hors ligne**.
 
 ---
 
-## Sommaire
+## 📱 Sommaire
 
 - [Présentation et Vision](#présentation-et-vision)
 - [Fonctionnalités Principales](#fonctionnalités-principales)
-- [Charte Graphique et Thèmes](#charte-graphique-et-thèmes)
-- [Architecture Technique](#architecture-technique)
+- [Fonds & Thèmes Spirituels Serigne Tidiane](#fonds--thèmes-spirituels-serigne-tidiane)
+- [Contrainte Commerciale & Confidentialité](#contrainte-commerciale--confidentialité)
+- [Guide de Déploiement App Store Connect](#guide-de-déploiement-app-store-connect)
+- [Architecture du Code](#architecture-du-code)
 - [Arborescence du Projet](#arborescence-du-projet)
-- [Prérequis et Installation](#prérequis-et-installation)
-- [Contribution](#contribution)
+- [À Propos du Développeur](#à-propos-du-développeur)
 - [Licence](#licence)
 
 ---
 
-## Présentation et Vision
+## 🌟 Présentation et Vision
 
-L'application a été conçue pour combiner une haute qualité d'ingénierie iOS native et une grande élégance visuelle. Elle propose une immersion complète adaptée aussi bien aux arabophones qu'aux francophones et non-arabisants.
+L'application a été conçue avec les standards de design d'Apple (Human Interface Guidelines), associant une typographie noble, une interface ultra-épurée, des animations théâtrales et des micro-interactions réactives pour offrir une expérience fluide aux fidèles du Gamou (Mawlid) et aux étudiants du patrimoine spirituel.
 
-### Objectifs Clés
+### Points Forts
 
-- **Expérience Utilisateur iOS Native** : Interface moderne exploitant SwiftUI, animations fluides, retours haptiques tactiles, mode sombre automatique et composants système iOS.
-- **Accessibilité Universelle** : Support trilingue simultané intégrant le texte arabe calligraphié avec voyellation complète (Tashkeel), la translittération phonétique latine internationale et la traduction littéraire française.
-- **Pédagogie et Spiritualité** : Récitations audio synchronisées verset par verset, moteur de recherche textuel tolérant, gestion des versets favoris, notes d'exégèse (Tafsir / Sira) et guide virtuel conversationnel.
-
----
-
-## Fonctionnalités Principales
-
-### 1. Lecteur Poétique Trilingue
-- **Modes d'affichage ajustables** : Basculement instantané entre *Arabe Seul*, *Français Seul* et *Bilingue + Phonétique*.
-- **Support Bi-Directionnel Dynamique (RTL / LTR)** : Alignement strict à droite (Right-to-Left) pour le texte arabe et à gauche (Left-to-Right) pour le texte français et la phonétique.
-- **Personnalisation Typographique** : Ajustement dynamique de la taille de police.
-- **Arrières-plans Immersifs** : Choix de fonds d'écran avec overlay d'ombrage et effet de flou `.ultraThinMaterial`.
-
-### 2. Lecteur Audio Synchronisé
-- **Barre d'écoute flottante** : Contrôles de lecture (Play, Pause, Verset Suivant / Précédent).
-- **Gestion du Rythme** : Réglage de la vitesse d'écoute (0.75x, 1.0x, 1.25x).
-- **Surlignage et Autoscroll** : Défilement automatique de la vue et mise en valeur du verset en cours de récitation.
-- **Intégration iOS** : Support du centre de contrôle et de l'écran de verrouillage via `MPNowPlayingInfoCenter` et `AVAudioSession`.
-
-### 3. Exégèse et Contexte Historique (Tafsir)
-- Accordéon dépliable sous chaque verset révélant les explications linguistiques, le contexte historique de rédaction et les enseignements spirituels.
-
-### 4. Moteur de Recherche Instantané
-- Recherche arabe intelligente et tolérante (ignorant les signes de voyellation Tashkeel pour faciliter la saisie sur clavier).
-- Recherche intégrale en français, en phonétique et au sein des notes de Tafsir.
-
-### 5. Gestionnaire de Favoris
-- Enregistrement des versets marquants en un clic.
-- Onglet dédié pour retrouver rapidement l'ensemble des versets sauvegardés.
-
-### 6. Guide Virtuel (Chatbot Interactive)
-- Interface de discussion inspirée d'iMessage.
-- Module d'échange répondant aux questions sur l'auteur Imam Al-Busiri, l'histoire du poème du Manteau, la structure des chapitres et les traditions du Gamou / Mawlid.
+- **Corpus Canonique Validé** : Contient les **160 versets canoniques** de la Burda répartis en 10 chapitres + 2 suppléments d'invocations/colophon distincts.
+- **Récitation Trilingue** : Texte arabe voyellé (Tashkeel), translittération phonétique latine et traduction littéraire française.
+- **Design Épuré & Animations Apple** : Physique de ressort élastique (Apple Spring Physics), animation théâtrale d'ouverture des rideaux (`Curtain Reveal Animation`) et surlignage interactif de la ligne de lecture.
+- **100 % Offline & Privé** : Aucune donnée utilisateur n'est collectée ou transmise à des tiers.
 
 ---
 
-## Charte Graphique et Thèmes
+## ⚙️ Fonctionnalités Principales
 
-L'application repose sur une palette de couleurs inspirée des manuscrits et parchemins orientaux traditionnels, associée aux standards visuels d'iOS.
+### 1. Lecteur Poétique Trilingue & Ligne de Lecture Active
+- **Modes de lecture** : Basculement instantané entre *Arabe Seul*, *Français Seul* et *Bilingue + Phonétique*.
+- **Indicateur de Ligne Active** : Un simple tap sélectionne un verset, affichant un surlignage d'or discret et un retour haptique doux (`UIImpactFeedbackGenerator`).
+- **Ajustement Typographique** : Taille de police modifiable en direct.
+- **Support RTL / LTR** : Alignement bi-directionnel natif.
 
-### Palette de Base
-- **Arrière-plan clair** : `#F9F6F0` (Crème parchemin)
-- **Couleur Primaire** : `#4A7C59` (Vert Sauge Spirituel)
-- **Texte Principal** : `#2C2520` (Brun écorce)
-- **Texte Secondaire** : `#8A7E72` (Gris sienne)
-- **Arrière-plan sombre** : `#12100E` (Noir café d'Orient)
-- **Cartes sombres** : `#1E1B18`
+### 2. Exégèse et Contexte Historique (Tafsir)
+- Accordéon dépliable sous chaque verset révélant les explications linguistiques, le contexte historique et la Sira.
 
-### Identités Chromatiques des 10 Chapitres
+### 3. Moteur de Recherche Instantané & Favoris
+- Recherche arabe tolérante (voyelles Tashkeel ignorées lors de la saisie).
+- Recherche intégrale en français et en phonétique.
+- Sauvegarde locale des versets favoris (`UserDefaults`).
 
-| Chapitre | Nom Français | Nom Arabe | Accent (HEX) | Fond Carte |
-| :--- | :--- | :--- | :--- | :--- |
-| **Chapitre 1** | Le Désir ardent | في التشوق إلى المصطفى ﷺ | `#C8A882` | `#FDF8F3` |
-| **Chapitre 2** | Mise en garde contre les passions | في التحذير من هوى النفس | `#8FA882` | `#F3F7F3` |
-| **Chapitre 3** | L'Éloge du Prophète ﷺ | في مدح النبي ﷺ | `#9B8ABF` | `#F5F3FA` |
-| **Chapitre 4** | La Naissance du Prophète ﷺ | في مولده الشريف ﷺ | `#C4922A` | `#FDF9EE` |
-| **Chapitre 5** | Les Miracles du Prophète ﷺ | في معجزاته ﷺ | `#5A9E80` | `#F0F8F4` |
-| **Chapitre 6** | Le Noble Coran | في القرآن الكريم | `#4A7AA8` | `#F0F5FA` |
-| **Chapitre 7** | Le Voyage nocturne | في الإسراء والمعراج | `#8AACD4` | `#EEF3FA` |
-| **Chapitre 8** | La Lutte du Prophète ﷺ | في جهاد النبي ﷺ | `#C4784A` | `#FDF5EE` |
-| **Chapitre 9** | L'Intercession du Prophète ﷺ | في الاستشفاع بالنبي ﷺ | `#9B6EB8` | `#F7F3FA` |
-| **Chapitre 10** | L'Invocation et les besoins | في المناجاة وعرض الحاجات | `#5A9E8A` | `#F0F8F5` |
+### 4. Ouverture Théâtrale des Chapitres
+- Animation de rideaux majestueux se séparant doucement à l'entrée de chaque chapitre.
 
 ---
 
-## Architecture Technique
+## 🎨 Fonds & Thèmes Spirituels Serigne Tidiane
 
-Le projet respecte l'architecture **MVVM (Model - View - ViewModel)** afin d'assurer une séparation claire des responsabilités et une grande maintenabilité.
+L'application propose **3 thèmes visuels épurés** accessibles via le bouton 🎨 en haut à droite :
+
+1. 🟢 **Émeraude & Or (Signature Tivaouane)** — Hommage à Seydi El Hadji Malick Sy (RTA). *(Vert Émeraude Sacré & Or Noble)*
+2. ⚪ **Blanc Épuré (Minimaliste)** — Hommage à Serigne Babacar Sy (RTA). *(Blanc Pur & Platine)*
+3. 🌙 **Nuit Spirituelle (Mode Sombre)** — *(Fond sombre reposant pour la lecture nocturne)*
+
+---
+
+## 🔐 Contrainte Commerciale & Confidentialité
+
+* **Prix** : 100 % Gratuit (0.00 €)
+* **Achats In-App** : Aucun
+* **Publicité** : Aucune (0 SDK de pub)
+* **Compte Utilisateur** : Aucun requis
+* **Privacy Manifest** : Fichier `PrivacyInfo.xcprivacy` conforme iOS 16+ (`NSPrivacyTracking = false`, UserDefaults `CA92.1`).
+
+---
+
+## 🚀 Guide de Déploiement App Store Connect
+
+Cette section contient les informations de livraison pour le développeur en charge du déploiement :
+
+### Informations du Projet
+* **Nom de l'application** : `Burdatoul Madikh`
+* **Bundle Identifier** : `sn.fulani.AL-Bourda`
+* **Marketing Version** : `1.0`
+* **Build Number** : `1`
+* **Cible iOS** : `iOS 16.0+`
+* **AppIcon** : Fichier 1024×1024 dans `Assets.xcassets/AppIcon.appiconset`
+* **Archive Release Prête** : `build/AL_Bourda.xcarchive`
+
+### Checklist d'Exportation App Store Connect
+1. **Création sur App Store Connect** : Nom `Burdatoul Madikh`, Langue *Français*, Bundle ID `sn.fulani.AL-Bourda`.
+2. **Chiffrement / Cryptographie** : Sélectionner **« Non »** lors du questionnaire d'exportation.
+3. **Catégorie Tarifaire** : Gratuit (`Free`).
+4. **Publicité** : Déclarer **« Non »** à la question sur l'utilisation d'IDFA / Pub.
+
+---
+
+## 🛠 Architecture du Code
+
+Le projet suit l'architecture **MVVM (Model-View-ViewModel)** native SwiftUI :
 
 ```text
-Models          <- Représentation des données (Chapter, Verse, Bookmark, ChatMessage)
-ViewModels      <- Logique de présentation et état global (AppState, ChatViewModel)
-Services        <- Logique métier d'accès aux données, audio et recherche (DataService, AudioService, SearchService)
-Views           <- Composants d'interface utilisateur SwiftUI declinés par modules
+Models          <- Représentation des données (Chapter, Verse, Supplement, TidianeTheme)
+ViewModels      <- Gestion de l'état global et des préférences (AppState)
+Services        <- Accès aux données JSON et moteur de recherche (DataService, SearchService)
+Views           <- Composants d'interface SwiftUI (Chapters, Search, Theme, About)
+Utils           <- Micro-interactions et animations Apple (AppleSpringButtonStyle)
 ```
 
 ---
 
-## Arborescence du Projet
+## 📂 Arborescence du Projet
 
 ```text
 AL Bourda/
-├── AL BourdaApp.swift              # Point d'entrée principal de l'application
-├── ContentView.swift                # Vue racine avec TabView à 3 onglets et lecteur flottant
-├── Theme/
-│   └── Color+Extensions.swift       # Extensions de couleurs et palette du design system
+├── AL_BourdaApp.swift              # Point d'entrée principal iOS
+├── ContentView.swift                # Barre d'onglets (Chapitres, Recherche, À propos)
+├── PrivacyInfo.xcprivacy            # Déclaration de confidentialité Apple
 ├── Models/
 │   ├── Chapter.swift                # Modèle de chapitre
-│   ├── Verse.swift                  # Modèle de verset
-│   ├── Bookmark.swift               # Modèle de favoris et options de lecture
-│   └── ChatMessage.swift            # Modèle des messages du Guide Virtuel
+│   ├── Verse.swift                  # Modèle de verset canonique
+│   ├── Supplement.swift             # Modèle d'invocations/colophon
+│   └── TidianeTheme.swift           # Thèmes spirituels Serigne Tidiane
 ├── Services/
-│   ├── DataService.swift            # Chargement et encodage/décodage des données JSON
-│   ├── AudioService.swift           # Gestion de la lecture audio et session AVPlayer
-│   └── SearchService.swift          # Moteur de recherche sans voyelles et multilingue
+│   ├── DataService.swift            # Chargement du JSON burda_verses.json
+│   └── SearchService.swift          # Moteur de recherche tolérant sans voyelles
 ├── ViewModels/
-│   ├── AppState.swift               # État global de l'application et préférences
-│   └── ChatViewModel.swift          # Logique conversationnelle du Guide Virtuel
+│   └── AppState.swift               # État global (Favoris, thèmes, taille texte)
+├── Utils/
+│   └── AppleSpringButtonStyle.swift # Animations élastiques signature Apple
 ├── Views/
-│   ├── Main/                        # Navigation principale
 │   ├── Chapters/
-│   │   ├── ChapterListView.swift    # Grille des 10 chapitres avec couleurs dédiées
-│   │   ├── ChapterDetailView.swift  # Lecteur poétique avec défilement synchronisé
-│   │   └── VerseRowView.swift       # Composant de verset (RTL/LTR, Tafsir, Favoris)
-│   ├── Audio/
-│   │   └── FloatingAudioPlayerView.swift # Lecteur audio flottant
+│   │   ├── ChapterListView.swift    # Liste des 10 chapitres
+│   │   ├── ChapterDetailView.swift  # Lecteur poétique avec ouverture des rideaux
+│   │   └── VerseRowView.swift       # Composant verset (RTL, Tafsir, Favoris, Ligne active)
 │   ├── Search/
 │   │   └── SearchView.swift         # Interface de recherche textuelle et favoris
-│   ├── Chat/
-│   │   └── ChatView.swift           # Interface iMessage du Guide Virtuel
-│   └── Settings/
-│       └── BackgroundPickerSheet.swift # Modal de sélection d'arrière-plan
+│   ├── Theme/
+│   │   └── TidianeThemePickerView.swift # Sélecteur de thème spirituel
+│   └── About/
+│       └── AboutView.swift          # Profil développeur, bio et contact
 └── Resources/
-    ├── burda_verses.json            # Jeu de données complet des 10 chapitres et versets
-    └── Assets.xcassets              # Catalogue d'images et icônes
+    ├── burda_verses.json            # Base de données officielle des 160 versets
+    └── Assets.xcassets              # AppIcon 1024x1024 et portrait du développeur
 ```
 
 ---
 
-## Prérequis et Installation
+## 👨‍💻 À Propos du Développeur
 
-### Configuration Requise
+**Mouhamadou SARR**  
+*Data Science · Intelligence Artificielle · Développement logiciel*
 
-- **macOS** : macOS 14.0 (Sonoma) ou version ultérieure
-- **Xcode** : Xcode 16.0 ou version ultérieure
-- **Cible iOS** : iOS 16.0+ / iOS 17.0+
-- **Langage** : Swift 5.9+
+* **WhatsApp** : [+221 77 709 19 13](https://wa.me/221777091913)
+* **Email** : [sarrmahmoud232@gmail.com](mailto:sarrmahmoud232@gmail.com)
+* **LinkedIn** : [mouhamadou-sarr1](https://linkedin.com/in/mouhamadou-sarr1/)
 
-### Procédure d'Installation
-
-1. **Cloner le dépôt Git** :
-   ```bash
-   git clone https://github.com/SarrMouhamadu/Albourda.git
-   cd Albourda
-   ```
-
-2. **Ouvrir le projet dans Xcode** :
-   ```bash
-   open "AL Bourda.xcodeproj"
-   ```
-
-3. **Exécuter l'application** :
-   - Sélectionnez un simulateur iOS (par exemple iPhone 15 ou iPhone 16 Pro).
-   - Appuyez sur `Cmd + R` pour lancer l'application.
+> *« À travers Burdatoul Madikh, mon objectif est de mettre la technologie au service de la transmission et de la préservation de notre patrimoine culturel et spirituel. »*
 
 ---
 
-## Contribution
+## 📄 Licence
 
-Les contributions au projet sont les bienvenues. Si vous souhaitez proposer des améliorations du code, ajouter des ressources audio ou enrichir les traductions :
-
-1. Forkez le projet.
-2. Créez une branche dédiée à votre fonctionnalité (`git checkout -b feature/NouvelleFonctionnalite`).
-3. Commitez vos modifications (`git commit -m 'Ajout d'une nouvelle fonctionnalité'`).
-4. Pushez votre branche (`git push origin feature/NouvelleFonctionnalite`).
-5. Ouvrez une Pull Request.
-
----
-
-## Licence
-
-Ce projet est distribué sous licence MIT. Veuillez consulter le fichier `LICENSE` pour plus d'informations.
+Projet distribué sous licence MIT. Libre d'utilisation pour la diffusion du patrimoine spirituel.
