@@ -36,8 +36,8 @@ Burdatoul Madikh est une application iOS native développée en **Swift** et **S
 
 ## Sommaire
 
-- [Fonctionnalités](#-fonctionnalités)
-- [Thèmes spirituels](#-thèmes-spirituels-serigne-tidiane)
+- [Fonctionnalités](#fonctionnalités)
+- [Thèmes spirituels](#thèmes-spirituels-serigne-tidiane)
 - [Confidentialité](#-confidentialité--vie-privée)
 - [Stack technique](#-stack-technique)
 - [Architecture du code](#-architecture-du-code)
@@ -46,28 +46,28 @@ Burdatoul Madikh est une application iOS native développée en **Swift** et **S
 - [À propos du développeur](#-à-propos-du-développeur)
 - [Licence](#-licence)
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 | | |
 |---|---|
-| 📖 **160 versets canoniques** | Répartis en 10 chapitres + 2 suppléments d'invocations, texte fidèle et vérifié |
-| 🌍 **Lecture trilingue** | Arabe voyellé (Tashkeel), translittération phonétique latine, traduction française littéraire |
-| ✨ **Ligne de lecture active** | Un tap surligne le verset en cours, avec retour haptique (`UIImpactFeedbackGenerator`) |
-| 📚 **Exégèse (Tafsir)** | Contexte historique et explications linguistiques dépliables sous chaque verset |
-| 🔍 **Recherche tolérante** | Recherche arabe insensible aux voyelles, recherche française et phonétique instantanée |
-| ⭐ **Favoris** | Sauvegarde locale des versets préférés, aucune donnée envoyée à un serveur |
-| 🎭 **Ouverture théâtrale** | Animation de rideaux à l'entrée de chaque chapitre, ressort Apple signature |
-| 🌗 **RTL / LTR natif** | Alignement bi-directionnel automatique selon la langue affichée |
+| **160 versets canoniques** | Répartis en 10 chapitres + 2 suppléments d'invocations, texte fidèle et vérifié |
+| **Lecture trilingue** | Arabe voyellé (Tashkeel), translittération phonétique latine, traduction française littéraire |
+| **Ligne de lecture active** | Un tap surligne le verset en cours, avec retour haptique (`UIImpactFeedbackGenerator`) |
+| **Exégèse (Tafsir)** | Contexte historique et explications linguistiques dépliables sous chaque verset |
+| **Recherche tolérante** | Recherche arabe insensible aux voyelles, recherche française et phonétique instantanée |
+| **Favoris** | Sauvegarde locale des versets préférés, aucune donnée envoyée à un serveur |
+| **Ouverture théâtrale** | Animation de rideaux à l'entrée de chaque chapitre, ressort Apple signature |
+| **RTL / LTR natif** | Alignement bi-directionnel automatique selon la langue affichée |
 
-## 🎨 Thèmes spirituels Serigne Tidiane
+## Thèmes spirituels Serigne Tidiane
 
 Trois thèmes visuels épurés, accessibles via le sélecteur en haut à droite :
 
 | Thème | Hommage | Palette |
 |---|---|---|
-| 🟢 Émeraude & Or | Seydi El Hadji Malick Sy (RTA) — signature Tivaouane | Vert émeraude sacré & or noble |
-| ⚪ Blanc épuré | Serigne Babacar Sy (RTA) | Blanc pur & platine |
-| 🌙 Nuit spirituelle | Mode sombre | Fond sombre reposant pour la lecture nocturne |
+| Émeraude & Or | Seydi El Hadji Malick Sy (RTA) — signature Tivaouane | Vert émeraude sacré & or noble |
+| Blanc épuré | Serigne Babacar Sy (RTA) | Blanc pur & platine |
+| Nuit spirituelle | Mode sombre | Fond sombre reposant pour la lecture nocturne |
 
 <p align="center">
   <img src=".github/screenshots/ipad-reading.png" width="480" alt="Vue iPad du lecteur avec ligne active" />
