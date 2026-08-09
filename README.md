@@ -1,115 +1,108 @@
-# Burdatoul Madikh · القصيدة البردة
+<div align="center">
 
-**Burdatoul Madikh** est une application iOS native développée en **Swift** et **SwiftUI** sous Xcode, dédiée à la lecture, l'étude spirituelle et la méditation de la célèbre **Qasidat Al-Burda** (Le Poème du Manteau), chef-d'œuvre de la poésie islamique composé au XIIIe siècle par l'Imam Sharaf ad-Din al-Busiri.
+<img src=".github/screenshots/app-icon.png" width="112" alt="Icône Burdatoul Madikh" />
 
-L'application est **100 % gratuite**, **sans publicité**, **sans achat intégré**, **sans compte utilisateur** et **fonctionne intégralement hors ligne**.
+# Burdatoul Madikh
+### القصيدة البردة
 
----
+**Une application iOS native pour lire, méditer et étudier la Qasidat Al-Burda**
+*Le Poème du Manteau — Imam Sharaf ad-Din al-Būṣīrī, XIIIe siècle*
 
-## 📱 Sommaire
+[![Swift](https://img.shields.io/badge/Swift-5.0-FA7343?style=flat-square&logo=swift&logoColor=white)](https://swift.org)
+[![iOS](https://img.shields.io/badge/iOS-16.0%2B-000000?style=flat-square&logo=apple&logoColor=white)](https://developer.apple.com/ios/)
+[![SwiftUI](https://img.shields.io/badge/UI-SwiftUI-147EFB?style=flat-square&logo=swift&logoColor=white)](https://developer.apple.com/xcode/swiftui/)
+[![Architecture](https://img.shields.io/badge/Architecture-MVVM-6E56CF?style=flat-square)](#-architecture-du-code)
+[![License](https://img.shields.io/badge/License-MIT-2E7D32?style=flat-square)](#-licence)
+[![App Store](https://img.shields.io/badge/App%20Store-En%20cours%20de%20revue-FFA000?style=flat-square&logo=appstore&logoColor=white)](#-statut-app-store-connect)
 
-- [Présentation et Vision](#présentation-et-vision)
-- [Fonctionnalités Principales](#fonctionnalités-principales)
-- [Fonds & Thèmes Spirituels Serigne Tidiane](#fonds--thèmes-spirituels-serigne-tidiane)
-- [Contrainte Commerciale & Confidentialité](#contrainte-commerciale--confidentialité)
-- [Guide de Déploiement App Store Connect](#guide-de-déploiement-app-store-connect)
-- [Architecture du Code](#architecture-du-code)
-- [Arborescence du Projet](#arborescence-du-projet)
-- [À Propos du Développeur](#à-propos-du-développeur)
-- [Licence](#licence)
+</div>
 
----
+<br />
 
-## 🌟 Présentation et Vision
+<p align="center">
+  <img src=".github/screenshots/iphone-chapters.png" width="200" alt="Liste des chapitres" />
+  <img src=".github/screenshots/iphone-reading.png" width="200" alt="Lecteur poétique trilingue" />
+  <img src=".github/screenshots/iphone-search.png" width="200" alt="Recherche instantanée" />
+  <img src=".github/screenshots/iphone-about.png" width="200" alt="Page À propos" />
+</p>
 
-L'application a été conçue avec les standards de design d'Apple (Human Interface Guidelines), associant une typographie noble, une interface ultra-épurée, des animations théâtrales et des micro-interactions réactives pour offrir une expérience fluide aux fidèles du Gamou (Mawlid) et aux étudiants du patrimoine spirituel.
-
-### Points Forts
-
-- **Corpus Canonique Validé** : Contient les **160 versets canoniques** de la Burda répartis en 10 chapitres + 2 suppléments d'invocations/colophon distincts.
-- **Récitation Trilingue** : Texte arabe voyellé (Tashkeel), translittération phonétique latine et traduction littéraire française.
-- **Design Épuré & Animations Apple** : Physique de ressort élastique (Apple Spring Physics), animation théâtrale d'ouverture des rideaux (`Curtain Reveal Animation`) et surlignage interactif de la ligne de lecture.
-- **100 % Offline & Privé** : Aucune donnée utilisateur n'est collectée ou transmise à des tiers.
+<p align="center"><sub>Liste des chapitres · Lecteur trilingue avec ligne active · Recherche tolérante · À propos</sub></p>
 
 ---
 
-## ⚙️ Fonctionnalités Principales
+Burdatoul Madikh est une application iOS native développée en **Swift** et **SwiftUI**, dédiée à la lecture, l'étude spirituelle et la méditation de la célèbre **Qasidat Al-Burda**, chef-d'œuvre de la poésie islamique composé au XIIIe siècle par l'Imam Sharaf ad-Din al-Būṣīrī.
 
-### 1. Lecteur Poétique Trilingue & Ligne de Lecture Active
-- **Modes de lecture** : Basculement instantané entre *Arabe Seul*, *Français Seul* et *Bilingue + Phonétique*.
-- **Indicateur de Ligne Active** : Un simple tap sélectionne un verset, affichant un surlignage d'or discret et un retour haptique doux (`UIImpactFeedbackGenerator`).
-- **Ajustement Typographique** : Taille de police modifiable en direct.
-- **Support RTL / LTR** : Alignement bi-directionnel natif.
+**100 % gratuite · sans publicité · sans achat intégré · sans compte utilisateur · entièrement hors ligne.**
 
-### 2. Exégèse et Contexte Historique (Tafsir)
-- Accordéon dépliable sous chaque verset révélant les explications linguistiques, le contexte historique et la Sira.
+## Sommaire
 
-### 3. Moteur de Recherche Instantané & Favoris
-- Recherche arabe tolérante (voyelles Tashkeel ignorées lors de la saisie).
-- Recherche intégrale en français et en phonétique.
-- Sauvegarde locale des versets favoris (`UserDefaults`).
+- [Fonctionnalités](#-fonctionnalités)
+- [Thèmes spirituels](#-thèmes-spirituels-serigne-tidiane)
+- [Confidentialité](#-confidentialité--vie-privée)
+- [Stack technique](#-stack-technique)
+- [Architecture du code](#-architecture-du-code)
+- [Arborescence du projet](#-arborescence-du-projet)
+- [Statut App Store Connect](#-statut-app-store-connect)
+- [À propos du développeur](#-à-propos-du-développeur)
+- [Licence](#-licence)
 
-### 4. Ouverture Théâtrale des Chapitres
-- Animation de rideaux majestueux se séparant doucement à l'entrée de chaque chapitre.
+## ✨ Fonctionnalités
 
----
+| | |
+|---|---|
+| 📖 **160 versets canoniques** | Répartis en 10 chapitres + 2 suppléments d'invocations, texte fidèle et vérifié |
+| 🌍 **Lecture trilingue** | Arabe voyellé (Tashkeel), translittération phonétique latine, traduction française littéraire |
+| ✨ **Ligne de lecture active** | Un tap surligne le verset en cours, avec retour haptique (`UIImpactFeedbackGenerator`) |
+| 📚 **Exégèse (Tafsir)** | Contexte historique et explications linguistiques dépliables sous chaque verset |
+| 🔍 **Recherche tolérante** | Recherche arabe insensible aux voyelles, recherche française et phonétique instantanée |
+| ⭐ **Favoris** | Sauvegarde locale des versets préférés, aucune donnée envoyée à un serveur |
+| 🎭 **Ouverture théâtrale** | Animation de rideaux à l'entrée de chaque chapitre, ressort Apple signature |
+| 🌗 **RTL / LTR natif** | Alignement bi-directionnel automatique selon la langue affichée |
 
-## 🎨 Fonds & Thèmes Spirituels Serigne Tidiane
+## 🎨 Thèmes spirituels Serigne Tidiane
 
-L'application propose **3 thèmes visuels épurés** accessibles via le bouton 🎨 en haut à droite :
+Trois thèmes visuels épurés, accessibles via le sélecteur en haut à droite :
 
-1. 🟢 **Émeraude & Or (Signature Tivaouane)** — Hommage à Seydi El Hadji Malick Sy (RTA). *(Vert Émeraude Sacré & Or Noble)*
-2. ⚪ **Blanc Épuré (Minimaliste)** — Hommage à Serigne Babacar Sy (RTA). *(Blanc Pur & Platine)*
-3. 🌙 **Nuit Spirituelle (Mode Sombre)** — *(Fond sombre reposant pour la lecture nocturne)*
+| Thème | Hommage | Palette |
+|---|---|---|
+| 🟢 Émeraude & Or | Seydi El Hadji Malick Sy (RTA) — signature Tivaouane | Vert émeraude sacré & or noble |
+| ⚪ Blanc épuré | Serigne Babacar Sy (RTA) | Blanc pur & platine |
+| 🌙 Nuit spirituelle | Mode sombre | Fond sombre reposant pour la lecture nocturne |
 
----
+<p align="center">
+  <img src=".github/screenshots/ipad-reading.png" width="480" alt="Vue iPad du lecteur avec ligne active" />
+</p>
+<p align="center"><sub>Interface adaptative sur iPad — ligne active surlignée en direct</sub></p>
 
-## 🔐 Contrainte Commerciale & Confidentialité
+## 🔐 Confidentialité & Vie privée
 
-* **Prix** : 100 % Gratuit (0.00 €)
-* **Achats In-App** : Aucun
-* **Publicité** : Aucune (0 SDK de pub)
-* **Compte Utilisateur** : Aucun requis
-* **Privacy Manifest** : Fichier `PrivacyInfo.xcprivacy` conforme iOS 16+ (`NSPrivacyTracking = false`, UserDefaults `CA92.1`).
+- **Prix** : 100 % gratuit (0.00 €) · **Achats in-app** : aucun · **Publicité** : aucune (0 SDK de pub)
+- **Compte utilisateur** : aucun requis · **Données collectées** : aucune
+- `PrivacyInfo.xcprivacy` conforme iOS 16+ (`NSPrivacyTracking = false`, raison `CA92.1` pour `UserDefaults`)
+- Toutes les préférences (favoris, thème, taille du texte) restent **exclusivement sur l'appareil**
 
----
+## 🛠 Stack technique
 
-## 🚀 Guide de Déploiement App Store Connect
+![Swift](https://img.shields.io/badge/Swift-5.0-FA7343?style=flat-square&logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-Native-147EFB?style=flat-square&logo=swift&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-26-147EFB?style=flat-square&logo=xcode&logoColor=white)
+![No dependencies](https://img.shields.io/badge/Dependencies-None-2E7D32?style=flat-square)
 
-Cette section contient les informations de livraison pour le développeur en charge du déploiement :
+Aucune dépendance tierce, aucun package externe : 100 % SwiftUI natif, animations `Spring` et micro-interactions Apple faites main.
 
-### Informations du Projet
-* **Nom de l'application** : `Burdatoul Madikh`
-* **Bundle Identifier** : `sn.fulani.AL-Bourda`
-* **Marketing Version** : `1.0`
-* **Build Number** : `1`
-* **Cible iOS** : `iOS 16.0+`
-* **AppIcon** : Fichier 1024×1024 dans `Assets.xcassets/AppIcon.appiconset`
-* **Archive Release Prête** : `build/AL_Bourda.xcarchive`
+## 🏗 Architecture du code
 
-### Checklist d'Exportation App Store Connect
-1. **Création sur App Store Connect** : Nom `Burdatoul Madikh`, Langue *Français*, Bundle ID `sn.fulani.AL-Bourda`.
-2. **Chiffrement / Cryptographie** : Sélectionner **« Non »** lors du questionnaire d'exportation.
-3. **Catégorie Tarifaire** : Gratuit (`Free`).
-4. **Publicité** : Déclarer **« Non »** à la question sur l'utilisation d'IDFA / Pub.
-
----
-
-## 🛠 Architecture du Code
-
-Le projet suit l'architecture **MVVM (Model-View-ViewModel)** native SwiftUI :
+Architecture **MVVM** (Model-View-ViewModel) native SwiftUI :
 
 ```text
-Models          <- Représentation des données (Chapter, Verse, Supplement, TidianeTheme)
-ViewModels      <- Gestion de l'état global et des préférences (AppState)
-Services        <- Accès aux données JSON et moteur de recherche (DataService, SearchService)
-Views           <- Composants d'interface SwiftUI (Chapters, Search, Theme, About)
-Utils           <- Micro-interactions et animations Apple (AppleSpringButtonStyle)
+Models          → Représentation des données (Chapter, Verse, Supplement, TidianeTheme)
+ViewModels      → Gestion de l'état global et des préférences (AppState)
+Services        → Accès aux données JSON et moteur de recherche (DataService, SearchService)
+Views           → Composants d'interface SwiftUI (Chapters, Search, Theme, About)
+Utils           → Micro-interactions et animations Apple (AppleSpringButtonStyle)
 ```
 
----
-
-## 📂 Arborescence du Projet
+## 📂 Arborescence du projet
 
 ```text
 AL Bourda/
@@ -141,24 +134,40 @@ AL Bourda/
 │       └── AboutView.swift          # Profil développeur, bio et contact
 └── Resources/
     ├── burda_verses.json            # Base de données officielle des 160 versets
-    └── Assets.xcassets              # AppIcon 1024x1024 et portrait du développeur
+    └── Assets.xcassets              # AppIcon 1024×1024 et portrait du développeur
 ```
 
----
+## 🚀 Statut App Store Connect
 
-## 👨‍💻 À Propos du Développeur
+| Champ | Valeur |
+|---|---|
+| **Nom** | Burdatoul Madikh |
+| **Bundle Identifier** | `sn.fulani.AL-Bourda` |
+| **Version** | 1.0 (build 1) |
+| **Cible iOS** | 16.0+ |
+| **Statut** | ⏳ Soumis, en attente de revue Apple |
+| **Chiffrement** | Non (exempté) |
+| **Catégorie tarifaire** | Gratuit |
 
-**Mouhamadou SARR**  
+## 👨‍💻 À propos du développeur
+
+<div align="center">
+
+**Mouhamadou SARR**
 *Data Science · Intelligence Artificielle · Développement logiciel*
 
-* **WhatsApp** : [+221 77 709 19 13](https://wa.me/221777091913)
-* **Email** : [sarrmahmoud232@gmail.com](mailto:sarrmahmoud232@gmail.com)
-* **LinkedIn** : [mouhamadou-sarr1](https://linkedin.com/in/mouhamadou-sarr1/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/221777091913)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sarrmahmoud232@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mouhamadou-sarr1/)
+
+</div>
 
 > *« À travers Burdatoul Madikh, mon objectif est de mettre la technologie au service de la transmission et de la préservation de notre patrimoine culturel et spirituel. »*
-
----
 
 ## 📄 Licence
 
 Projet distribué sous licence MIT. Libre d'utilisation pour la diffusion du patrimoine spirituel.
+
+<div align="center">
+<sub>Conçu avec soin pour les fidèles du Gamou (Mawlid) et les étudiants du patrimoine spirituel soufi.</sub>
+</div>
