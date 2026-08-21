@@ -13,7 +13,7 @@ struct SearchView: View {
     @State private var selectedSegment: Int = 0 // 0: Recherche, 1: Favoris
     
     var allVerses: [Verse] {
-        DataService.shared.verses
+        DataService.shared.getAllVerses()
     }
     
     var searchResults: [Verse] {
@@ -46,7 +46,7 @@ struct SearchView: View {
                                 .font(.system(size: 14))
                                 .foregroundColor(appState.activeTheme.primaryColor)
                             
-                            TextField("Rechercher en arabe, français ou phonétique...", text: $searchText)
+                            TextField("Rechercher dans Al-Burda et Al-Mudariyya...", text: $searchText)
                                 .font(.system(size: 14, weight: .regular))
                                 .autocorrectionDisabled()
                             
@@ -74,10 +74,10 @@ struct SearchView: View {
                                         Image(systemName: "text.magnifyingglass")
                                             .font(.system(size: 38))
                                             .foregroundColor(appState.activeTheme.primaryColor.opacity(0.4))
-                                        Text("Recherche Tolérante")
+                                        Text("Recherche Tolérante Multilingue")
                                             .font(.system(size: 15, weight: .semibold))
                                             .foregroundColor(appState.activeTheme.textColor)
-                                        Text("Recherchez un mot en arabe (voyelles ignorées), en français ou en phonétique.")
+                                        Text("Recherchez un mot dans Al-Burda et Al-Mudariyya en arabe (sans voyelles), en français ou en phonétique.")
                                             .font(.system(size: 13))
                                             .foregroundColor(appState.activeTheme.textColor.opacity(0.6))
                                             .multilineTextAlignment(.center)
@@ -96,9 +96,7 @@ struct SearchView: View {
                                     .padding(.top, 50)
                                 } else {
                                     ForEach(searchResults) { verse in
-                                        if let chapter = DataService.shared.getChapter(by: verse.chapterId) {
-                                            VerseRowView(verse: verse, chapter: chapter)
-                                        }
+                                        VerseRowView(verse: verse, chapter: DataService.shared.getChapter(by: verse.chapterId))
                                     }
                                 }
                             }
@@ -126,9 +124,7 @@ struct SearchView: View {
                                     .padding(.top, 50)
                                 } else {
                                     ForEach(bookmarkedVerses) { verse in
-                                        if let chapter = DataService.shared.getChapter(by: verse.chapterId) {
-                                            VerseRowView(verse: verse, chapter: chapter)
-                                        }
+                                        VerseRowView(verse: verse, chapter: DataService.shared.getChapter(by: verse.chapterId))
                                     }
                                 }
                             }

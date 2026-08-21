@@ -1,0 +1,1576 @@
+{
+  "chapters": [
+    {
+      "id": 1,
+      "chapterNumber": 1,
+      "titleArabic": "في التشوق إلى المصطفى ﷺ",
+      "titleFrench": "Le Désir ardent du Prophète ﷺ",
+      "accentColorHex": "#064E3B",
+      "lightBgHex": "#F9FAFB",
+      "darkTextHex": "#064E3B",
+      "verseCount": 12,
+      "description": "Nostalgie des lieux saints, amour spirituel et larmes versées en souvenir du Messager d'Allah ﷺ."
+    },
+    {
+      "id": 2,
+      "chapterNumber": 2,
+      "titleArabic": "في التحذير من هوى النفس",
+      "titleFrench": "Mise en garde contre les passions",
+      "accentColorHex": "#064E3B",
+      "lightBgHex": "#F9FAFB",
+      "darkTextHex": "#064E3B",
+      "verseCount": 16,
+      "description": "Lutte contre l'égarement de l'âme incitatrice au mal et discipline spirituelle."
+    },
+    {
+      "id": 3,
+      "chapterNumber": 3,
+      "titleArabic": "في مدح النبي ﷺ",
+      "titleFrench": "L'Éloge du Prophète ﷺ",
+      "accentColorHex": "#064E3B",
+      "lightBgHex": "#F9FAFB",
+      "darkTextHex": "#064E3B",
+      "verseCount": 30,
+      "description": "Description de la perfection morale, physique et spirituelle du Prophète Muhammad ﷺ."
+    },
+    {
+      "id": 4,
+      "chapterNumber": 4,
+      "titleArabic": "في مولده الشريف ﷺ",
+      "titleFrench": "La Naissance bénie du Prophète ﷺ",
+      "accentColorHex": "#064E3B",
+      "lightBgHex": "#F9FAFB",
+      "darkTextHex": "#064E3B",
+      "verseCount": 13,
+      "description": "Signes miraculeux et bénédictions ayant accompagné l'avènement du Messager ﷺ."
+    },
+    {
+      "id": 5,
+      "chapterNumber": 5,
+      "titleArabic": "في معجزاته ﷺ",
+      "titleFrench": "Les Miracles du Prophète ﷺ",
+      "accentColorHex": "#064E3B",
+      "lightBgHex": "#F9FAFB",
+      "darkTextHex": "#064E3B",
+      "verseCount": 16,
+      "description": "Les prodiges manifestes, le jaillissement de l'eau et les arbres lui obéissant."
+    },
+    {
+      "id": 6,
+      "chapterNumber": 6,
+      "titleArabic": "في القرآن الكريم",
+      "titleFrench": "Le Noble Coran et sa gloire",
+      "accentColorHex": "#064E3B",
+      "lightBgHex": "#F9FAFB",
+      "darkTextHex": "#064E3B",
+      "verseCount": 17,
+      "description": "L'inimitabilité du Livre d'Allah et l'éternité de ses enseignements."
+    },
+    {
+      "id": 7,
+      "chapterNumber": 7,
+      "titleArabic": "في الإسراء والمعراج",
+      "titleFrench": "Le Voyage Nocturne et l'Ascension",
+      "accentColorHex": "#064E3B",
+      "lightBgHex": "#F9FAFB",
+      "darkTextHex": "#064E3B",
+      "verseCount": 13,
+      "description": "L'ascension céleste du Prophète ﷺ au-delà des sept cieux jusqu'à la proximité divine."
+    },
+    {
+      "id": 8,
+      "chapterNumber": 8,
+      "titleArabic": "في جهاد النبي ﷺ",
+      "titleFrench": "La Lutte et la bravoure du Prophète ﷺ",
+      "accentColorHex": "#064E3B",
+      "lightBgHex": "#F9FAFB",
+      "darkTextHex": "#064E3B",
+      "verseCount": 22,
+      "description": "Le courage héroïque des compagnons et la victoire de la vérité."
+    },
+    {
+      "id": 9,
+      "chapterNumber": 9,
+      "titleArabic": "في الاستشفاع بالنبي ﷺ",
+      "titleFrench": "L'Intercession du Prophète ﷺ",
+      "accentColorHex": "#064E3B",
+      "lightBgHex": "#F9FAFB",
+      "darkTextHex": "#064E3B",
+      "verseCount": 12,
+      "description": "Demande de pardon, repentir et espoir en l'intercession suprême du Messager ﷺ."
+    },
+    {
+      "id": 10,
+      "chapterNumber": 10,
+      "titleArabic": "في المناجاة وعرض الحاجات",
+      "titleFrench": "L'Invocation et la prière finale",
+      "accentColorHex": "#064E3B",
+      "lightBgHex": "#F9FAFB",
+      "darkTextHex": "#064E3B",
+      "verseCount": 9,
+      "description": "Imploration de la grâce d'Allah, bénédictions sur le Prophète ﷺ et prières d'accomplissement."
+    }
+  ],
+  "verses": [
+    {
+      "id": "ch1_v1",
+      "chapterId": 1,
+      "verseNumber": 1,
+      "arabicText": "أَمِنْ تَذَكُّرِ جِيرَانٍ بِذِي سَلَمِ ... مَزَجْتَ دَمْعًا جَرَى مِنْ مَقْلَةٍ بِدَمِ",
+      "phoneticText": "A-min tadhakkuri jīrānin bi-Dhī Salami ... Mazajta dam'an jarā min maqlatin bi-dami",
+      "frenchText": "Est-ce le souvenir des voisins de Dhi Salam ... qui te fait mêler de sang les larmes de tes yeux ?",
+      "tafsirNote": "Evocation nostalgique des lieux saints près de Médine et amour spirituel."
+    },
+    {
+      "id": "ch1_v2",
+      "chapterId": 1,
+      "verseNumber": 2,
+      "arabicText": "أَمْ هَبَّتِ الرِّيحُ مِنْ تِلْقَاءِ كَاظِمَةٍ ... وَأَوْمَضَ الْبَرْقُ فِي الظَّلْمَاءِ مِنْ إِضَمِ",
+      "phoneticText": "Am habbati-r-rīḥu min tilqā'i Kāẓimatin ... Wa awmaḍa-l-barqu fī-ẓ-ẓalmā'i min Iḍami",
+      "frenchText": "Ou bien est-ce le vent soufflant du côté de Kadhima ... ou l'éclair brillant dans les ténèbres du mont Idam ?",
+      "tafsirNote": "Symbolique des révélations intérieures et désir du sanctuaire prophétique."
+    },
+    {
+      "id": "ch1_v3",
+      "chapterId": 1,
+      "verseNumber": 3,
+      "arabicText": "فَمَا لِعَيْنَيْكَ إِنْ قُلْتَ اكْفُفَا هَمَتَا ... وَمَا لِقَلْبِكَ إِنْ قُلْتَ اسْتَفِقْ يَهِمِ",
+      "phoneticText": "Fa mā li-'aynayka in qulta-kfufā hamatā ... Wa mā li-qalbika in qulta-stafiq yahimi",
+      "frenchText": "Qu'ont donc tes yeux à pleurer de plus belle quand tu leur dis de cesser ? Et qu'a ton cœur à s'égarer quand tu lui dis de reprendre ses esprits ?",
+      "tafsirNote": "La force irrépressible de l'amour divin et prophétique surpasse la raison."
+    },
+    {
+      "id": "ch1_v4",
+      "chapterId": 1,
+      "verseNumber": 4,
+      "arabicText": "أَيَحْسَبُ الصَّبُّ أَنَّ الْحُبَّ مُنْكَتِمٌ ... مَا بَيْنَ مُنْسَجِمٍ مِنْهُ وَمُضْطَرِمِ",
+      "phoneticText": "Ayaḥsabu-ṣ-ṣabbu anna-l-ḥubba munkatimun ... Mā bayna munsajimin minhu wa muḍṭarimi",
+      "frenchText": "L'amoureux pense-t-il que son amour peut rester caché ... entre ses larmes qui coulent et son cœur qui brûle ?",
+      "tafsirNote": "Les signes extérieurs de la dévotion révèlent l'état spirituel du croyant."
+    },
+    {
+      "id": "ch1_v5",
+      "chapterId": 1,
+      "verseNumber": 5,
+      "arabicText": "لَوْلا الْهَوَى لَمْ تُرِقْ دَمْعًا عَلَى طَلَلٍ ... وَلا أَرِقْتَ لِذِكْرِ الْبَانِ وَالْعَلَمِ",
+      "phoneticText": "Lawlā-l-hawā lam turiq dam'an 'alā ṭalalin ... Wa lā ariqta li-dhikri-l-bāni wa-l-'alami",
+      "frenchText": "Sans cet amour, tu n'aurais pas versé de larmes sur ces vestiges ... ni perdu le sommeil à l'évocation des arbres et des monts.",
+      "tafsirNote": "L'impact des lieux sacrés et de la méditation sur l'âme."
+    },
+    {
+      "id": "ch1_v6",
+      "chapterId": 1,
+      "verseNumber": 6,
+      "arabicText": "فَكَيْفَ تُنْكِرُ حُبًّا بَعْدَ مَا شَهِدَتْ ... بِهِ عَلَيْكَ عُدُولُ الدَّمْعِ وَالسَّقَمِ",
+      "phoneticText": "Fa-kayfa tunkiru ḥubban ba'da mā shahidat ... Bihī 'alayka 'udūlu-d-dam'i wa-s-saqami",
+      "frenchText": "Comment nier un amour dont témoignent avec justice ... tes larmes abondantes et ton altération physique ?",
+      "tafsirNote": "Témoignage sincère de l'attachement à l'Élu ﷺ."
+    },
+    {
+      "id": "ch1_v7",
+      "chapterId": 1,
+      "verseNumber": 7,
+      "arabicText": "وَأَثْبَتَ الْوَجْدُ خَطَّيْ دَمْعَةٍ وَضَنًى ... مِثْلَ الْبَهَارِ عَلَى خَدَّيْكَ وَالْعَنَمِ",
+      "phoneticText": "Wa athbata-l-wajdu khaṭṭay dam'atin wa ḍanan ... Mithla-l-bahāri 'alā khaddayka wa-l-'anami",
+      "frenchText": "L'extase a tracé sur tes joues deux sillons de larmes et d'épuisement ... pareils au souci jaune et au bois d'un rouge sombre.",
+      "tafsirNote": "Métaphores poétiques arabes classiques de l'intense nostalgie."
+    },
+    {
+      "id": "ch1_v8",
+      "chapterId": 1,
+      "verseNumber": 8,
+      "arabicText": "نَعَمْ سَرَى طَيْفُ مَنْ أَهْوَى فَأَرَّقَنِي ... وَالْحُبُّ يَعْتَرِضُ اللَّذَّاتِ بِالأَلَمِ",
+      "phoneticText": "Na'am sarā ṭayfu man ahwā fa-arraqanī ... Wa-l-ḥubbu ya'tariḍu-l-ladh-dhāti bi-l-alami",
+      "frenchText": "Oui, l'image de celui que j'aime m'est apparue de nuit et m'a empêché de dormir ... car l'amour mêle la douleur aux plaisirs.",
+      "tafsirNote": "Vision spirituelle et éveil nocturne du poète."
+    },
+    {
+      "id": "ch1_v9",
+      "chapterId": 1,
+      "verseNumber": 9,
+      "arabicText": "يَا لائِمِي فِي الْهَوَى الْعُذْرِيِّ مَعْذِرَةً ... مِنِّي إِلَيْكَ وَلَوْ أَنْصَفْتَ لَمْ تَلُمِ",
+      "phoneticText": "Yā lā'imī fī-l-hawā-l-'udhriyyi ma'dhiratan ... Minnī ilayka wa law anṣafta lam talumi",
+      "frenchText": "Ô toi qui me blâmes pour cet amour pur, accepte mes excuses ... si tu étais équitable, tu ne me blâmerais point.",
+      "tafsirNote": "Apologie de la passion spirituelle envers le Messager d'Allah."
+    },
+    {
+      "id": "ch1_v10",
+      "chapterId": 1,
+      "verseNumber": 10,
+      "arabicText": "عَدَتْكَ حَالِيَ لا سِرِّي بِمُسْتَتِرٍ ... عَنِ الْوُشَاةِ وَلا دَائِي بِمُنْحَسِمِ",
+      "phoneticText": "Adatka ḥāliya lā sirrī bi-mustatirin ... 'Ani-l-wushāti wa lā dā'ī bi-munḥasimi",
+      "frenchText": "Que mon état t'en soit témoin : mon secret n'est plus caché aux détracteurs ... et mon mal ne saurait être guéri sans Lui.",
+      "tafsirNote": "L'amour prophétique comme seule médecine de l'âme."
+    },
+    {
+      "id": "ch1_v11",
+      "chapterId": 1,
+      "verseNumber": 11,
+      "arabicText": "مَحَّضْتَنِي النُّصْحَ لَكِنْ لَسْتُ أَسْمَعُهُ ... إِنَّ الْمُحِبَّ عَنِ الْعُذَّالِ فِي صَمَمِ",
+      "phoneticText": "Maḥḥaḍtanī-n-nuṣḥa lākin lastu asma'uhū ... Inna-l-muḥibba 'ani-l-'udhdhāli fī ṣamami",
+      "frenchText": "Tu m'as dispensé des conseils sincères, mais je ne puis les entendre ... car l'amoureux reste sourd aux réprimandes.",
+      "tafsirNote": "Fermeté de la foi et dévotion inébranlable."
+    },
+    {
+      "id": "ch1_v12",
+      "chapterId": 1,
+      "verseNumber": 12,
+      "arabicText": "إِنِّي اتَّهَمْتُ نَصِيحَ الشَّيْبِ فِي حَذَلِي ... وَالشَّيْبُ أَبْعَدُ فِي نُصْحٍ عَنِ التُّهَمِ",
+      "phoneticText": "Innī-ttahamtu naṣīḥa-sh-shaybi fī ḥadhalī ... Wa-sh-shaybu ab'adu fī nuṣḥin 'ani-t-tuhami",
+      "frenchText": "J'ai soupçonné le conseil de la vieillesse dans mes avertissements ... bien que les cheveux blancs soient au-dessus de tout soupçon.",
+      "tafsirNote": "Transition vers la prise de conscience de la fragilité humaine."
+    },
+    {
+      "id": "ch2_v1",
+      "chapterId": 2,
+      "verseNumber": 1,
+      "arabicText": "فَإِنَّ أَمَّارَتِي بِالسُّوءِ مَا اتَّعَظَتْ ... مِنْ جَهْلِهَا بِنَذِيرِ الشَّيْبِ وَالْهَرَمِ",
+      "phoneticText": "Fa-inna ammāratī bi-s-sū'i ma-tta'aẓat ... Min jahlihā bi-nadhīri-sh-shaybi wa-l-harami",
+      "frenchText": "Car mon âme incitatrice au mal n'a pas pris leçon, dans son ignorance, de l'avertissement des cheveux blancs et de la vieillesse.",
+      "tafsirNote": "Prise de conscience du repentir et discipline de l'âme égoïste (Nafs)."
+    },
+    {
+      "id": "ch2_v2",
+      "chapterId": 2,
+      "verseNumber": 2,
+      "arabicText": "وَلا أَعَدَّتْ مِنَ الْفِعْلِ الْجَمِيلِ قِرَى ... ضَيْفٍ أَلَمَّ بِرَأْسِي غَيْرَ مُحْتَشِمِ",
+      "phoneticText": "Wa lā a'addat mina-l-fi'li-l-jamīli qirā ... Ḍayfin alamma bi-ra'sī ghayra muḥtashimi",
+      "frenchText": "Elle n'a préparé aucune œuvre pieuse pour accueillir l'hôte venu s'installer sur ma tête sans pudeur (les cheveux blancs).",
+      "tafsirNote": "Allégorie poétique sur le passage inéluctable du temps."
+    },
+    {
+      "id": "ch2_v3",
+      "chapterId": 2,
+      "verseNumber": 3,
+      "arabicText": "لَوْ كُنْتُ أَعْلَمُ أَنِّي مَا أُوَقِّرُهُ ... كَتَمْتُ سِرًّا بَدَا لِي مِنْهُ بِالْكَتَمِ",
+      "phoneticText": "Law kuntu a'lamu annī mā uwaqqiruhū ... Katamtu sirran badā lī minhu bi-l-katami",
+      "frenchText": "Si j'avais su que je ne l'honorerais point, j'aurais dissimulé son secret avec de la teinture.",
+      "tafsirNote": "Le regret des fautes passées et l'aspiration à la sincérité."
+    },
+    {
+      "id": "ch2_v4",
+      "chapterId": 2,
+      "verseNumber": 4,
+      "arabicText": "مَنْ لِي بِرَدِّ جِمَاحٍ مِنْ غَوَايَتِهَا ... كَمَا يُرَدُّ جِمَاحُ الْخَيْلِ بِاللُّجُمِ",
+      "phoneticText": "Man lī bi-raddi jimāḥin min ghawāyatihā ... Kamā yuraddu jimāḥu-l-khayli bi-l-lujumi",
+      "frenchText": "Qui m'aidera à dompter la rébellion de mon âme égarée, comme on dompte l'ardeur des chevaux avec des rênes ?",
+      "tafsirNote": "Nécessité du contrôle de soi et de la sobriété spirituelle."
+    },
+    {
+      "id": "ch2_v5",
+      "chapterId": 2,
+      "verseNumber": 5,
+      "arabicText": "فَلا تَرُمْ بِالْمَعَاصِي كَسْرَ شَهْوَتِهَا ... إِنَّ الطَّعَامَ يُقَوِّي شَهْوَةَ الآكِلِ",
+      "phoneticText": "Fa lā tarum bi-l-ma'āṣī kasra shahwatihā ... Inna-ṭ-ṭa'āma yuqawwī shahwata-l-ākili",
+      "frenchText": "Ne cherche pas à briser sa passion par les péchés, car la nourriture ne fait qu'attiser l'appétit du mangeur.",
+      "tafsirNote": "La tentation s'accroît si elle n'est pas réprimée à la racine."
+    },
+    {
+      "id": "ch2_v6",
+      "chapterId": 2,
+      "verseNumber": 6,
+      "arabicText": "وَالنَّفْسُ كَالطِّفْلِ إِنْ تُهْمِلْهُ شَبَّ عَلَى ... حُبِّ الرَّضَاعِ وَإِنْ تَفْطِمْهُ يَنَفَطِمِ",
+      "phoneticText": "Wa-n-nafsu ka-ṭ-ṭifli in tuhmilhu shabba 'alā ... Ḥubbi-r-raḍā'i wa in tafṭimhu yanfaṭimi",
+      "frenchText": "L'âme est comme un enfant : si tu la négliges, elle grandit dans l'amour de l'allaitement, mais si tu la sèvres, elle se sèvre.",
+      "tafsirNote": "Règle d'or de l'ascétisme soufi et de la pédagogie spirituelle."
+    },
+    {
+      "id": "ch2_v7",
+      "chapterId": 2,
+      "verseNumber": 7,
+      "arabicText": "فَاصْرِفْ هَوَاهَا وَحَاذِرْ أَنْ تُوَلِّيَهُ ... إِنَّ الْهَوَى مَا تَوَلَّى يُصْمِ أَوْ يَصِمِ",
+      "phoneticText": "Fa-ṣrif hawāhā wa ḥādhir an tuwalliyahū ... Inna-l-hawā mā tawallā yuṣmi aw yaṣimi",
+      "frenchText": "Détourne ses désirs et prends garde de la laisser régner, car la passion, lorsqu'elle domine, tue ou avilit.",
+      "tafsirNote": "Mise en garde contre la soumission aux passions destructrices."
+    },
+    {
+      "id": "ch2_v8",
+      "chapterId": 2,
+      "verseNumber": 8,
+      "arabicText": "وَرَاعِهَا وَهِيَ فِي الأَعْمَالِ سَائِمَةٌ ... وَإِنْ هِيَ اسْتَحْلَتِ الْمَرْعَى فَلا تُسِمِ",
+      "phoneticText": "Wa rā'ihā wa hiya fī-l-a'māli sā'imatun ... Wa in hiya-staḥlati-l-mar'ā falā tusimi",
+      "frenchText": "Surveille-la lorsqu'elle s'adonne aux œuvres, et si le pâturage lui semble doux, ne l'y laisse pas s'égarer.",
+      "tafsirNote": "Vigilance constante même lors de l'accomplissement des bonnes actions."
+    },
+    {
+      "id": "ch2_v9",
+      "chapterId": 2,
+      "verseNumber": 9,
+      "arabicText": "كَمْ حَسَّنَتْ لَذَّةً لِلْمَرْءِ قَاتِلَةً ... مِنْ حَيْثُ لَمْ يَدْرِ أَنَّ السَّمَّ فِي الدَّسَمِ",
+      "phoneticText": "Kam ḥassanat ladh-dhatan lil-mar'i qātilatan ... Min ḥaythu lam yadri anna-s-samma fī-d-dasami",
+      "frenchText": "Que de fois elle a embelli un plaisir mortel pour l'homme, qui ignorait que le poison était mêlé au mets délicieux !",
+      "tafsirNote": "Le piège des plaisirs illusoires et trompeurs."
+    },
+    {
+      "id": "ch2_v10",
+      "chapterId": 2,
+      "verseNumber": 10,
+      "arabicText": "وَاخْشَ الدَّسَائِسَ مِنْ جُوعٍ وَمِنْ شَبَعٍ ... فَرُبَّ مَخْمَصَةٍ شَرٌّ مِنَ التُّهَمِ",
+      "phoneticText": "Wa-khsha-d-dasā'isa min jū'in wa min shaba'in ... Fa rubba makhmaṣatin sharrun mina-t-tuhami",
+      "frenchText": "Crains les ruses de la faim comme de la satiété, car parfois la faim excessive engendre un mal pire que la gourmandise.",
+      "tafsirNote": "L'importance du juste milieu et de la modération en toute chose."
+    },
+    {
+      "id": "ch2_v11",
+      "chapterId": 2,
+      "verseNumber": 11,
+      "arabicText": "وَاسْتَفْرِغِ الدَّمْعَ مِنْ عَيْنٍ قَدِ امْتَلأَتْ ... مِنَ الْمَحَارِمِ وَالْزَمْ حِمْيَةَ النَّدَمِ",
+      "phoneticText": "Wa-stafrighi-d-dam'a min 'aynin qadi-mtala'at ... Mina-l-maḥārimi wa-lzam ḥimyata-n-nadami",
+      "frenchText": "Verse d'abondantes larmes des yeux qui se sont nourris d'interdits, et astreins-toi au régime du repentir.",
+      "tafsirNote": "La purification du cœur par les larmes de la contrition sincère."
+    },
+    {
+      "id": "ch2_v12",
+      "chapterId": 2,
+      "verseNumber": 12,
+      "arabicText": "وَخَالِفِ النَّفْسَ وَالشَّيْطَانَ وَاعْصِهِمَا ... وَإِنْ هُمَا مَحَّضَاكَ النُّصْحَ فَاتَّهِمِ",
+      "phoneticText": "Wa khālifi-n-nafsa wa-sh-shayṭāna wa-'ṣihimā ... Wa in humā maḥḥaḍāka-n-nuṣḥa fa-ttahimi",
+      "frenchText": "Opiniâtre-toi à opposer ton âme et le Satan, désobéis-leur, et s'ils te dispensent un conseil en apparence sincère, suspecte-le !",
+      "tafsirNote": "Le verset emblématique sur la méfiance envers les instigations de l'ego et du Malin."
+    },
+    {
+      "id": "ch2_v13",
+      "chapterId": 2,
+      "verseNumber": 13,
+      "arabicText": "وَلا تُطِعْ مِنْهُمَا خَصْمًا وَلا حَكَمًا ... فَأَنْتَ تَعْرِفُ كَيْدَ الْخَصْمِ وَالْحَكَمِ",
+      "phoneticText": "Wa lā tuṭi' minhumā khaṣman wa lā ḥakamā ... Fa-anta ta'rifu kayda-l-khaṣmi wa-l-ḥakami",
+      "frenchText": "Ne les écoute ni comme adversaires ni comme arbitres, car tu connais la ruse de l'adversaire et du faux arbitre.",
+      "tafsirNote": "Rejet total des compromis avec le mal."
+    },
+    {
+      "id": "ch2_v14",
+      "chapterId": 2,
+      "verseNumber": 14,
+      "arabicText": "أَسْتَغْفِرُ اللَّهَ مِنْ قَوْلٍ بِلا عَمَلٍ ... لَقَدْ نَسَبْتُ بِهِ نَسْلاً لِذِي عُقُمِ",
+      "phoneticText": "Astaghfiru-llāha min qawlin bilā 'amali ... Laqad nasabtu bihī naslan li-dhī 'uqumi",
+      "frenchText": "J'implore le pardon d'Allah pour mes paroles sans actes, c'est comme si j'attribuais une descendance à un être stérile.",
+      "tafsirNote": "Humilité de l'auteur et demande d'alignement entre la parole et l'action."
+    },
+    {
+      "id": "ch2_v15",
+      "chapterId": 2,
+      "verseNumber": 15,
+      "arabicText": "أَمَرْتُكَ الْخَيْرَ لَكِنْ مَا ائْتَمَرْتُ بِهِ ... وَمَا اسْتَقَمْتُ فَمَا قَوْلِي لَكَ اسْتَقِمِ",
+      "phoneticText": "Amartuka-l-khayra lākin ma-t-tamartu bihī ... Wa mā-staqamtu famā qawlī laka-staqimi",
+      "frenchText": "Je t'ai ordonné le bien mais je ne l'ai pas appliqué moi-même ; je n'ai pas été droit, quel droit ai-je donc de te dire : \"Sois droit\" ?",
+      "tafsirNote": "Profonde auto-critique spirituelle de l'Imam Al-Busiri."
+    },
+    {
+      "id": "ch2_v16",
+      "chapterId": 2,
+      "verseNumber": 16,
+      "arabicText": "وَلا تَزَوَّدْتُ قَبْلَ الْمَوْتِ نَافِلَةً ... وَلَمْ أُصَلِّ سِوَى فَرْضٍ وَلَمْ أَصُمِ",
+      "phoneticText": "Wa lā tazawwadtu qabla-l-mawti nāfilatan ... Wa lam uṣalli siwā farḍin wa lam aṣumi",
+      "frenchText": "Je ne me suis pas pourvu d'œuvres surérogatoires avant la mort, et n'ai accompli que le strict obligatoire en prière et en jeûne.",
+      "tafsirNote": "Aveu d'indigence spirituelle devant la grandeur d'Allah."
+    },
+    {
+      "id": "ch3_v1",
+      "chapterId": 3,
+      "verseNumber": 1,
+      "arabicText": "ظَلَمْتُ سُنَّةَ مَنْ أَحْيَا الظَّلَامَ إِلَى ... أَنِ اشْتَكَتْ قَدَمَاهُ الضُّرَّ مِنْ وََرَمِ",
+      "phoneticText": "Ẓalamtu sunnata man aḥyā-ẓ-ẓalāma ilā ... Ani-shtakat qadamāhu-ḍ-ḍurra min warami",
+      "frenchText": "J'ai négligé la voie de celui qui passait ses nuits en prière ... jusqu'à ce que ses pieds enflent sous l'effort.",
+      "tafsirNote": "Rappel de la dévotion exemplaire du Prophète Muhammad ﷺ lors de ses prières nocturnes (Tahajjud)."
+    },
+    {
+      "id": "ch3_v2",
+      "chapterId": 3,
+      "verseNumber": 2,
+      "arabicText": "وَشَدَّ مِنْ سَغَبٍ أَحْشَاءَهُ وَطَوَى ... تَحْتَ الْحِجَارَةِ كَشْحًا مُتْرَفَ الأَقَطِ",
+      "phoneticText": "Wa shadda min saghabin aḥshā'ahū wa ṭawā ... Taḥta-l-ḥijārati kashḥan mutrafa-l-aqaṭi",
+      "frenchText": "Il a serré son estomac sous l'effet de la faim et a lié une pierre sur ses flancs délicats.",
+      "tafsirNote": "L'ascétisme et la patience du Prophète ﷺ face aux épreuves de la pauvreté."
+    },
+    {
+      "id": "ch3_v3",
+      "chapterId": 3,
+      "verseNumber": 3,
+      "arabicText": "وَرَاوَدَتْهُ الْجِبَالُ الشُّمُّ مِنْ ذَهَبٍ ... عَنْ نَفْسِهِ فَأَرَاهَا أَيَّمَا شَمَمِ",
+      "phoneticText": "Wa rāwadat-hu-l-jibālu-sh-shummu min dhahabin ... 'An nafsihī fa-arāhā ayyamā shamami",
+      "frenchText": "Les hautes montagnes d'or ont cherché à le séduire, mais il leur a montré une hauteur d'âme inébranlable.",
+      "tafsirNote": "Le Prophète ﷺ a refusé les richesses terrestres proposées par les anges pour préférer la servitude pure envers Allah."
+    },
+    {
+      "id": "ch3_v4",
+      "chapterId": 3,
+      "verseNumber": 4,
+      "arabicText": "وَأَكَّدَتْ زُهْدَهُ فِيهَا ضَرُورَتُهُ ... إِنَّ الضَّرُورَةَ لا تَعْدُو عَلَى الْعِصَمِ",
+      "phoneticText": "Wa akkadat zuhdahū fīhā ḍarūratuhū ... Inna-ḍ-ḍarūrata lā ta'dū 'alā-l-'iṣami",
+      "frenchText": "Sa nécessité même a confirmé son détachement du monde, car la nécessité n'a point de prise sur l'impeccabilité prophétique.",
+      "tafsirNote": "La pureté morale et le détachement matériel des envoyés d'Allah."
+    },
+    {
+      "id": "ch3_v5",
+      "chapterId": 3,
+      "verseNumber": 5,
+      "arabicText": "وَكَيْفَ تَدْعُو إِلَى الدُّنْيَا ضَرُورَةُ مَنْ ... لَوْلاَهُ لَمْ تُخْرَجِ الدُّنْيَا مِنَ الْعَدَمِ",
+      "phoneticText": "Wa kayfa tad'ū ilā-d-dunyā ḍarūratu man ... Lawlāhu lam tukhraji-d-dunyā mina-l-'adami",
+      "frenchText": "Comment le besoin du monde attirerait-il celui sans lequel le monde ne serait pas sorti du néant ?",
+      "tafsirNote": "La place centrale et primordiale du Messager d'Allah ﷺ dans la création."
+    },
+    {
+      "id": "ch3_v6",
+      "chapterId": 3,
+      "verseNumber": 6,
+      "arabicText": "مُحَمَّدٌ سَيِّدُ الْكَوْنَيْنِ وَالثَّقَلَيْـ ... ـنِ وَالْفَرِيقَيْنِ مِنْ عُرْبٍ وَمِنْ عَجَمِ",
+      "phoneticText": "Muḥammadun Sayyidu-l-Kawnayni wa-th-Thaqalay- ... -ni wa-l-farīqayni min 'urbin wa min 'ajami",
+      "frenchText": "Muhammad est le maître des deux mondes, des deux espèces (hommes et djinns), et des deux groupes : Arabes et non-Arabes.",
+      "tafsirNote": "Verset célèbre affirmant l'autorité spirituelle et l'universalité du Prophète Muhammad ﷺ."
+    },
+    {
+      "id": "ch3_v7",
+      "chapterId": 3,
+      "verseNumber": 7,
+      "arabicText": "نَبِيُّنَا الآمِرُ النَّاهِي فَلا أَحَدٌ ... أَبَرَّ فِي قَوْلِ «لا» مِنْهُ وَلا «نَعَمِ»",
+      "phoneticText": "Nabiyyunā-l-Āmiru-n-Nāhī falā aḥadun ... Abarra fī qawli 'lā' minhu wa lā 'na'ami'",
+      "frenchText": "Notre Prophète qui ordonne et interdit : nul n'est plus véridique et juste que lui dans son \"non\" et dans son \"oui\".",
+      "tafsirNote": "La justice absolue et l'impartialité des paroles du Prophète ﷺ."
+    },
+    {
+      "id": "ch3_v8",
+      "chapterId": 3,
+      "verseNumber": 8,
+      "arabicText": "هُوَ الْحَبِيبُ الَّذِي تُرْجَى شَفَاعَتُهُ ... لِكُلِّ هَوْلٍ مِنَ الأَهْوَالِ مُقْتَحِمِ",
+      "phoneticText": "Huwa-l-Ḥabību-lladhī turjā shafā'atuhū ... Li-kulli hawlin mina-l-ahwāli muqtahimi",
+      "frenchText": "Il est le Bien-Aimé dont on espère l'intercession contre toutes les terreurs qui fondent sur l'homme.",
+      "tafsirNote": "Le verset majeur sur l'Intercession suprême (Al-Shafa'ah Al-'Uzma) au Jour du Jugement."
+    },
+    {
+      "id": "ch3_v9",
+      "chapterId": 3,
+      "verseNumber": 9,
+      "arabicText": "دَعَا إِلَى اللَّهِ فَالْمُسْتَمْسِكُونَ بِهِ ... مُسْتَمْسِكُونَ بِحَبْلٍ غَيْرِ مُنْفَصِمِ",
+      "phoneticText": "Da'ā ilā-Llāhi fa-l-mustamsikūna bihī ... Mustamsikūna bi-ḥablin ghayri munfaṣimi",
+      "frenchText": "Il a appelé vers Allah, et ceux qui s'attachent à lui tiennent le câble indissoluble de la vérité.",
+      "tafsirNote": "L'attachement à la Sunnah comme garantie de salut éternel."
+    },
+    {
+      "id": "ch3_v10",
+      "chapterId": 3,
+      "verseNumber": 10,
+      "arabicText": "فَاقَ النَّبِيِّينَ فِي خَلْقٍ وَفِي خُلُقٍ ... وَلَمْ يُدَانُوهُ فِي عِلْمٍ وَلا كَرَمِ",
+      "phoneticText": "Fāqa-n-nabiyyīna fī khalqin wa fī khuluqin ... Wa lam yudānūhu fī 'ilmin wa lā karami",
+      "frenchText": "Il a surpassé tous les prophètes par la beauté plastique et les vertus morales ; nul n'a pu l'égaler en savoir et en générosité.",
+      "tafsirNote": "La supériorité absolue du Prophète ﷺ en perfection physique, intellectuelle et spirituelle."
+    },
+    {
+      "id": "ch3_v11",
+      "chapterId": 3,
+      "verseNumber": 11,
+      "arabicText": "وَكُلُّهُمْ مِنْ رَسُولِ اللَّهِ مُلْتَمِسٌ ... غَرْفًا مِنَ الْبَحْرِ أَوْ رَشْفًا مِنَ الدِّيَمِ",
+      "phoneticText": "Wa kulluhum min Rasūli-Llāhi multamisun ... Gharfan mina-l-baḥri aw rashfan mina-d-diyami",
+      "frenchText": "Tous puisent auprès du Messager d'Allah une poignée de l'océan de son savoir ou une goutte de sa pluie bienfaisante.",
+      "tafsirNote": "Le Prophète ﷺ comme source première des lumières prophétiques."
+    },
+    {
+      "id": "ch3_v12",
+      "chapterId": 3,
+      "verseNumber": 12,
+      "arabicText": "وَوَاقِفُونَ لَدَيْهِ عِنْدَ حَدِّهِمِ ... مِنْ نُقْطَةِ الْعِلْمِ أَوْ مِنْ شَكْلَةِ الْحِكَمِ",
+      "phoneticText": "Wa wāqifūna ladayhi 'inda ḥaddihimi ... Min nuqṭati-l-'ilmi aw min shaklati-l-ḥikami",
+      "frenchText": "Ils se tiennent devant lui chacun à leur rang, comme un point dans la science ou une voyelle dans la sagesse.",
+      "tafsirNote": "Allégorie de la métaphysique islamique sur les degrés de connaissance."
+    },
+    {
+      "id": "ch3_v13",
+      "chapterId": 3,
+      "verseNumber": 13,
+      "arabicText": "فَهْوَ الَّذِي تَمَّ مَعْنَاهُ وَصُورَتُهُ ... ثُمَّ اصْطَفَاهُ حَبِيبًا بَارِئُ النَّسَمِ",
+      "phoneticText": "Fahwa-lladhī tamma ma'nāhu wa ṣūratuhū ... Thumma-ṣṭafāhu ḥabīban bāri'u-n-nasami",
+      "frenchText": "Il est celui dont l'essence et la forme ont atteint la perfection, puis le Créateur des âmes l'a élu pour Bien-Aimé.",
+      "tafsirNote": "L'élection divine (Al-Muṣṭafā) et la perfection de son être."
+    },
+    {
+      "id": "ch3_v14",
+      "chapterId": 3,
+      "verseNumber": 14,
+      "arabicText": "مُنَزَّهٌ عَنْ شَرِيكٍ فِي مَحَاسِنِهِ ... فَجَوْهَرُ الْحُسْنِ فِيهِ غَيْرُ مُنْقَسِمِ",
+      "phoneticText": "Munazzahun 'an sharīkin fī maḥāsinihī ... Fa-jawharu-l-ḥusni fīhi ghayru munqasimi",
+      "frenchText": "Il est exempt de tout associé dans ses qualités sublimes, car l'essence de la beauté en lui est indivisible.",
+      "tafsirNote": "La beauté prophétique comme reflet unique de la lumière divine."
+    },
+    {
+      "id": "ch3_v15",
+      "chapterId": 3,
+      "verseNumber": 15,
+      "arabicText": "دَعْ مَا ادَّعَتْهُ النَّصَارَى فِي نَبِيِّهِمِ ... وَاحْكُمْ بِمَا شِئْتَ مَدْحًا فِيهِ وَاحْتَكِمِ",
+      "phoneticText": "Da' mā-dda'at-hu-n-naṣārā fī nabiyyihimi ... Wa-ḥkum bi-mā shi'ta madḥan fīhi wa-ḥtakimi",
+      "frenchText": "Écarte ce que les Chrétiens ont prétendu au sujet de leur prophète, et formule ensuite tous les éloges que tu souhaites à son égard !",
+      "tafsirNote": "Mise en garde contre la divinisation tout en autorisant l'éloge le plus élevé dans le cadre du monothéisme."
+    },
+    {
+      "id": "ch3_v16",
+      "chapterId": 3,
+      "verseNumber": 16,
+      "arabicText": "وَانْسُبْ إِلَى ذَاتِهِ مَا شِئْتَ مِنْ شَرَفٍ ... وَانْسُبْ إِلَى قَدْرِهِ مَا شِئْتَ مِنْ عِظَمِ",
+      "phoneticText": "Wa-nsub ilā dhātihī mā shi'ta min sharafin ... Wa-nsub ilā qadrihī mā shi'ta min 'iẓami",
+      "frenchText": "Attribue à sa personne toute la noblesse que tu veux, et attribue à son rang toute la grandeur que tu désires !",
+      "tafsirNote": "La grandeur du rang prophétique auprès d'Allah."
+    },
+    {
+      "id": "ch3_v17",
+      "chapterId": 3,
+      "verseNumber": 17,
+      "arabicText": "فَإِنَّ فَضْلَ رَسُولِ اللَّهِ لَيْسَ لَهُ ... حَدٌّ فَيُعْرِبَ عَنْهُ نَاطِقٌ بِفَمِ",
+      "phoneticText": "Fa-inna faḍla Rasūli-Llāhi laysa lahū ... Ḥaddun fa-yu'riba 'anhu nāṭiqun bi-fami",
+      "frenchText": "Car le mérite du Messager d'Allah n'a pas de limite qu'une langue humaine puisse exprimer.",
+      "tafsirNote": "L'incapacité du langage humain à épuiser les mérites prophétiques."
+    },
+    {
+      "id": "ch3_v18",
+      "chapterId": 3,
+      "verseNumber": 18,
+      "arabicText": "لَوْ نَاسَبَتْ قَدْرَهُ آيَاتُهُ عِظَمًا ... أَحْيَا اسْمُهُ حِينَ يُدْعَى دَارِسَ الرِّمَمِ",
+      "phoneticText": "Law nāsabat qadrahū āyātuhū 'iẓaman ... Aḥyā-smuhū ḥīna yud'ā dārisa-r-rimami",
+      "frenchText": "Si ses miracles avaient été proportionnés à la grandeur de son rang, l'invocation de son seul nom aurait ressuscité les ossements réduits en poussière.",
+      "tafsirNote": "Considération poétique sur la retenue des miracles prophétiques par miséricorde."
+    },
+    {
+      "id": "ch3_v19",
+      "chapterId": 3,
+      "verseNumber": 19,
+      "arabicText": "لَمْ يَمْتَحِنَّا بِمَا تَعْيَا الْعُقُولُ بِهِ ... حِرْصًا عَلَيْنَا فَلَمْ نَرْتَبْ وَلَمْ نََهِمِ",
+      "phoneticText": "Lam yamtaḥinnā bi-mā ta'yā-l-'uqūlu bihī ... Ḥirṣan 'alaynā falam nartab wa lam nahimi",
+      "frenchText": "Il ne nous a pas soumis à des épreuves dépassant notre raison, par sollicitude pour nous ; ainsi nous n'avons douté ni ne nous sommes égarés.",
+      "tafsirNote": "La douceur et la clarté de la législation musulmane apportée par le Prophète ﷺ."
+    },
+    {
+      "id": "ch3_v20",
+      "chapterId": 3,
+      "verseNumber": 20,
+      "arabicText": "أَعْيَا الْوَرَى فَهْمُ مَعْنَاهُ فَلَيْسَ يُرَى ... فِي الْقُرْبِ وَالْبُعْدِ فِيهِ غَيْرُ مُفْحَمِ",
+      "phoneticText": "A'yā-l-warā fahmu ma'nāhu falaysa yurā ... Fī-l-qurbi wa-l-bu'di fīhi ghayru mufḥami",
+      "frenchText": "La compréhension de son essence a dépassé les créatures ; de près comme de loin, nul n'en parle sans être réduit au silence par l'émerveillement.",
+      "tafsirNote": "L'insondable mystère de la réalité prophétique (Al-Haqiqah Al-Muhammadiyyah)."
+    },
+    {
+      "id": "ch3_v21",
+      "chapterId": 3,
+      "verseNumber": 21,
+      "arabicText": "كَالشَّمْسِ تَظْهَرُ لِلْعَيْنَيْنِ مِنْ بُعُدٍ ... صَغِيرَةً وَتُكِلُّ الطَّرْفَ مِنْ أُمُمِ",
+      "phoneticText": "Ka-sh-shamsi taẓharu li-l-'aynayni min bu'udin ... Ṣaghīratan wa tukillu-ṭ-ṭarfa min umumi",
+      "frenchText": "Il est comme le soleil : il apparaît petit aux yeux de loin, mais éblouit le regard de près.",
+      "tafsirNote": "Superbe image poétique illustrant la majesté du Prophète ﷺ."
+    },
+    {
+      "id": "ch3_v22",
+      "chapterId": 3,
+      "verseNumber": 22,
+      "arabicText": "وَكَيْفَ يُدْرِكُ فِي الدُّنْيَا حَقِيقَتَهُ ... قَوْمٌ نِيَامٌ تَسَلَّوْا عَنْهُ بِالْحُلُمِ",
+      "phoneticText": "Wa kayfa yudriku fī-d-dunyā ḥaqīqatahū ... Qawmun niyāmun tasallaw 'anhu bi-l-ḥulumi",
+      "frenchText": "Et comment des hommes endormis, qui se contentent de rêves dans ce monde, pourraient-ils saisir sa réalité ?",
+      "tafsirNote": "Incapacité de l'esprit distrait à percevoir les vérités spirituelles."
+    },
+    {
+      "id": "ch3_v23",
+      "chapterId": 3,
+      "verseNumber": 23,
+      "arabicText": "فَمَبْلَغُ الْعِلْمِ فِيهِ أَنَّهُ بَشَرٌ ... وَأَنَّهُ خَيْرُ خَلْقِ اللَّهِ كُلِّهِمِ",
+      "phoneticText": "Fa-mablaghu-l-'ilmi fīhi annahū basharun ... Wa annahū khayru khalqi-Llāhi kullihimi",
+      "frenchText": "Le sommet de notre connaissance à son sujet est qu'il est un être humain, et qu'il est la meilleure de toutes les créatures d'Allah.",
+      "tafsirNote": "Le verset le plus célèbre résumant la doctrine musulmane sur le Prophète ﷺ."
+    },
+    {
+      "id": "ch3_v24",
+      "chapterId": 3,
+      "verseNumber": 24,
+      "arabicText": "وَكُلُّ آيٍ أَتَى الرُّسْلُ الْكِرَامُ بِهَا ... فَإِنَّمَا اتَّصَلَتْ مِنْ نُورِهِ بِهِمِ",
+      "phoneticText": "Wa kullu āyin atā-r-ruslu-l-kirāmu bihā ... Fa-innamā-ttaṣalat min nūrihī bihimi",
+      "frenchText": "Et tous les miracles apportés par les nobles messagers n'ont été transmis que par l'effusion de sa lumière.",
+      "tafsirNote": "La doctrine de la Lumière Muhammadienne (Al-Nur Al-Muhammadi)."
+    },
+    {
+      "id": "ch3_v25",
+      "chapterId": 3,
+      "verseNumber": 25,
+      "arabicText": "فَإِنَّهُ شَمْسُ فَضْلٍ هُمْ كَوَاكِبُهَا ... يُظْهِرْنَ أَنْوَارَهَا لِلنَّاسِ فِي الظُّلَمِ",
+      "phoneticText": "Fa-innahū shamsu faḍlin hum kawākibuhā ... Yuẓhirna anwārahā li-n-nāsi fī-ẓ-ẓulami",
+      "frenchText": "Car il est le soleil du mérite dont les autres prophètes sont les étoiles qui en reflètent la lumière dans les ténèbres.",
+      "tafsirNote": "Métaphore des astres et de la lumière prophétique."
+    },
+    {
+      "id": "ch3_v26",
+      "chapterId": 3,
+      "verseNumber": 26,
+      "arabicText": "أَكْرِمْ بِخَلْقِ نَبِيٍّ زَانَهُ خُلُقٌ ... بِالْحُسْنِ مُشْتَمِلٍ بِالْبِشْرِ مُتَّسِمِ",
+      "phoneticText": "Akrim bi-khalqi nabiyyin zānahū khuluqun ... Bi-l-ḥusni mushtamilin bi-l-bishri muttasimi",
+      "frenchText": "Combien est noble la forme du Prophète, parée d'un caractère sublime, enveloppée de beauté et empreinte de bienveillance !",
+      "tafsirNote": "Description de l'aménité et du visage radieux du Prophète ﷺ."
+    },
+    {
+      "id": "ch3_v27",
+      "chapterId": 3,
+      "verseNumber": 27,
+      "arabicText": "كَالزَّهْرِ فِي تَرَفٍ وَالْبَدْرِ فِي شَرَفٍ ... وَالْبَحْرِ فِي كَرَمٍ وَالدَّهْرِ فِي هِمَمِ",
+      "phoneticText": "Ka-z-zahri fī tarafin wa-l-badri fī sharafin ... Wa-l-baḥri fī karamin wa-d-dahri fī himami",
+      "frenchText": "Pareil à la fleur en délicatesse, à la pleine lune en noblesse, à l'océan en générosité, et au temps en haute résolution !",
+      "tafsirNote": "Quatre comparaisons poétiques majeures du chapitre 3."
+    },
+    {
+      "id": "ch3_v28",
+      "chapterId": 3,
+      "verseNumber": 28,
+      "arabicText": "كَأَنَّهُ وَهْوَ فَرْدٌ مِنْ جَلالَتِهِ ... فِي عَسْكَرٍ حِينَ تَلْقَاهُ وَفِي حَشَمِ",
+      "phoneticText": "Ka-annahū wa huwa fardun min jalālatihī ... Fī 'askarin ḥīna talqāhu wa fī ḥashami",
+      "frenchText": "Seul, il semble entouré par sa majesté d'une armée entière et d'une suite nombreuse quand tu le rencontres.",
+      "tafsirNote": "Le charisme et la prestance naturelle accordés au Prophète ﷺ."
+    },
+    {
+      "id": "ch3_v29",
+      "chapterId": 3,
+      "verseNumber": 29,
+      "arabicText": "كَأَنَّمَا اللُّؤْلُؤُ الْمَكْنُونُ فِي صَدَفٍ ... مِنْ مَعْدِنَيْ مَنْطِقٍ مِنْهُ وَمُبْتَسَمِ",
+      "phoneticText": "Ka-annamā-l-lu'lu'u-l-maknūnu fī ṣadafin ... Min ma'dinay manṭiqin minhu wa mubtasami",
+      "frenchText": "Ses paroles et son sourire sont comme des perles cachées dans leur écrin de nacre.",
+      "tafsirNote": "La beauté de la parole (Jawami' Al-Kalim) et du sourire prophétique."
+    },
+    {
+      "id": "ch3_v30",
+      "chapterId": 3,
+      "verseNumber": 30,
+      "arabicText": "لا طِيبَ يَعْدِلُ تُرْبًا ضَمَّ أَعْظُمَهُ ... طُوبَى لِمُنْتَشِقٍ مِنْهُ وَمُنْتَثِمِ",
+      "phoneticText": "Lā ṭība ya'dilu turban ḍamma a'ẓumahū ... Ṭūbā li-muntashiqin minhu wa muntasimi",
+      "frenchText": "Nul parfum n'égale la terre qui renferme ses nobles restes ; heureux celui qui la respire ou la baise !",
+      "tafsirNote": "Le verset final du chapitre 3 sur la bénédiction de la terre de Médine Al-Munawwarah."
+    },
+    {
+      "id": "ch4_v1",
+      "chapterId": 4,
+      "verseNumber": 1,
+      "arabicText": "أَبَانَ مَوْلِدُهُ عَنْ طِيبِ عُنْصُرِهِ ... يَا طِيبَ مُبْتَدَإٍ مِنْهُ وَمُخْتَتَمِ",
+      "phoneticText": "Abāna mawliduhū 'an ṭībi 'unṣurihī ... Yā ṭība mubtada'in minhu wa mukhtatami",
+      "frenchText": "Sa naissance bénie a révélé la pureté de son origine ... Ô la merveille de son commencement et de sa fin !",
+      "tafsirNote": "Célébration du Mawlid An-Nabawi (la naissance prophétique) comme symbole de bénédiction universelle."
+    },
+    {
+      "id": "ch4_v2",
+      "chapterId": 4,
+      "verseNumber": 2,
+      "arabicText": "يَوْمٌ تَفَرَّسَ فِيهِ الْفُرْسُ أَنَّهُمُ ... قَدْ أُنْذِرُوا بِحُلُولِ الْبُؤْسِ وَالنِّقَمِ",
+      "phoneticText": "Yawmun tafarrasa fīhi-l-fursu annahumu ... Qad undhirū bi-ḥulūli-l-bu'si wa-n-niqami",
+      "frenchText": "Un jour où les Perses ont pressenti qu'ils étaient avertis de l'avènement du malheur et du châtiment de leur empire.",
+      "tafsirNote": "Les signes avant-coureurs marquant l'effondrement des tyrannies lors de la naissance du Prophète ﷺ."
+    },
+    {
+      "id": "ch4_v3",
+      "chapterId": 4,
+      "verseNumber": 3,
+      "arabicText": "وَبَاتَ إِوَانُ كِسْرَى وَهْوَ مُنْصَدِعٌ ... كَشَمْلِ أَصْحَابِ كِسْرَى غَيْرَ مُلْتَئِمِ",
+      "phoneticText": "Wa bāta iwānu Kisrā wa huwa munṣadi'un ... Ka-shamli aṣḥābi Kisrā ghayra multa'imi",
+      "frenchText": "Le palais de Chosroès s'est fissuré pendant la nuit, tout comme l'unité des partisans du roi perse fut irrémédiablement brisée.",
+      "tafsirNote": "Le prodige de la fêlure de l'Iwan de Chosroès à la naissance bénie."
+    },
+    {
+      "id": "ch4_v4",
+      "chapterId": 4,
+      "verseNumber": 4,
+      "arabicText": "وَالنَّارُ خَامِدَةُ الأَنْفَاسِ مِنْ أَسَفٍ ... عَلَيْهِ وَالنَّهْرُ سَاهِي الْعَيْنِ مِنْ سَدَمِ",
+      "phoneticText": "Wa-n-nāru khāmidatu-l-anfāsi min asafin ... 'Alayhi wa-n-nahru sāhī-l-'ayni min sadami",
+      "frenchText": "Le feu sacré des Mages s'est éteint de chagrin, et le fleuve asséché a arrêté son cours dans l'affliction.",
+      "tafsirNote": "L'extinction du feu sacré des zoroastriens brulant depuis mille ans."
+    },
+    {
+      "id": "ch4_v5",
+      "chapterId": 4,
+      "verseNumber": 5,
+      "arabicText": "وَسَاءَ سَاوَةَ أَنْ غَاضَتْ بُحَيْرَتُهَا ... وَرُدَّ وَارِدُهَا بِالْغَيْظِ حِينَ طَمِي",
+      "phoneticText": "Wa sā'a Sāwata an ghāḍat buḥayratuhā ... Wa rudda wāriduhā bi-l-ghayẓi ḥīna ṭamī",
+      "frenchText": "Il fut douloureux pour les habitants de Sâwah de voir leur lac s'assécher, et ceux qui y venaient chercher de l'eau en repartirent dépités.",
+      "tafsirNote": "L'assèchement soudain du lac de Sâwah marquant l'avènement de la lumière divine."
+    },
+    {
+      "id": "ch4_v6",
+      "chapterId": 4,
+      "verseNumber": 6,
+      "arabicText": "كَأَنَّ بِالنَّارِ مَا بِالْمَاءِ مِنْ أَسَفٍ ... زُهْدًا وَبِالْمَاءِ مَا بِالنَّارِ مِنْ ضَرَمِ",
+      "phoneticText": "Ka-anna bi-n-nāri mā bi-l-mā'i min asafin ... Zuhdan wa bi-l-mā'i mā bi-n-nāri min ḍarami",
+      "frenchText": "C'était comme si le feu avait partagé la tristesse de l'eau en s'éteignant, et comme si l'eau avait ressenti l'ardeur du feu en s'évaporant.",
+      "tafsirNote": "Harmonie poétique entre les éléments naturels soumis au décret d'Allah."
+    },
+    {
+      "id": "ch4_v7",
+      "chapterId": 4,
+      "verseNumber": 7,
+      "arabicText": "وَالْجِنُّ تَهْتِفُ وَالأَنْوَارُ سَاطِعَةٌ ... وَالْحَقُّ يَظْهَرُ مِنْ مَعْنًى وَمِنْ كَلِمِ",
+      "phoneticText": "Wa-l-jinnu tahtifu wa-l-anwāru sāṭi'atun ... Wa-l-ḥaqqu yaẓharu min ma'nan wa min kalimi",
+      "frenchText": "Les Djinns poussaient des cris d'annonce, les lumières resplendissaient, et la vérité apparaissait en essence et en paroles.",
+      "tafsirNote": "L'annonce faite par le monde invisible et le rayonnement cosmique du Mawlid."
+    },
+    {
+      "id": "ch4_v8",
+      "chapterId": 4,
+      "verseNumber": 8,
+      "arabicText": "عَمُوا وَصَمُّوا فإعْلانُ البَشَائِرِ لَمْ ... يُسْمَعْ وَبَارِقَةُ الإنْذارِ لَمْ تُشَمِ",
+      "phoneticText": "'Amū wa ṣammū fa-i'lānu-l-bashā'iri lam ... Yusma' wa bāriqatu-l-indhāri lam tushami",
+      "frenchText": "Mais ils devinrent aveugles et sourds : l'annonce de la joyeuse nouvelle ne fut point entendue, et l'éclair d'avertissement ne fut point aperçu.",
+      "tafsirNote": "L'aveuglement des mécréants face aux signes manifestes."
+    },
+    {
+      "id": "ch4_v9",
+      "chapterId": 4,
+      "verseNumber": 9,
+      "arabicText": "مِنْ بَعْدِ مَا أَخْبَرَ الأَقْوَامَ كَاهِنُهُمْ ... بِأَنَّ دِينَـهُمُ الْمُعْوَجَّ لَمْ يَقُمِ",
+      "phoneticText": "Min ba'di mā akhbara-l-aqwāma kāhinuhum ... Bi-anna dīnahumu-l-mu'wajja lam yaqumi",
+      "frenchText": "Et ce, après que leurs devins leur eurent annoncé que leur religion dévoyée ne subsisterait plus.",
+      "tafsirNote": "L'aveu des devins de l'époque païenne annonçant la fin des superstitions."
+    },
+    {
+      "id": "ch4_v10",
+      "chapterId": 4,
+      "verseNumber": 10,
+      "arabicText": "وَبَعْدَ مَا شَاهَدُوا فِي الأُفْقِ مِنْ شُهُبٍ ... مُنْضَرَّةٍ وَفْقَ مَا فِي الأَرْضِ مِنْ صَنَمِ",
+      "phoneticText": "Wa ba'da mā shāhadū fī-l-ufqi min shuhubin ... Munḍarratan wifqa mā fī-l-arḍi min ṣanami",
+      "frenchText": "Et après qu'ils eurent vu dans le ciel les étoiles filantes fondre sur la terre, abattant les idoles rangées sur le sol.",
+      "tafsirNote": "Le lapidage des démons par les météores pour protéger la révélation du Coran."
+    },
+    {
+      "id": "ch4_v11",
+      "chapterId": 4,
+      "verseNumber": 11,
+      "arabicText": "حَتَّى غَدَا عَنْ طَرِيقِ الْوَحْيِ مُنْهَزِمٌ ... مِنَ الشَّيَاطِينِ يَقْفُو إِثْرَ مُنْهَزِمِ",
+      "phoneticText": "Ḥattā ghadā 'an ṭarīqi-l-waḥyi munhazimun ... Mina-sh-shayāṭīni yaqfū ithra munhazimi",
+      "frenchText": "Si bien que les démons s'enfuirent en déroute loin du chemin de la Révélation, les uns talonnant les autres dans leur fuite.",
+      "tafsirNote": "La protection hermétique du ciel lors du début de la Révélation."
+    },
+    {
+      "id": "ch4_v12",
+      "chapterId": 4,
+      "verseNumber": 12,
+      "arabicText": "كَأَنَّهُمْ هَرَبًا أَبْطَالُ أَبْرَهَةٍ ... أَوْ عَسْكَرٌ بِالْحَصَى مِنْ رَاحَتَيْهِ رُمِي",
+      "phoneticText": "Ka-annahum haraban abṭālu Abrahata ... Aw 'askarun bi-l-ḥaṣā min rāḥatayhi rumī",
+      "frenchText": "Dans leur fuite, ils ressemblaient aux guerriers d'Abraha, ou à l'armée frappée par le jet de graviers sorti de ses mains bénies !",
+      "tafsirNote": "Rappel de l'évènement de l'Éléphant (Ashab Al-Fil) et de la bataille de Badr/Hunayn."
+    },
+    {
+      "id": "ch4_v13",
+      "chapterId": 4,
+      "verseNumber": 13,
+      "arabicText": "نَبْذًا بِهِ بَعْدَ تَسْبِيحٍ بِبَطْنِهِمَا ... نَبْذَ الْمُسَبِّحِ مِنْ أَحْشَاءِ مُلْتَقِمِ",
+      "phoneticText": "Nabdhan bihī ba'da tasbīḥin bi-baṭnihimā ... Nabdha-l-musabbiḥi min aḥshā'i multaqimi",
+      "frenchText": "Des graviers qui avaient célébré les louanges d'Allah au creux de ses paumes avant d'être lancés, comme le prophète Jonas célébrant Allah fut rejeté du ventre de la baleine !",
+      "tafsirNote": "Le miracle du tasbih des pierres dans la main du Prophète ﷺ et le parallélisme avec le prophète Jonas (Yunus)."
+    },
+    {
+      "id": "ch5_v1",
+      "chapterId": 5,
+      "verseNumber": 1,
+      "arabicText": "جَاءَتْ لِدَعْوَتِهِ الأَشْجَارُ سَاجِدَةً ... تَمْشِي إِلَيْهِ عَلَى سَاقٍ بِلا قَدَمِ",
+      "phoneticText": "Jā'at li-da'watihī-l-ashjāru sājidatan ... Tamshī ilayhi 'alā sāqin bilā qadami",
+      "frenchText": "À son appel, les arbres sont venus en se prosternant, avançant vers lui sur leur tronc sans pieds.",
+      "tafsirNote": "Le prodige des arbres obéissant à l'ordre prophétique et témoignant de sa mission."
+    },
+    {
+      "id": "ch5_v2",
+      "chapterId": 5,
+      "verseNumber": 2,
+      "arabicText": "كَأَنَّمَا كَتَبَتْ سَطْرًا لِمَا كَتَبَتْ ... فُرُوعُهَا مِنْ بَدِيعِ الْخَطِّ فِي اللَّقَمِ",
+      "phoneticText": "Ka-annamā katabat saṭran li-mā katabat ... Furū'uhā min badī'i-l-khaṭṭi fī-l-laqami",
+      "frenchText": "C'était comme si leurs branches traçaient sur le sol une ligne d'une calligraphie admirable pour écrire sa louange.",
+      "tafsirNote": "Superbe métaphore poétique sur le sillon tracé par les racines de l'arbre s'avançant."
+    },
+    {
+      "id": "ch5_v3",
+      "chapterId": 5,
+      "verseNumber": 3,
+      "arabicText": "مِثْلَ الْغَمَامَةِ أَنَّى سَارَ سَائِرَةً ... تَقِيهِ حَرَّ وَطِيسٍ لِلْهَجِيرِ حَمِي",
+      "phoneticText": "Mithla-l-ghamāmati annā sāra sā'iratan ... Taqīhi ḥarra waṭīsin li-l-hajīri ḥamī",
+      "frenchText": "Semblable au nuage qui le suivait partout où il allait, le protégeant de la chaleur cuisante du brasier de midi.",
+      "tafsirNote": "Le miracle de la nuée qui ombrageait le Prophète ﷺ dès sa jeunesse."
+    },
+    {
+      "id": "ch5_v4",
+      "chapterId": 5,
+      "verseNumber": 4,
+      "arabicText": "أَقْسَمْتُ بِالْقَمَرِ الْمُنْشَقِّ إِنَّ لَهُ ... مِنْ قَلْبِهِ نِسْبَةً مَبْرُورَةَ الْقَسَمِ",
+      "phoneticText": "Aqsamtu bi-l-qamari-l-munshaqqi inna lahū ... Min qalbihī nisbatan mabrūrata-l-qasami",
+      "frenchText": "J'en jure par la lune qui s'est fendue : il y a entre elle et son cœur une parenté qui rend le serment véridique.",
+      "tafsirNote": "Le miracle majeur de la fente de la lune (Inshiqaq Al-Qamar) à La Mecque."
+    },
+    {
+      "id": "ch5_v5",
+      "chapterId": 5,
+      "verseNumber": 5,
+      "arabicText": "وَمَا حَوَى الْغَارُ مِنْ خَيْرٍ وَمِنْ كَرَمِ ... وَكُلُّ طَرْفٍ مِنَ الكُفَّارِ عَنْهُ عَمِي",
+      "phoneticText": "Wa mā ḥawā-l-ghāru min khayrin wa min karami ... Wa kullu ṭarfin mina-l-kuffāri 'anhu 'amī",
+      "frenchText": "Et par ce que la grotte (de Thawr) renfermait de bien et de noblesse, alors que le regard de tous les mécréants fut frappé d'aveuglement !",
+      "tafsirNote": "L'épisode de la Hijrah et la protection divine dans la grotte de Thawr avec Abou Bakr (As-Siddiq)."
+    },
+    {
+      "id": "ch5_v6",
+      "chapterId": 5,
+      "verseNumber": 6,
+      "arabicText": "فَالصِّدْقُ فِي الْغَارِ وَالصِّدِّيقُ لَمْ يَرِمَا ... وَهُمْ يَقُولُونَ مَا بِالْغَارِ مِنْ أَرِمِ",
+      "phoneticText": "Fa-ṣ-ṣidqu fī-l-ghāri wa-ṣ-Ṣiddīqu lam yarimā ... Wa hum yaqūlūna mā bi-l-ghāri min arimi",
+      "frenchText": "Le Véridique (le Prophète) et le Très-Véridique (Abou Bakr) ne quittèrent point la grotte, tandis que les poursuivants disaient : \"Il n'y a personne dans la grotte !\"",
+      "tafsirNote": "Jeu de mots subtil en arabe entre Al-Sidq (la vérité prophétique) et Al-Siddiq (Abou Bakr)."
+    },
+    {
+      "id": "ch5_v7",
+      "chapterId": 5,
+      "verseNumber": 7,
+      "arabicText": "ظَنُّوا الْحَمَامَ وَظَنُّوا الْعَنْكَبُوتَ عَلَى ... خَيْرِ الْبَرِيَّةِ لَمْ تَنْتُجْ وَلَمْ تَقُمِ",
+      "phoneticText": "Ẓannū-l-ḥamāma wa ẓannū-l-'ankabūta 'alā ... Khayri-l-bariyyati lam tantuj wa lam taqumi",
+      "frenchText": "Ils s'imaginèrent que la colombe et l'araignée n'auraient ni couvé leurs œufs ni tissé leur toile au-dessus du Meilleur des créatures.",
+      "tafsirNote": "Les miracles de la toile d'araignée et du nid de colombes scellant l'entrée de la grotte."
+    },
+    {
+      "id": "ch5_v8",
+      "chapterId": 5,
+      "verseNumber": 8,
+      "arabicText": "وِقَايَةُ اللَّهِ أَغْنَتْ عَنْ مُضَاعَفَةٍ ... مِنَ الدُُّرُوعِ وَعَنْ عَالٍ مِنَ الأُطُمِ",
+      "phoneticText": "Wiqāyatu-Llāhi aghnat 'an muḍā'afatin ... Mina-d-durū'i wa 'an 'ālin mina-l-uṭumi",
+      "frenchText": "La protection d'Allah a dispensé de porter des armures doublées et d'élever de hautes forteresses !",
+      "tafsirNote": "La foi pure en la protection divine surpasse toute défense matérielle."
+    },
+    {
+      "id": "ch5_v9",
+      "chapterId": 5,
+      "verseNumber": 9,
+      "arabicText": "مَا سَامَنِي الدَّهْرُ ضَيْمًا وَاسْتَجَرْتُ بِهِ ... إِلا وَنِلْتُ جِوَارًا مِنْهُ لَمْ يُضَمِ",
+      "phoneticText": "Mā sāmanī-d-dahru ḍayman wa-stajartu bihī ... Illā wa niltu jiwāran minhu lam yuḍami",
+      "frenchText": "Jamais le temps ne m'a causé une injustice sans que j'invoque sa protection et n'obtienne auprès de lui un refuge inexpugnable.",
+      "tafsirNote": "L'expérience personnelle de l'Imam Al-Busiri trouvant secours et guérison auprès du Messager d'Allah ﷺ."
+    },
+    {
+      "id": "ch5_v10",
+      "chapterId": 5,
+      "verseNumber": 10,
+      "arabicText": "وَلا الْتَمَسْتُ غِنَى الدَّارَيْنِ مِنْ يَدِهِ ... إِلا اسْتَلَمْتُ النَّدَى مِنْ خَيْرِ مُسْتَلَمِ",
+      "phoneticText": "Wa lā-ltamastu ghinā-d-dārayni min yadihī ... Illā-stalamtu-n-nadā min khayri mustalami",
+      "frenchText": "Et jamais je n'ai sollicité la richesse des deux mondes de sa main sans recevoir les dons de la meilleure des générosités.",
+      "tafsirNote": "L'abondance des bénédictions obtenues par l'amour du Prophète ﷺ."
+    },
+    {
+      "id": "ch5_v11",
+      "chapterId": 5,
+      "verseNumber": 11,
+      "arabicText": "لا تُنْكِرِ الْوَحْيَ مِنْ رُؤْيَاهُ إِنَّ لَهُ ... قَلْبًا إِذَا نَامَتِ الْعَيْنَـانِ لَمْ يَنَمِ",
+      "phoneticText": "Lā tunkiri-l-waḥya min ru'yāhu inna lahū ... Qalban idhā nāmati-l-'aynāni lam yanami",
+      "frenchText": "Ne nie point la Révélation venue dans ses rêves, car son cœur restait éveillé lorsque ses yeux dormaient.",
+      "tafsirNote": "La particularité prophétique (la vision spirituelle constante du cœur)."
+    },
+    {
+      "id": "ch5_v12",
+      "chapterId": 5,
+      "verseNumber": 12,
+      "arabicText": "وِذَاكَ حِينَ بُلُوغٍ مِنْ نُبُوَّتِهِ ... فَلَيْسَ يُنْكَرُ فِيهِ حَالُ مُحْتَلِمِ",
+      "phoneticText": "Wa dhāka ḥīna bulūghin min nubuwwatihī ... Fa-laysa yunkaru fīhi ḥālu muḥtalimi",
+      "frenchText": "Et cela se produisit lorsqu'il atteignit la plénitude de la prophétie ; ainsi l'état de songe ordinaire ne saurait lui être appliqué.",
+      "tafsirNote": "L'infaillibilité des songes des prophètes (Ru'ya Al-Anbiya)."
+    },
+    {
+      "id": "ch5_v13",
+      "chapterId": 5,
+      "verseNumber": 13,
+      "arabicText": "تَبَارَكَ اللَّهُ مَا وَحْيٌ بِمُكْتَسَبٍ ... وَلا نَبِيٌّ عَلَى غَيْبٍ بِمُتَّهَمِ",
+      "phoneticText": "Tabāraka-Llāhu mā waḥyun bi-muktasabin ... Wa lā nabiyyun 'alā ghaybin bi-muttahami",
+      "frenchText": "Béni soit Allah ! La Révélation ne s'acquiert point par effort, et nul prophète n'est suspect dans ce qu'il transmet de l'Inconnaissable.",
+      "tafsirNote": "La Révélation est un don pur d'Allah (Wahb divine) et non une acquisition humaine."
+    },
+    {
+      "id": "ch5_v14",
+      "chapterId": 5,
+      "verseNumber": 14,
+      "arabicText": "كَمْ أَبْرَأَتْ وَصِبًا بِاللَّمْسِ رَاحَتُهُ ... وَأَطْلَقَتْ أَرِبًا مِنْ رِبْقَةِ اللَّمَمِ",
+      "phoneticText": "Kam abra'at waṣiban bi-l-lamsi rāḥatuhū ... Wa aṭlaqat ariban min ribqati-l-lamami",
+      "frenchText": "Que de fois le contact de sa paume a guéri un malade souffrant, et délivré l'affligé des entraves de la folie !",
+      "tafsirNote": "Les miracles de guérison physique et spirituelle par le toucher béni du Prophète ﷺ."
+    },
+    {
+      "id": "ch5_v15",
+      "chapterId": 5,
+      "verseNumber": 15,
+      "arabicText": "وَأَحْيَتِ السَّنَةَ الشَّهْبَاءَ دَعْوَتُهُ ... حَتَّى حَكَتْ غُرَّةً فِي الْعَصْرِ الدَّهِمِ",
+      "phoneticText": "Wa aḥyati-s-sanata-sh-shahbā'a da'watuhū ... Ḥattā ḥakat ghurratan fī-l-'aṣri-d-dahimi",
+      "frenchText": "Et son invocation a redonné vie à l'année de sécheresse dévastatrice, au point d'en faire une tache de clarté au front des temps sombres.",
+      "tafsirNote": "Le miracle de la prière pour la pluie (Istisqa) exaucée à l'instant même."
+    },
+    {
+      "id": "ch5_v16",
+      "chapterId": 5,
+      "verseNumber": 16,
+      "arabicText": "بِعَارِضٍ جَادَ أَوْ خِلْتَ الْبِطَاحَ بِهَا ... سَيْبًا مِنَ الْيَمِّ أَوْ سَيْلاً مِنَ الْعَرِمِ",
+      "phoneticText": "Bi-'āriḍin jāda aw khilta-l-biṭāḥa bihā ... Sayban mina-l-yammi aw saylan mina-l-'arimi",
+      "frenchText": "Par une nuée généreuse qui déversa ses pluies, au point que l'on crut voir les vallées devenir un flot de la mer ou le torrent d'Al-'Arim !",
+      "tafsirNote": "L'abondance de l'eau jaillissant sous les bénédictions prophétiques."
+    },
+    {
+      "id": "ch6_v1",
+      "chapterId": 6,
+      "verseNumber": 1,
+      "arabicText": "دَعْنِي وَوَصْفِيَ آيَاتٍ لَهُ ظَهَرَتْ ... ظُهُورَ نَارِ الْقِرَى لَيْلاً عَلَى عََلَمِ",
+      "phoneticText": "Da'nī wa waṣfī āyātin lahū ẓaharat ... Ẓuhūra nāri-l-qirā laylan 'alā 'alami",
+      "frenchText": "Laisse-moi décrire les versets (miracles) apparus en sa faveur, aussi éclatants que le feu de l'hospitalité brillant la nuit sur le sommet d'une montagne.",
+      "tafsirNote": "Éloge des versets du Coran et des signes célestes accordés au Messager d'Allah ﷺ."
+    },
+    {
+      "id": "ch6_v2",
+      "chapterId": 6,
+      "verseNumber": 2,
+      "arabicText": "فَالـدُُّرُّ يَزْدَادُ حُسْنًا وَهْوَ مُنْتَظِمٌ ... وَلَيْسَ يَنْقُصُ قَدْرًا غَيْرَ مُنْتَظِمِ",
+      "phoneticText": "Fa-d-durru yazdādu ḥusnan wa huwa muntaẓimun ... Wa laysa yanquṣu qadran ghayra muntaẓimi",
+      "frenchText": "La perle gagne en beauté lorsqu'elle est enfilée en collier, mais ne perd rien de sa valeur lorsqu'elle est isolée.",
+      "tafsirNote": "Superbe métaphore poétique sur l'inimitabilité des versets du Coran, pris isolément ou dans leur ensemble."
+    },
+    {
+      "id": "ch6_v3",
+      "chapterId": 6,
+      "verseNumber": 3,
+      "arabicText": "فَمَا تَطُولُ طَالِعَاتُ المَدْحِ فِيهِ إِلى ... مَا فِيهِ مِنْ كَرَمِ الأَخْلاَقِ وَالشِّيَمِ",
+      "phoneticText": "Famā taṭūlu ṭāli'ātu-l-madḥi fīhi ilā ... Mā fīhi min karami-l-akhlāqi wa-sh-shiyami",
+      "frenchText": "Les éloges les plus sublimés ne sauraient atteindre la hauteur des vertus morales et des nobles caractères qu'il possède.",
+      "tafsirNote": "L'incommensurable noblesse du modèle coranique et prophétique."
+    },
+    {
+      "id": "ch6_v4",
+      "chapterId": 6,
+      "verseNumber": 4,
+      "arabicText": "آيَاتُ حَقٍّ مِنَ الرَّحْمَنِ مُحْدَثَةٌ ... قَدِيمَةٌ صِفَةُ المَوْصُوفِ بِالقِدَمِ",
+      "phoneticText": "Āyātu ḥaqqin mina-r-Raḥmāni muḥdathatun ... Qadīmatun ṣifatu-l-mawṣūfi bi-l-qidami",
+      "frenchText": "Ce sont des versets de vérité venus du Tout-Miséricordieux, récents par leur descente, mais éternels car ils sont l'attribut de Celui qui est Éternel.",
+      "tafsirNote": "La doctrine de l'incréation du Coran (Kalam Allah Al-Qadim) dans la théologie musulmane (Aqidah)."
+    },
+    {
+      "id": "ch6_v5",
+      "chapterId": 6,
+      "verseNumber": 5,
+      "arabicText": "لَمْ تَقْتَرِنْ بِزَمَانٍ وَهْيَ تُخْبِرُنَا ... عَنِ المَعَادِ وَعَنْ عَادٍ وَعَنْ إِرَمِ",
+      "phoneticText": "Lam taqtarin bi-zamānin wa hiya tukhbirunā ... 'Ani-l-ma'ādi wa 'an 'Ādin wa 'an Irami",
+      "frenchText": "Ils ne sont liés à aucun temps, bien qu'ils nous informent sur le Jour du Jugement comme sur les peuples passés d'Âad et d'Iram.",
+      "tafsirNote": "L'intemporalité du récit coranique embrassant le passé le plus reculé et l'éternité future."
+    },
+    {
+      "id": "ch6_v6",
+      "chapterId": 6,
+      "verseNumber": 6,
+      "arabicText": "دَامَتْ لَدَيْنَا فَفَاقَتْ كُلَّ مُعْجِزَةٍ ... مِنَ النَّبِيِّينَ إِذْ جَاءَتْ وَلَمْ تَدُمِ",
+      "phoneticText": "Dāmat ladaynā fa-fāqat kulla mu'jizatin ... Mina-n-nabiyyīna idh jā'at wa lam tadumi",
+      "frenchText": "Ces versets demeurent parmi nous pour toujours, surpassant ainsi tous les miracles des prophètes antérieurs qui sont apparus puis ont disparu.",
+      "tafsirNote": "Le Coran est le miracle éternel (Al-Mu'jizah Al-Baqiyah) préservé jusqu'à la fin des temps."
+    },
+    {
+      "id": "ch6_v7",
+      "chapterId": 6,
+      "verseNumber": 7,
+      "arabicText": "مُحَكَّمَاتٌ فَمَا يُبْقِينَ مِنْ شُبَهٍ ... لِذِي شِقَاقٍ وَلا يَبْغِينَ مِنْ حَكَمِ",
+      "phoneticText": "Muḥkamātun famā yubqīna min shubahin ... Li-dhī shiqāqin wa lā yabghīna min ḥakami",
+      "frenchText": "Des versets clairs et décisifs qui ne laissent aucun doute à l'opposant et n'ont besoin d'aucun autre juge !",
+      "tafsirNote": "La perspicacité des preuves coraniques qui réduisent les doutes à néant."
+    },
+    {
+      "id": "ch6_v8",
+      "chapterId": 6,
+      "verseNumber": 8,
+      "arabicText": "مَا حُورِبَتْ قَطُّ إِلاَّ عادَ مِنْ حَرَبٍ ... أَعْدَى الأَعَادِي إِلَيْهَا مُلْقِيَ السَّلَمِ",
+      "phoneticText": "Mā ḥūribat qaṭṭu illā 'āda min ḥarabin ... A'dā-l-a'ādī ilayhā mulqiya-s-salami",
+      "frenchText": "Jamais ils n'ont été combattus sans que le plus acharné des ennemis ne revienne du combat en déposant les armes !",
+      "tafsirNote": "La puissance de conviction du Coran qui convertit le cœur des plus féroces détracteurs."
+    },
+    {
+      "id": "ch6_v9",
+      "chapterId": 6,
+      "verseNumber": 9,
+      "arabicText": "رَدَّتْ بَلاغَتُهَا دَعْوَى مُعَارِضِهَا ... رَدَّ الغَيُورِ يَدَ الجَانِي عَنِ الحَرَمِ",
+      "phoneticText": "Raddat balāghatuhā da'wā mu'āriḍihā ... Radda-l-ghayūri yada-l-jānī 'ani-l-ḥarami",
+      "frenchText": "Sa perfection éloquente a repoussé la prétention de ses contradicteurs, comme un homme jaloux repousse la main de l'impie hors du sanctuaire sacré.",
+      "tafsirNote": "Le défi d'inimitabilité (Tahaddi) lancé à toute la poésie arabe."
+    },
+    {
+      "id": "ch6_v10",
+      "chapterId": 6,
+      "verseNumber": 10,
+      "arabicText": "لَهَا مَعَانٍ كَمَوْجِ البَحْرِ فِي مَدَدٍ ... وَفَوْقَ جَوْهَرِهِ فِي الحُسْنِ وَالقِيَمِ",
+      "phoneticText": "Lahā ma'ānin ka-mawji-l-baḥri fī madadin ... Wa fawqa jawharihī fī-l-ḥusni wa-l-qiyami",
+      "frenchText": "Ses significations sont comme les vagues de la mer en profondeur et en abondance, et surpassent ses perles en beauté et en valeur !",
+      "tafsirNote": "L'inestimable richesse spirituelle des sens du Coran."
+    },
+    {
+      "id": "ch6_v11",
+      "chapterId": 6,
+      "verseNumber": 11,
+      "arabicText": "فَلا تَعُدُّ وَلا تُحْصَى عَجَائِبُهَا ... وَلا تُسَامُ عَلَى الإِكْثَارِ بِالسَّأَمِ",
+      "phoneticText": "Falā ta'uddu wa lā tuḥṣā 'ajā'ibuhā ... Wa lā tusāmu 'alā-l-ikthāri bi-s-sa'ami",
+      "frenchText": "On ne saurait compter ni épuiser ses merveilles, et sa récitation répétée ne produit jamais la moindre lassitude.",
+      "tafsirNote": "Le miracle de la fraîcheur permanente du Coran lors de sa lecture quotidienne."
+    },
+    {
+      "id": "ch6_v12",
+      "chapterId": 6,
+      "verseNumber": 12,
+      "arabicText": "قَرَّتْ بِهَا عَيْنُ قَارِيهَا فَقُلْتُ لَهُ ... لَقَدْ ظَفِرْتَ بِحَبْلِ اللَّهِ فَاعْتَصِمِ",
+      "phoneticText": "Qarrat bihā 'aynu qārīhā fa-qultu lahū ... Laqad ẓafirta bi-ḥabli-Llāhi fa-t'aṣimi",
+      "frenchText": "L'œil de celui qui le récite s'en trouve réjoui ; je lui dis alors : \"Tu as saisi le câble d'Allah, attache-toi s'y fermement !\"",
+      "tafsirNote": "La paix du cœur (Sakinah) accordée aux lecteurs du Livre saint."
+    },
+    {
+      "id": "ch6_v13",
+      "chapterId": 6,
+      "verseNumber": 13,
+      "arabicText": "إِنْ تَتْلُهَا خِيفَةً مِنْ نَارِ لَظَى ... أَطْفَأْتَ نَارَ لَظَى مِنْ وِرْدِهَا الشَّبِمِ",
+      "phoneticText": "In tatluhā khīfatan min nāri laẓā ... Aṭfa'ta nāra laẓā min wirdihā-sh-shabimi",
+      "frenchText": "Si tu les récites par crainte du feu de l'Enfer, tu éteindras la passion de ce feu grâce à la fraîcheur de sa source baptismale.",
+      "tafsirNote": "La récitation du Coran comme rempart et délivrance du châtiment."
+    },
+    {
+      "id": "ch6_v14",
+      "chapterId": 6,
+      "verseNumber": 14,
+      "arabicText": "كَأَنَّهَا الحَوْضُ تَبْيَضُّ الوُجُوهُ بِهِ ... مِنَ العُصَاةِ وَقَدْ جَاءُوهُ كَالْحُمَمِ",
+      "phoneticText": "Ka-annahā-l-ḥawḍu tabyaḍḍu-l-wujūhu bihī ... Mina-l-'uṣāti wa qad jā'ūhu ka-l-ḥumami",
+      "frenchText": "Ses versets sont comme le Bassin prophétique (Al-Hawd) qui blanchit le visage des pécheurs venus à lui noirs comme du charbon.",
+      "tafsirNote": "La purification spirituelle apportée par le Coran au croyant repentant."
+    },
+    {
+      "id": "ch6_v15",
+      "chapterId": 6,
+      "verseNumber": 15,
+      "arabicText": "وَكَالصِّرَاطِ وَكَالمِيزَانِ مَعْدِلَةً ... فَالقِسْطُ مِنْ غَيْرِهَا فِي النَّاسِ لَمْ يَقُمِ",
+      "phoneticText": "Wa ka-ṣ-ṣirāṭi wa ka-l-mīzāni ma'dilatan ... Fa-l-qisṭu min ghayrihā fī-n-nāsi lam yaqumi",
+      "frenchText": "Ils sont comme le Pont (Al-Sirat) et la Balance (Al-Mizan) en toute justice ; sans eux, aucune équité ne saurait s'établir parmi les hommes.",
+      "tafsirNote": "Le Coran comme étalon suprême de justice sociale et morale."
+    },
+    {
+      "id": "ch6_v16",
+      "chapterId": 6,
+      "verseNumber": 16,
+      "arabicText": "لا تَعْجَبَنْ لِحَسُودٍ رَاحَ يُنْكِرُهَا ... تَجَاهُلاً وَهْوَ عَيْنُ الحَاذِقِ الفَهِمِ",
+      "phoneticText": "Lā ta'jaban li-ḥasūdin rāḥa yunkiruhā ... Tajāhulan wa huwa 'aynu-l-ḥādhiqi-l-fahimi",
+      "frenchText": "Ne t'étonne point qu'un envieux s'empresse de les nier par feinte ignorance, alors qu'il sait pertinemment la vérité en son âme !",
+      "tafsirNote": "L'entêtement orgueilleux des détracteurs de la foi."
+    },
+    {
+      "id": "ch6_v17",
+      "chapterId": 6,
+      "verseNumber": 17,
+      "arabicText": "قَدْ تُنْكِرُ العَيْنُ ضَوْءَ الشَّمْسِ مِنْ رَمَدٍ ... وَيُنْكِرُ الفَمُ طَعْمَ المَاءِ مِنْ سَقَمِ",
+      "phoneticText": "Qad tunkiru-l-'aynu ḍaw'a-sh-shamsi min ramadin ... Wa yunkiru-l-famu ṭa'ma-l-mā'i min saqami",
+      "frenchText": "L'œil malade peut nier la lumière du soleil en raison d'une ophtalmie, et la bouche altérée peut trouver l'eau pure amère à cause de la maladie !",
+      "tafsirNote": "Le verset final du chapitre 6 : formule poétique immortelle sur l'aveuglement spirituel."
+    },
+    {
+      "id": "ch7_v1",
+      "chapterId": 7,
+      "verseNumber": 1,
+      "arabicText": "يَا خَيْرَ مَنْ يَمَّمَ العَافُونَ سَاحَتَهُ ... سَعْيًا وَفَوْقَ مُتُونِ الأَيْنُقِ الرُّسُمِ",
+      "phoneticText": "Yā khayra man yammama-l-'āfūna sāḥatahū ... Sa'yan wa fawqa mutūni-l-aynuqi-r-rusumi",
+      "frenchText": "Ô toi, le meilleur de ceux vers la demeure duquel accourent les solliciteurs de grâce, à pied ou sur le dos de chamelles au pas rapide !",
+      "tafsirNote": "Éloge du Prophète ﷺ comme recours suprême des créatures en quête de grâce divine."
+    },
+    {
+      "id": "ch7_v2",
+      "chapterId": 7,
+      "verseNumber": 2,
+      "arabicText": "وَمَنْ هُوَ الآيَةُ الكُبْرَى لِمُعْتَبِرٍ ... وَمَنْ هُوَ النِّعْمَةُ العُظْمَى لِمُقْتَنِمِ",
+      "phoneticText": "Wa man huwa-l-Āyatu-l-Kubrā li-mu'tabirin ... Wa man huwa-n-Ni'matu-l-'Uẓmā li-muqtanimi",
+      "frenchText": "Toi qui es le plus grand miracle pour celui qui médite, et la plus immense bénédiction pour celui qui sait en tirer profit !",
+      "tafsirNote": "Le Prophète ﷺ est le signe suprême d'Allah et la miséricorde envoyée à l'univers (Rahmatan lil-'Alamin)."
+    },
+    {
+      "id": "ch7_v3",
+      "chapterId": 7,
+      "verseNumber": 3,
+      "arabicText": "سَرَيْتَ مِنْ حَرَمٍ لَيْلاً إِلَى حَرَمِ ... كَمَا سَرَى البَدْرُ فِي دَاجٍ مِنَ الظُّلَمِ",
+      "phoneticText": "Sarayta min ḥaramin laylan ilā ḥarami ... Kamā sarā-l-badru fī dājin mina-ẓ-ẓulami",
+      "frenchText": "Tu voyageas de nuit d'un Sanctuaire (La Mecque) à l'autre Sanctuaire (Jérusalem), comme la pleine lune s'avance dans les ténèbres obscures de la nuit.",
+      "tafsirNote": "Le début du Voyage Nocturne (Al-Isra) depuis la Mosquée Al-Haram jusqu'à la Mosquée Al-Aqsa."
+    },
+    {
+      "id": "ch7_v4",
+      "chapterId": 7,
+      "verseNumber": 4,
+      "arabicText": "وَبِتَّ تَرْقَى إِلَى أَنْ نِلْتَ مَنْزِلَةً ... مِنْ قَابِ قَوْسَيْنِ لَمْ تُدْرَكْ وَلَمْ تُرَمِ",
+      "phoneticText": "Wa bitta tarqā ilā an nilta manzilatan ... Min qābi qawsayni lam tudrak wa lam turami",
+      "frenchText": "Et tu ne me cesses d'élever durant cette nuit jusqu'à atteindre la station \"à la distance de deux arcs ou plus près encore\", station qu'aucun être n'a pu atteindre ni même convoiter !",
+      "tafsirNote": "L'Ascension céleste (Al-Mi'raj) jusqu'à la proximité divine ultime évoquée dans la Sévère du Coran (An-Najm)."
+    },
+    {
+      "id": "ch7_v5",
+      "chapterId": 7,
+      "verseNumber": 5,
+      "arabicText": "وَقَدَّمَتْكَ جَمِيعُ الأَنْبِيَاءِ بِهَا ... وَالرُُّسْلِ تَقْدِيمَ مَخْدُومٍ عَلَى خَدَمِ",
+      "phoneticText": "Wa qaddamatka jamī'u-l-anbiyā'i bihā ... Wa-r-rusli taqdīma makhdūmin 'alā khadami",
+      "frenchText": "Tous les prophètes et les messagers t'ont placé à leur tête lors de la prière à Jérusalem, comme les serviteurs s'effacent devant leur maître.",
+      "tafsirNote": "La prière réunissant tous les Prophètes sous la direction (Imamat) du Prophète Muhammad ﷺ à Al-Aqsa."
+    },
+    {
+      "id": "ch7_v6",
+      "chapterId": 7,
+      "verseNumber": 6,
+      "arabicText": "وَأَنْتَ تَخْتَرِقُ السَّبْعَ الطِّبَاقَ بِهِمْ ... فِي مَوْكِبٍ كُنْتَ فِيهِ صَاحِبَ العَلَمِ",
+      "phoneticText": "Wa anta takhtariqu-s-sab'a-ṭ-ṭibāqa bihim ... Fī mawkibin kunta fīhi ṣāḥiba-l-'alami",
+      "frenchText": "Tu as traversé les sept cieux superposés au milieu d'un cortège céleste dont tu portais l'étendard suprême.",
+      "tafsirNote": "La traversée glorieuse des 7 cieux accueillie par les prophètes et les anges."
+    },
+    {
+      "id": "ch7_v7",
+      "chapterId": 7,
+      "verseNumber": 7,
+      "arabicText": "حَتَّى إِذَا لَمْ تَدَعْ شَأْوًا لِمُسْتَبِقٍ ... مِنَ الدُُّنُوِّ وَلا مَرْقًى لِمُسْتَنِمِ",
+      "phoneticText": "Ḥattā idhā lam tada' sha'wan li-mustabiqin ... Mina-d-dunuwwi wa lā marqan li-mustanimi",
+      "frenchText": "Jusqu'à ce que tu ne laisses aucune limite dépasser pour un rival dans la proximité, ni aucun degré plus élevé à gravir pour un aspirant.",
+      "tafsirNote": "L'atteinte du sommet absolu de la proximité divine (Sidrat Al-Muntaha)."
+    },
+    {
+      "id": "ch7_v8",
+      "chapterId": 7,
+      "verseNumber": 8,
+      "arabicText": "خَفَضْتَ كُلَّ مَقَامٍ بِالإِضَافَةِ إِذْ ... نُودِيتَ بِالرَّفْعِ مِثْلَ المُفْرَدِ العَلَمِ",
+      "phoneticText": "Khafaḍta kulla maqāmin bi-l-iḍāfati idh ... Nūdīta bi-r-raf'i mithla-l-mufradi-l-'alami",
+      "frenchText": "Tu as éclipsé tous les rangs spirituels en comparaison du tien, lorsque tu fus appelé au rang suprême d'élévation comme le nom propre unique !",
+      "tafsirNote": "Jeu de mots grammatical arabe entre 'Khafd' (abaissement) et 'Raf'' (élévation)."
+    },
+    {
+      "id": "ch7_v9",
+      "chapterId": 7,
+      "verseNumber": 9,
+      "arabicText": "كَيْمَا تَفُوزَ بِوَصْلٍ أَيِّ مُسْتَتِرٍ ... عَنِ العُيُونِ وَسِرٍّ أَيِّ مُكْتَتِمِ",
+      "phoneticText": "Kaymā tafūza bi-waṣlin ayyi mustatirin ... 'Ani-l-'uyūni wa sirrin ayyi muktatimi",
+      "frenchText": "Afin que tu obtiennes l'union la plus voilée aux yeux des créatures et le secret le plus impénétrable !",
+      "tafsirNote": "La révélation des secrets divins accordée au Prophète ﷺ durant le Mi'raj."
+    },
+    {
+      "id": "ch7_v10",
+      "chapterId": 7,
+      "verseNumber": 10,
+      "arabicText": "فَحُزْتَ كُلَّ فِخَارٍ غَيْرَ مُشْتَرَكٍ ... وَجُزْتَ كُلَّ مَقَامٍ غَيْرَ مُزْدَحَمِ",
+      "phoneticText": "Fa-ḥuzta kulla fikhārin ghayra mushtarakin ... Wa juzta kulla maqāmin ghayra muzdaḥami",
+      "frenchText": "Tu as ainsi recueilli tous les titres de gloire sans associé, et franchi tous les degrés sans rivalité.",
+      "tafsirNote": "L'exclusivité des privilèges accordés par Allah à Son Bien-Aimé ﷺ."
+    },
+    {
+      "id": "ch7_v11",
+      "chapterId": 7,
+      "verseNumber": 11,
+      "arabicText": "وَجَلَّ مِقْدَارُ مَا وُلِّيتَ مِنْ رُتَبٍ ... وَعَزَّ إِدْرَاكُ مَا أُولِيتَ مِنْ نِعَمِ",
+      "phoneticText": "Wa jalla miqdāru mā wullīta min rutabin ... Wa 'azza idrāku mā ūlīta min ni'ami",
+      "frenchText": "Combien est sublime la grandeur des rangs qui t'ont été confiés, et combien est hors de portée la compréhension des bienfaits qui t'ont été octroyés !",
+      "tafsirNote": "L'incommensurable valeur des grâces accordées au Messager ﷺ."
+    },
+    {
+      "id": "ch7_v12",
+      "chapterId": 7,
+      "verseNumber": 12,
+      "arabicText": "بُشْرَى لَنَا مَعْشَرَ الإِسْلامِ إِنَّ لَنَا ... مِنَ العِنَايَةِ رُكْنًا غَيْرَ مُنْهَدِمِ",
+      "phoneticText": "Bushrā lanā ma'shara-l-Islāmi inna lanā ... Mina-l-'ināyati ruknan ghayra munhadimi",
+      "frenchText": "Joyeuse nouvelle pour nous, communauté de l'Islam ! Car nous possédons grâce à la sollicitude divine un pilier inébranlable.",
+      "tafsirNote": "La fierté et la certitude de la communauté musulmane (Ummah) sous la protection du Prophète ﷺ."
+    },
+    {
+      "id": "ch7_v13",
+      "chapterId": 7,
+      "verseNumber": 13,
+      "arabicText": "لَمَّا دَعَا اللَّهُ دَاعِينَا لِطَاعَتِهِ ... بِأَكْرَمِ الرُُّسْلِ كُنَّا أَكْرَمَ الأُمَمِ",
+      "phoneticText": "Lammā da'ā-Llāhu dā'īnā li-ṭā'atihī ... Bi-akrami-r-rusli kunnā akrama-l-umami",
+      "frenchText": "Lorsque Allah a qualifié notre Guide appelant à Son obéissance du titre du \"Plus Noble des Messagers\", nous sommes devenus la plus noble des nations !",
+      "tafsirNote": "Le verset final du chapitre 7 reliant la grandeur de la communauté musulmane au rang de son Prophète ﷺ."
+    },
+    {
+      "id": "ch8_v1",
+      "chapterId": 8,
+      "verseNumber": 1,
+      "arabicText": "رَاعَتْ قُلُوبَ العِدَى أَنْبَاءُ بِعْثَتِهِ ... كَنَبْأَةٍ أَفْزَعَتْ غُفْلاً مِنَ النَّعَمِ",
+      "phoneticText": "Rā'at qulūba-l-'idā anbā'u bi'thatihī ... Ka-nab'atin afza'at ghuflan mina-n-na'ami",
+      "frenchText": "L'annonce de sa mission a effrayé le cœur des ennemis, comme le rugissement du lion terrifie un troupeau sans surveillance.",
+      "tafsirNote": "Verset 1 du Chapitre 8 : L'impact retentissant de l'avènement de l'Islam sur les ennemis de la foi."
+    },
+    {
+      "id": "ch8_v2",
+      "chapterId": 8,
+      "verseNumber": 2,
+      "arabicText": "مَا زَالَ يَلْقَاهُمُ فِي كُلِّ مُعْتَرَكٍ ... حَتَّى حَكَوْا بِالقَنَا لَحْمًا عَلَى وَضَمِ",
+      "phoneticText": "Mā zāla yalqāhumu fī kulli mu'tarakin ... Ḥattā ḥakaw bi-l-qanā laḥman 'alā waḍami",
+      "frenchText": "Il n'a cessé de les affronter sur chaque champ de bataille jusqu'à ce que leurs javelots les laissent comme de la chair sur l'étal.",
+      "tafsirNote": "La bravoure et la fermeté du Prophète ﷺ et de ses compagnons face à l'oppression."
+    },
+    {
+      "id": "ch8_v3",
+      "chapterId": 8,
+      "verseNumber": 3,
+      "arabicText": "وَدُّوا الفِرَارَ فَكادُوا يَغْبِطُونَ بِهِ ... أَبْطَالَ شَالَتْ مَثَالِيهِمْ مَعَ الرَخَمِ",
+      "phoneticText": "Waddū-l-firāra fa-kādū yaghibṭūna bihī ... Abṭāla shālat mathālīhim ma'a-r-rakhami",
+      "frenchText": "Ils auraient voulu fuir au point d'envier les membres découpés des guerriers emportés par les vautours !",
+      "tafsirNote": "La déroute des coalisés païens face à la détermination des croyants."
+    },
+    {
+      "id": "ch8_v4",
+      "chapterId": 8,
+      "verseNumber": 4,
+      "arabicText": "تَمْضِي اللَّيَالِي وَلا يَدْرُونَ عِدَّتَهَا ... مَا لَمْ تَكُنْ مِنْ لَيَالِي الأَشْهُرِ الحُرُمِ",
+      "phoneticText": "Tamḍī-l-layālī wa lā yadrūna 'iddatahā ... Mā lam takun min layālī-l-ashhuri-l-ḥurumi",
+      "frenchText": "Les nuits s'écoulaient sans qu'ils en comptent le nombre, sauf quand venaient les nuits des mois sacrés.",
+      "tafsirNote": "Le respect absolu des mois sacrés (Al-Ashhur Al-Hurum) durant lesquels toute guerre est proscrite."
+    },
+    {
+      "id": "ch8_v5",
+      "chapterId": 8,
+      "verseNumber": 5,
+      "arabicText": "كَأَنَّمَا الدِّينُ ضَيْفٌ حَلَّ سَاحَتَهُمْ ... بِكُلِّ مُنْجَرِدٍ يَبْغِي قِرَى اللَّحَمِ",
+      "phoneticText": "Ka-annamā-d-dīnu ḍayfun ḥalla sāḥatahum ... Bi-kulli munjaridin yabghī qirā-l-laḥami",
+      "frenchText": "C'était comme si la Foi était un hôte installé au milieu d'eux avec chaque coursier rapide avide de victoire.",
+      "tafsirNote": "La vivacité des compagnons protégeant le message de l'Islam."
+    },
+    {
+      "id": "ch8_v6",
+      "chapterId": 8,
+      "verseNumber": 6,
+      "arabicText": "يَجُرُّ بَحْرَ خَمِيسٍ فَوْقَ سَابِحَةٍ ... يَرْمِي بِمَوْجٍ مِنَ الأَبْطَالِ المُلْتَطِمِ",
+      "phoneticText": "Yajurru baḥra khamīsin fawqa sābiḥatin ... Yarmī bi-mawjin mina-l-abṭāli-l-multaṭimi",
+      "frenchText": "Entraînant une mer d'armées chevauchant des montures rapides, lançant des vagues de héros déferlants.",
+      "tafsirNote": "Description épique des armées de la vérité lors des grandes batailles."
+    },
+    {
+      "id": "ch8_v7",
+      "chapterId": 8,
+      "verseNumber": 7,
+      "arabicText": "مِنْ كُلِّ مُنْتَدِبٍ لِلَّهِ مُحْتَسِبٍ ... يَصُولُ بِالْمُسْتَأْصِلِ لِلْكُفْرِ وَالْوَضَمِ",
+      "phoneticText": "Min kulli muntadibin li-Llāhi muḥtasibin ... Yaṣūlu bi-l-musta'ṣili li-l-kufri wa-l-waḍami",
+      "frenchText": "Formée de combattants dévoués à Allah et chercheurs de Sa seule satisfaction, fondant sur l'ennemi pour déraciner l'impiété.",
+      "tafsirNote": "La pureté d'intention (Ikhlas) des compagnons du Prophète ﷺ."
+    },
+    {
+      "id": "ch8_v8",
+      "chapterId": 8,
+      "verseNumber": 8,
+      "arabicText": "حَتَّى غَدَتْ مِلَّةُ الإِسْلامِ وَهْيَ بِهِمْ ... مِنْ بَعْدِ غُرْبَتِهَا مَوْصُولَةَ الرَّحِمِ",
+      "phoneticText": "Ḥattā ghadat millatu-l-Islāmi wa hiya bihim ... Min ba'di ghurbatihā mawṣūlata-r-raḥimi",
+      "frenchText": "Jusqu'à ce que la religion de l'Islam devienne grâce à eux, après son début isolé, une communauté aux liens puissants.",
+      "tafsirNote": "Le passage de l'isolement initial au rayonnement mondial de la religion."
+    },
+    {
+      "id": "ch8_v9",
+      "chapterId": 8,
+      "verseNumber": 9,
+      "arabicText": "مَكْفُولَةً أَبَدًا مِنْهُمْ بِخَيْرِ أَبٍ ... وَخَيْرِ بَعْلٍ فَلَمْ تَيْتَمْ وَلَمْ تَاَيَمِ",
+      "phoneticText": "Makfūlatan abadan minhum bi-khayri abin ... Wa khayri ba'lin falam taytam wa lam ta'ayami",
+      "frenchText": "Protégée pour toujours par le meilleur des pères et le meilleur des époux, de sorte qu'elle ne fut jamais orpheline ni délaissée !",
+      "tafsirNote": "La bienveillance permanente du Prophète ﷺ envers sa communauté."
+    },
+    {
+      "id": "ch8_v10",
+      "chapterId": 8,
+      "verseNumber": 10,
+      "arabicText": "هُمُ الجِبَالُ فَسَلْ عَنْهُمْ مُصَادِمَهُمْ ... مَاذَا رَأَى مِنْهُمُ فِي كُلِّ مُصْطَدَمِ",
+      "phoneticText": "Humu-l-jibālu fa-sal 'anhum muṣādimahum ... Mādhā ra'ā minhumu fī kulli muṣṭadami",
+      "frenchText": "Ils sont comme des montagnes immuables ! Interroge donc leurs adversaires sur ce qu'ils ont éprouvé à leur contact à chaque choc !",
+      "tafsirNote": "L'éloge de la fermeté inébranlable des Sahabas."
+    },
+    {
+      "id": "ch8_v11",
+      "chapterId": 8,
+      "verseNumber": 11,
+      "arabicText": "وَسَلْ حُنَيْنًا وَسَلْ بَدْرًا وَسَلْ أُحُدًا ... فُصُولَ حَتْفٍ لَهُمْ أَذْهَى مِنَ الوَخَمِ",
+      "phoneticText": "Wa sal Ḥunaynan wa sal Badran wa sal Uḥudan ... Fuṣūla ḥatfin lahum ad-hā mina-l-wakhami",
+      "frenchText": "Interroge Hunayn, interroge Badr et interroge Uhud : ce furent pour eux des leçons de destin plus foudroyantes que la peste !",
+      "tafsirNote": "Les trois batailles majeures de l'histoire de l'Islam."
+    },
+    {
+      "id": "ch8_v12",
+      "chapterId": 8,
+      "verseNumber": 12,
+      "arabicText": "الْمُصْدِرِي البِيضِ حُمْرًا بَعْدَ مَا وَرَدَتْ ... مِنَ العِدَى كُلَّ مُسْوَدٍّ مِنَ اللِّمَمِ",
+      "phoneticText": "Al-muṣdirī-l-bīḍi ḥumran ba'da mā waradat ... Mina-l-'idā kulla muswaddin mina-l-limami",
+      "frenchText": "Ceux qui teintaient de rouge leurs sabres étincelants après avoir frappé la chevelure sombre de l'ennemi.",
+      "tafsirNote": "Description poétique de la victoire décisive."
+    },
+    {
+      "id": "ch8_v13",
+      "chapterId": 8,
+      "verseNumber": 13,
+      "arabicText": "وَالكَاكِبِينَ كِتَابَ الخَطِّ بِالقَنَا ... لَمْ تَبْقَ أَقْلاَمُهُمْ جِسْمًا بِلا قَلَمِ",
+      "phoneticText": "Wa-l-kātibīna kitāba-l-khaṭṭi bi-l-qanā ... Lam tabqa aqlāmuhum jisman bilā qalami",
+      "frenchText": "Et qui écrivaient l'histoire avec la pointe de leurs lances, ne laissant aucun ennemi sans que leur lance ne signe sa défaite !",
+      "tafsirNote": "Métaphore entre la plume et la lance."
+    },
+    {
+      "id": "ch8_v14",
+      "chapterId": 8,
+      "verseNumber": 14,
+      "arabicText": "شَاكِي السِّلاَحِ لَهُمْ سِيمَا تُمَيِّزُهُمْ ... وَالْوَرْدُ يَمْتَازُ بِالسِّيمَا مِنَ السَّلَمِ",
+      "phoneticText": "Shākī-s-silāḥi lahum sīmā tumayyizuhum ... Wa-l-wardu yamtāzu bi-s-sīmā mina-s-salami",
+      "frenchText": "Superbement armés, ils possédaient une marque distinctive qui les distinguait, tout comme la rose se distingue du buisson d'épines par son éclat !",
+      "tafsirNote": "La noblesse et l'éclat des héros de la foi."
+    },
+    {
+      "id": "ch8_v15",
+      "chapterId": 8,
+      "verseNumber": 15,
+      "arabicText": "تُهْدِي إِلَيْكَ نَسِيمَ النَّصْرِ نَفْحَتُهُمْ ... فَتَحْسَبُ الزَّهْرَ فِي الأَكْمَامِ كُلَّ كَمِي",
+      "phoneticText": "Tuhdī ilayka nasīma-n-naṣri nafḥatuhum ... Fa-taḥsabu-z-zahra fī-l-akmāmi kulla kamī",
+      "frenchText": "Leur seul souffle te transmet la brise de la victoire, au point que tu prendrais chaque fleur dans son calice pour un guerrier sous son casque !",
+      "tafsirNote": "L'atmosphère de victoire inspirée par le Prophète ﷺ."
+    },
+    {
+      "id": "ch8_v16",
+      "chapterId": 8,
+      "verseNumber": 16,
+      "arabicText": "كَأَنَّهُمْ فِي ظُهُورِ الخَيْلِ نَبْتُ رُبًى ... مِنْ شِدَّةِ الحَزْمِ لا مِنْ شِدَّةِ الحُزُمِ",
+      "phoneticText": "Ka-annahum fī ẓuhūri-l-khayli nabtu ruban ... Min shiddati-l-ḥazmi lā min shiddati-l-ḥuzumi",
+      "frenchText": "Sur le dos de leurs chevaux, ils semblaient faire corps avec leurs montures comme des arbres enracinés sur des collines, par la force de leur résolution !",
+      "tafsirNote": "L'habileté équestre et la détermination sans faille des Sahabas."
+    },
+    {
+      "id": "ch8_v17",
+      "chapterId": 8,
+      "verseNumber": 17,
+      "arabicText": "طَارَتْ قُلُوبُ العِدَى مِنْ بَأْسِهِمْ فَرَقًا ... فَمَا تُفَرِّقُ بَيْنَ البَهْمِ وَالبَهَمِ",
+      "phoneticText": "Ṭārat qulūbu-l-'idā min ba'sihim faraqan ... Famā tufarriqu bayna-l-bahmi wa-l-bahami",
+      "frenchText": "Le cœur des ennemis s'est envolé de terreur devant leur valeur, au point de ne plus distinguer un vaillant guerrier d'un agneau craintif !",
+      "tafsirNote": "La terreur inspirée aux oppresseurs."
+    },
+    {
+      "id": "ch8_v18",
+      "chapterId": 8,
+      "verseNumber": 18,
+      "arabicText": "وَمَنْ تَكُنْ بِرَسُولِ اللَّهِ نُصْرَتُهُ ... إِنْ تَلْقَهُ الأُسْدُ فِي أَجَامِهَا تَجِمِ",
+      "phoneticText": "Wa man takun bi-Rasūli-Llāhi nuṣratuhū ... In talqahu-l-usdu fī ajāmihā tajimi",
+      "frenchText": "Quiconque obtient le secours du Messager d'Allah : si les lions le rencontrent dans leurs tanières, ils se soumettent à lui !",
+      "tafsirNote": "Le verset majeur sur la protection invincible accordée par le Prophète ﷺ."
+    },
+    {
+      "id": "ch8_v19",
+      "chapterId": 8,
+      "verseNumber": 19,
+      "arabicText": "وَلَنْ تَرَى مِنْ وَلِيٍّ غَيْرِ مُنْتَصِرٍ ... بِهِ وَلا مِنْ عَدُوٍّ غَيْرِ مُنْقَصِمِ",
+      "phoneticText": "Wa lan tarā min waliyyin ghayri muntasirin ... Bihī wa lā min 'aduwwin ghayri munqaṣimi",
+      "frenchText": "Tu ne verras aucun de ses alliés qui ne soit victorieux grâce à lui, ni aucun de ses ennemis qui ne soit brisé !",
+      "tafsirNote": "Le triomphe de la vérité sur le mensonge."
+    },
+    {
+      "id": "ch8_v20",
+      "chapterId": 8,
+      "verseNumber": 20,
+      "arabicText": "أَحَلَّ أُمَّتَهُ فِي حِرْزِ مِلَّتِهِ ... كَاللَّيْثِ حَلَّ مَعَ الأَشْبَالِ فِي غَجَمِ",
+      "phoneticText": "Aḥalla ummatahū fī ḥirzi millatihī ... Ka-l-laythi ḥalla ma'a-l-ashbāli fī ghajami",
+      "frenchText": "Il a établi sa communauté dans l'asile inviolable de sa religion, comme le lion s'installe avec ses lionceaux dans une forêt impénétrable.",
+      "tafsirNote": "La sécurité spirituelle garantie de la communauté islamique."
+    },
+    {
+      "id": "ch8_v21",
+      "chapterId": 8,
+      "verseNumber": 21,
+      "arabicText": "كَمْ أَعْزَرَتْ كَلِمَاتُ اللَّهِ مِنْ جَدَلٍ ... فِيهِ وَكَمْ خَصَمَ الْبُرْهَانُ مِنْ خَصِمِ",
+      "phoneticText": "Kam a'zarat kalimātu-Llāhi min jadalin ... Fīhi wa kam khaṣama-l-burhānu min khaṣimi",
+      "frenchText": "Que de polémiques les paroles d'Allah ont réduites au silence à son sujet, et que d'adversaires la preuve éclatante du Coran a confondus !",
+      "tafsirNote": "La victoire intellectuelle et théologique de la Révélation."
+    },
+    {
+      "id": "ch8_v22",
+      "chapterId": 8,
+      "verseNumber": 22,
+      "arabicText": "كَفَاكَ بِالْعِلْمِ فِي الأُمِّيِّ مُعْجِزَةً ... فِي الْجَاهِلِيَّةِ وَالتَّأْدِيبِ فِي الْيَتَمِ",
+      "phoneticText": "Kafāka bi-l-'ilmi fī-l-ummiyyi mu'jizatan ... Fī-l-jāhiliyyati wa-t-ta'dībi fī-l-yatami",
+      "frenchText": "Il te suffit comme miracle d'admirer la science chez un Prophète illettré au milieu de l'ignorance, et la perfection du comportement chez un orphelin !",
+      "tafsirNote": "Verset 22 (Fin ultime du Chapitre 8) : Le miracle éclatant du savoir d'un Prophète Ummi (illettré) et orphelin éduqué directement par Allah."
+    },
+    {
+      "id": "ch9_v1",
+      "chapterId": 9,
+      "verseNumber": 1,
+      "arabicText": "خَدَمْتُهُ بِمَدِيحٍ أَسْتَقِيلُ بِهِ ... ذُنُوبَ عُمْرٍ مَضَى فِي الشِّعْرِ وَالْخِدَمِ",
+      "phoneticText": "Khadamtuhū bi-madīḥin astaqīlu bihī ... Dhunūba 'umrin maḍā fī-sh-shi'ri wa-l-khidami",
+      "frenchText": "Je l'ai servi en composant son éloge, dans l'espoir qu'Allah me pardonne les péchés d'une vie entière passée dans la poésie et au service des princes.",
+      "tafsirNote": "Le repentir sincère de l'Imam Al-Busiri consacrant désormais son art exclusivement à l'éloge prophétique."
+    },
+    {
+      "id": "ch9_v2",
+      "chapterId": 9,
+      "verseNumber": 2,
+      "arabicText": "إِذْ قَلَّدَانِيَ مَا تُخْشَى عَوَاقِبُهُ ... كَأَنَّنِي بِهِمَا هَدْيٌ مِنَ النَّعَمِ",
+      "phoneticText": "Idh qalladāniya mā tukhshā 'awāqibuhū ... Ka-annanī bihimā hadyun mina-n-na'ami",
+      "frenchText": "Car ces deux occupations m'avaient chargé d'un fardeau dont on redoute les conséquences, comme une offrande vouée au sacrifice.",
+      "tafsirNote": "La prise de conscience du fardeau des erreurs passées avant le retour vers Allah."
+    },
+    {
+      "id": "ch9_v3",
+      "chapterId": 9,
+      "verseNumber": 3,
+      "arabicText": "أَطَعْتُ غَيَّ الصِّبَا فِي الْحَالَتَيْنِ وَمَا ... حَصَلْتُ إِلاَّ عَلَى الآثَامِ وَالنَّدَمِ",
+      "phoneticText": "Aṭa'tu ghayya-ṣ-ṣibā fī-l-ḥālatayni wa mā ... Ḥaṣaltu illā 'alā-l-āthāmi wa-n-nadami",
+      "frenchText": "J'ai obéi aux égarements de la jeunesse dans ces deux voies, et n'en ai retiré que péchés et remords.",
+      "tafsirNote": "La contrition du poète regrettant le temps perdu loin de la dévotion."
+    },
+    {
+      "id": "ch9_v4",
+      "chapterId": 9,
+      "verseNumber": 4,
+      "arabicText": "فَيَا خَسَارَةَ نَفْسٍ فِي تِجَارَتِهَا ... لَمْ تَشْتَرِ الدِّينَ بِالدُّنْيَا وَلَمْ تَسُمِ",
+      "phoneticText": "Fa-yā khasārata nafsin fī tijāratihā ... Lam tashtari-d-dīna bi-d-dunyā wa lam tasumi",
+      "frenchText": "Quelle perte immense pour une âme dans son commerce : n'avoir point acheté la religion au prix du monde, ni même cherché à négocier le salut !",
+      "tafsirNote": "Allégorie du commerce spirituel (Tijarah) évoqué dans le Coran."
+    },
+    {
+      "id": "ch9_v5",
+      "chapterId": 9,
+      "verseNumber": 5,
+      "arabicText": "وَمَنْ يَبِعْ آَجِلاً مِنْهُ بِعَاجِلِهِ ... يَبِنْ لَهُ الْغَبْنُ فِي بَيْعٍ وَفِي سَلَمِ",
+      "phoneticText": "Wa man yabi' ājilan minhu bi-'ājilihī ... Yabin lahu-l-ghabnu fī bai'in wa fī salami",
+      "frenchText": "Et quiconque vend son éternité future pour son présent éphémère verra éclater sa tromperie dans sa transaction !",
+      "tafsirNote": "Avertissement contre l'illusion des plaisirs éphémères du bas-monde."
+    },
+    {
+      "id": "ch9_v6",
+      "chapterId": 9,
+      "verseNumber": 6,
+      "arabicText": "إِنْ آتِ ذَنْبًا فَمَا عَهْدِي بِمُنْقَضِضٍ ... مِنَ النَّبِيِّ وَلا حَبْلِي بِمُنْصَرِمِ",
+      "phoneticText": "In āti dhanban famā 'ahdī bi-munqaḍiḍin ... Mina-n-nabiyyi wa lā ḥablī bi-munṣarimi",
+      "frenchText": "Si j'ai commis un péché, mon pacte avec le Prophète n'est point brisé, et mon lien avec lui n'est pas rompu !",
+      "tafsirNote": "L'espérance inébranlable en la miséricorde d'Allah et l'amour du Messager ﷺ."
+    },
+    {
+      "id": "ch9_v7",
+      "chapterId": 9,
+      "verseNumber": 7,
+      "arabicText": "فَإِنَّ لِي ذِمَّةً مِنْهُ بِتَسْمِيَتِي ... مُحَمَّدًا وَهْوَ أَوْفَى الْخَلْقِ بِالذِّمَمِ",
+      "phoneticText": "Fa-inna lī dhimmatan minhu bi-tasmiyatī ... Muḥammadan wa huwa awfā-l-khalqi bi-dh-dhimami",
+      "frenchText": "Car j'ai une garantie auprès de lui du fait que je porte le nom de Muhammad, et il est le plus fidèle des hommes à ses engagements !",
+      "tafsirNote": "La bénédiction attachée au noble nom du Prophète Muhammad ﷺ."
+    },
+    {
+      "id": "ch9_v8",
+      "chapterId": 9,
+      "verseNumber": 8,
+      "arabicText": "إِنْ لَمْ يَكُنْ فِي مَعَادِي آخِذًا بِيَدِي ... فَضْلاً وَإِلاَّ فَقُلْ يَا زَلَّةَ الْقَدَمِ",
+      "phoneticText": "In lam yakun fī ma'ādī ākhidhan bi-yadī ... Faḍlan wa illā fa-qul yā zallata-l-qadami",
+      "frenchText": "Si, lors de mon retour vers Allah, il ne me prend pas par la main par grâce, alors hélas ! Quel faux pas tragique !",
+      "tafsirNote": "L'imploration de l'aide du Prophète ﷺ au moment du passage sur le Pont Al-Sirat."
+    },
+    {
+      "id": "ch9_v9",
+      "chapterId": 9,
+      "verseNumber": 9,
+      "arabicText": "حَاشَاهُ أَنْ يَحْرِمَ الرَّاجِي مَكَارِمَهُ ... أَوْ يَرْجِعَ الْجَارُ مِنْهُ غَيْرَ مُحْتَرَمِ",
+      "phoneticText": "Ḥāshāhu an yaḥrima-r-rājī makārimahū ... Aw yarji'a-l-jāru minhu ghayra muḥtarami",
+      "frenchText": "Loin de lui l'idée de priver de ses bienfaits celui qui espère en lui, ou de renvoyer son voisin sans honneur !",
+      "tafsirNote": "La générosité sans borne du Messager d'Allah ﷺ."
+    },
+    {
+      "id": "ch9_v10",
+      "chapterId": 9,
+      "verseNumber": 10,
+      "arabicText": "وَمُنْذُ أَلْزَمْتُ أَفْكَارِي مَدَائِحَهُ ... وَجَدْتُهُ لِخَلاَصِي خَيْرَ مُلْتَزِمِ",
+      "phoneticText": "Wa mundhu alzamtu afkārī madā'iḥahū ... Wajadtuhū li-khalāṣī khayra multazimi",
+      "frenchText": "Et depuis que j'ai consacré mes pensées à ses éloges, je l'ai trouvé le meilleur garant de mon salut !",
+      "tafsirNote": "L'expérience vécue par l'Imam Al-Busiri guéri de sa paralysie."
+    },
+    {
+      "id": "ch9_v11",
+      "chapterId": 9,
+      "verseNumber": 11,
+      "arabicText": "وَلَنْ يَفُوتَ الرِّضَى مِنْهُ يَدًا تَرِبَتْ ... إِنَّ الْحَيَا يُنْبِتُ الأَزْهَارَ فِي الأَكَمِ",
+      "phoneticText": "Wa lan yafūta-r-riḍā minhu yadan taribat ... Inna-l-ḥayā yunbitu-l-azhāra fī-l-akami",
+      "frenchText": "Sa satisfaction ne saura faire défaut à des mains réduites à la pauvreté ; car la pluie féconde fait éclore les fleurs jusque sur les collines arides !",
+      "tafsirNote": "La pluie de la miséricorde ressuscite l'âme desséchée."
+    },
+    {
+      "id": "ch9_v12",
+      "chapterId": 9,
+      "verseNumber": 12,
+      "arabicText": "وَلَمْ أُرِدْ زَهْرَةَ الدُّنْيَا الَّتِي اقْتَطَفَتْ ... يَدَا زُهَيْرٍ بِمَا أَثْنَى عَلَى هَرَمِ",
+      "phoneticText": "Wa lam urid zahrata-d-dunyā-llatī-qtaṭafat ... Yadā Zuhayrin bi-mā athnā 'alā Harami",
+      "frenchText": "Et je n'ai point recherché les fleurs éphémères du monde que cueillaient les mains du poète Zuhayr lorsqu'il célébrait le prince Haram !",
+      "tafsirNote": "Verset 12 (Fin du Chapitre 9) : L'éloge pur et désintéressé recherchant la seule agrément d'Allah."
+    },
+    {
+      "id": "ch10_v1",
+      "chapterId": 10,
+      "verseNumber": 1,
+      "arabicText": "أَبْيَاتُهَا قَدْ أَتَتْ سِتِّينَ مَعْ مِائَةٍ ... فَرِّجْ بِهَا كَرْبَنَا يَا وَاسِعَ الْكَرَمِ",
+      "phoneticText": "Abyātuhā qad atat sittīna ma' mi'atin ... Farrij bihā karbanā yā wāsi'a-l-karami",
+      "frenchText": "Ses versets ont atteint le nombre de cent soixante (160 versets) ; délivre-nous par leur bénédiction de nos peines, ô Toi dont la générosité est infinie !",
+      "tafsirNote": "Verset 152 (1er verset du Chapitre 10) : L'affirmation explicite par l'Imam Al-Busiri des 160 versets canoniques de la Qasidat Al-Burda."
+    },
+    {
+      "id": "ch10_v2",
+      "chapterId": 10,
+      "verseNumber": 2,
+      "arabicText": "يَا رَبِّ بِالْمُصْطَفَى بَلِّغْ مَقَاصِدَنَا ... وَاغْفِرْ لَنَا مَا مَضَى يَا وَاسِعَ الْكَرَمِ",
+      "phoneticText": "Yā Rabbi bi-l-Muṣṭafā balligh maqāṣidanā ... Wa-ghfir lanā mā maḍā yā Wāsi'a-l-Karami",
+      "frenchText": "Ô mon Seigneur, par la grâce de l'Élu (Al-Mustafa), réalise nos desseins, et pardonne-nous nos fautes passées, ô Toi dont la générosité est infinie !",
+      "tafsirNote": "Verset 153 (Verset 2 du Chapitre 10) : L'invocation majeure et emblématique d'intercession et de pardon."
+    },
+    {
+      "id": "ch10_v3",
+      "chapterId": 10,
+      "verseNumber": 3,
+      "arabicText": "وَاغْفِرْ إِلَهِي لِكُلِّ الْمُسْلِمِينَ بِمَا ... يَتْلُونَ فِي الْمَسْجِدِ الأَقْصَى وَفِي الْحَرَمِ",
+      "phoneticText": "Wa-ghfir Ilāhī li-kulli-l-muslimīna bi-mā ... Yatlūna fī-l-Masjidi-l-Aqṣā wa fī-l-Ḥarami",
+      "frenchText": "Et pardonne, ô mon Dieu, à tous les musulmans, par la bénédiction de ce qu'ils récitent dans la Mosquée Al-Aqsa et dans le Sanctuaire Sacré !",
+      "tafsirNote": "Verset 154 (Verset 3 du Chapitre 10) : La prière de pardon pour l'ensemble des musulmans à travers les lieux saints."
+    },
+    {
+      "id": "ch10_v4",
+      "chapterId": 10,
+      "verseNumber": 4,
+      "arabicText": "بِجَاهِ مَنْ بَيْتُهُ فِي طَيْبَةٍ حَرَمٌ ... وَاسْمُهُ قَسَمٌ مِنْ أَعْظَمِ الْقَسَمِ",
+      "phoneticText": "Bi-jāhi man baytuhū fī Ṭaybatin ḥaramun ... Wa-smuhū qasamun min a'ẓami-l-qasami",
+      "frenchText": "Par le rang élevé de celui dont la demeure à Taybah (Médine) est un sanctuaire, et dont le nom est le plus vénéré des serments !",
+      "tafsirNote": "Verset 155 (Verset 4 du Chapitre 10) : La sacralité de Médine La Lumineuse et la grandeur du Prophète ﷺ."
+    },
+    {
+      "id": "ch10_v5",
+      "chapterId": 10,
+      "verseNumber": 5,
+      "arabicText": "وَهَذِهِ بُرْدَةُ الْمُخْتَارِ قَدْ خُتِمَتْ ... وَالْحَمْدُ لِلَّهِ فِي بَدْءٍ وَفِي خَتَمِ",
+      "phoneticText": "Wa hādhihī Burdatu-l-Mukhtāri qad khutimat ... Wa-l-ḥamdu li-Llāhi fī bad'in wa fī khatami",
+      "frenchText": "Et voici que la Burda de l'Élu s'achève ; la louange appartient à Allah au commencement et à la fin !",
+      "tafsirNote": "Verset 156 (Verset 5 du Chapitre 10) : La clôture officielle du poème dans la louange et la gratitude à Allah."
+    },
+    {
+      "id": "ch10_v6",
+      "chapterId": 10,
+      "verseNumber": 6,
+      "arabicText": "ثُمَّ الصَّلاَةُ مَعَ السَّلاَمِ دَائِمَةً ... عَلَى النَّبِيِّ وَآلِهِ وَصَحْبِهِ الْكِرَامِ",
+      "phoneticText": "Thumma-ṣ-Ṣalātu ma'a-s-Salāmi dā'imatan ... 'Alā-n-Nabiyyi wa Ālihī wa Ṣaḥbihi-l-Kirāmi",
+      "frenchText": "Puis, que les bénédictions et la paix soient éternellement sur le Prophète, sur sa Famille et ses Nobles Compagnons !",
+      "tafsirNote": "Verset 157 (Verset 6 du Chapitre 10) : Prière et salut perpétuels sur le Prophète, sa famille et ses compagnons."
+    },
+    {
+      "id": "ch10_v7",
+      "chapterId": 10,
+      "verseNumber": 7,
+      "arabicText": "مَا رَنَّحَتْ عَذَبَاتِ الْبَانِ رِيحُ صَبًا ... وَأَطْرَبَ الْعِيسَ حَادِي الْعِيسِ بِالنَّغَمِ",
+      "phoneticText": "Mā rannaḥat 'aḏabāti-l-bāni rīḥu ṣabā ... Wa aṭraba-l-'īsa ḥādī-l-'īsi bi-n-naghami",
+      "frenchText": "Tant que la brise du matin fera osciller les branches des saules, et que le chant du camelot réjouira les montures en marche !",
+      "tafsirNote": "Verset 158 (Verset 7 du Chapitre 10) : Émotion poétique consacrant la pérennité sans fin des salutations prophétiques."
+    },
+    {
+      "id": "ch10_v8",
+      "chapterId": 10,
+      "verseNumber": 8,
+      "arabicText": "ثُمَّ الرِّضَى عَنْ أَبِي بَكْرٍ وَعَنْ عُمَرٍ ... وَعَنْ عَلِيٍّ وَعَنْ عُثْمَانَ ذِي الْكَرَمِ",
+      "phoneticText": "Thumma-r-Riḍā 'an Abī Bakrin wa 'an 'Umara ... Wa 'an 'Aliyyin wa 'an 'Uthmāna dhi-l-Karami",
+      "frenchText": "Puis, que l'agrément d'Allah soit accordé à Abou Bakr, à Omar, à Ali et à Outhman le généreux !",
+      "tafsirNote": "Verset 159 (Verset 8 du Chapitre 10) : L'hommage explicite aux quatre califes bien-guidés (Al-Khulafa Al-Rashidun)."
+    },
+    {
+      "id": "ch10_v9",
+      "chapterId": 10,
+      "verseNumber": 9,
+      "arabicText": "وَالآلِ وَالصَّحْبِ ثُمَّ الأَتْبَاعِ كَافَّةً ... مَا دَانَ لَيْلُ الدَّيَاجِي أَوْ بَدَا السَّحَرُ",
+      "phoneticText": "Wa-l-Āli wa-ṣ-Ṣaḥbi thumma-l-Atbā'i kāffatan ... Mā dāna laylu-d-dayājī aw badā-s-saḥaru",
+      "frenchText": "Et sur sa Famille, ses Compagnons ainsi que tous leurs Successeurs sans exception, tant que s'étendra la nuit sombre ou que poindra l'aube nouvelle !",
+      "tafsirNote": "Verset 160 (Ultime verset canonique de la Qasidat Al-Burda) : Le verset final absolu de la poésie d'Imam Al-Busiri."
+    }
+  ],
+  "supplements": [
+    {
+      "id": "supp_1",
+      "title": "Prière de bénédiction d'ouverture (Salawat)",
+      "type": "invocation",
+      "arabicText": "يَا رَبِّ صَلِّ عَلَى الْمُخْتَارِ مِنْ مُضَرٍ ... وَكُلِّ رُسْلِكَ مَا نَاحَتْ عَلَى حَمَمِ",
+      "phoneticText": "Yā Rabbi ṣalli 'alā-l-Mukhtāri min Muḍarin ... Wa kulli ruslika mā nāḥat 'alā ḥamami",
+      "frenchText": "Ô mon Seigneur, répands Tes bénédictions sur l'Élu de la tribu de Moudar, et sur tous Tes messagers tant que roucoule la colombe sur la branche !",
+      "note": "Formule sacrée de salutations prophétiques chantée traditionnellement en préambule des récitatifs collectifs de la Burda (Gamou & Zikr)."
+    },
+    {
+      "id": "supp_2",
+      "title": "Formule d'accomplissement (Colophon / Tahmatah)",
+      "type": "colophon",
+      "arabicText": "تُمَّتْ بِحَمْدِ اللَّهِ وَحُسْنِ تَوْفِيقِهِ ... عَلَى الأُمَّـةِ الإِسْلاَمِيَّةِ فِـي الأُمَمِ",
+      "phoneticText": "Tummat bi-ḥamdi-Llāhi wa ḥusni tawfīqihī ... 'Alā-l-Ummati-l-Islāmiyyati fī-l-umami",
+      "frenchText": "Ce poème est accompli par la louange d'Allah et Sa gracieuse assistance accordée à la communauté musulmane parmi toutes les nations.",
+      "note": "Formule d'action de grâce et d'achèvement figurant à la clôture de nombreux manuscrits anciens."
+    }
+  ]
+}

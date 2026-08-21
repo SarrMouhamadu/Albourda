@@ -1,0 +1,261 @@
+{
+  "titleArabic": "القصيدة المضرية في الصلاة على خير البرية",
+  "titleFrench": "La Qasida Mudariyya (Prières sur la Meilleure des Créatures)",
+  "author": "Imam Sharaf ad-Din Al-Busiri",
+  "verseCount": 28,
+  "description": "Célèbre poème de prières et de bénédictions sur le Prophète Muhammad ﷺ, dénombrant les louanges par le nombre des étoiles, des gouttes de pluie, des grains de sable et de toutes les créatures.",
+  "verses": [
+    {
+      "id": "mud_1",
+      "chapterId": 100,
+      "verseNumber": 1,
+      "arabicText": "يَا رَبِّ صَلِّ عَلَى المُخْتَارِ مِنْ مُضَرٍ ... وَالأَنْبِيا وَجَميعِ الرُّسْلِ مَا ذُكِرُوا",
+      "phoneticText": "Yā Rabbi ṣalli 'alā-l-Mukhtāri min Muḍarin ... wa-l-Anbiyā wa jamī'i-r-Rusli mā dhukirū",
+      "frenchText": "Ô Mon Seigneur ! Accorde Tes bénédictions sur l'Élu issu de Mudar, ainsi que sur l'ensemble des Prophètes et des Messagers tant qu'ils sont évoqués.",
+      "tafsirNote": "Verset d'ouverture de la Qasidat Al-Mudariyya, invoquant la prière divine sur le Prophète ﷺ, issu de la noble tribu arabe de Mudar, et sur tous les messagers."
+    },
+    {
+      "id": "mud_2",
+      "chapterId": 100,
+      "verseNumber": 2,
+      "arabicText": "وَصَلِّ رَبِّ عَلَى الهَادِي وَشِيْمَتِهِ ... وَصَحْبِهِ مِنْ لِطَيِّ الدِّينِ قَدْ نَشَرُوا",
+      "phoneticText": "Wa ṣalli Rabbi 'alā-l-Hādī wa shīmatihi ... wa ṣaḥbihi min liṭayyi-d-Dīni qad nasharū",
+      "frenchText": "Et prie, ô Seigneur, sur le Guide, sur ses nobles vertus, ainsi que sur ses Compagnons qui ont propagé les trésors de la Religion.",
+      "tafsirNote": "Prière sur le Prophète ﷺ en tant que Guide (Al-Hadi), magnifiant son caractère exemplaire et l'engagement de ses Compagnons (Sahaba)."
+    },
+    {
+      "id": "mud_3",
+      "chapterId": 100,
+      "verseNumber": 3,
+      "arabicText": "وَجَاهَدُوا مَعَهُ في اللهِ وَاجْتَهَدُوا ... وَهَاجَرُوا وَلَهُ آوَوْا وَقَدْ نَصَرُوا",
+      "phoneticText": "Wa jāhadū ma'ahu fī-Llāhi wa-jtahadū ... wa hājarū wa lahu āwaw wa qad naṣarū",
+      "frenchText": "Ils ont lutté avec lui pour la cause d'Allah, ont émigré (Muhajirun), l'ont accueilli (Ansar) et lui ont porté secours avec dévouement.",
+      "tafsirNote": "Éloge des Émigrés (Muhajirun) de La Mecque et des Auxiliaires (Ansar) de Médine pour leur soutien inébranlable au Prophète ﷺ."
+    },
+    {
+      "id": "mud_4",
+      "chapterId": 100,
+      "verseNumber": 4,
+      "arabicText": "وَبَيَّنُوا الْفَرْضَ وَالمَسْنُونَ وَاعْتَصَبُوا ... للهِ وَاعْتَصِمُوا باللهِ وَانْتَصَرُوا",
+      "phoneticText": "Wa bayyanū-l-farḍa wa-l-masnūna wa-t-taṣabū ... li-Llāhi wa-t-taṣamū bi-Llāhi wa-ntaṣarū",
+      "frenchText": "Ils ont clarifié les obligations et la tradition (Sunna), se sont unis pour Allah, se sont attachés au câble d'Allah et ont triomphé.",
+      "tafsirNote": "Mise en lumière de la transmission de la jurisprudence islamique et de la fermeté dans la foi des premiers compagnons."
+    },
+    {
+      "id": "mud_5",
+      "chapterId": 100,
+      "verseNumber": 5,
+      "arabicText": "أَزْكَى صَلاَةٍ وَأَتْمَاهَا وَأَشْرَفَهَا ... يُعَطِّرُ الكَوْنَ رَيَّا نَشْرِهَا العَطِرُ",
+      "phoneticText": "Azkā ṣalātin wa atmāhā wa ashrafahā ... yu'aṭṭiru-l-kawna rayyā nashrihā-l-'aṭiru",
+      "frenchText": "Une prière la plus pure, la plus accomplie et la plus noble, dont le parfum embaume l'univers entier d'une fragrance bénie.",
+      "tafsirNote": "Description poétique de la nature parfumée et céleste des prières et salutations adressées au Prophète ﷺ."
+    },
+    {
+      "id": "mud_6",
+      "chapterId": 100,
+      "verseNumber": 6,
+      "arabicText": "مَفْتُوقَةً بِعَبِيرِ الْمِسْكِ زَاكِيَةً ... مِنْ طِيبِهَا أَرَجُ الرَّضْوَانِ يَنْتَشِرُ",
+      "phoneticText": "Maftūqatan bi-'abīri-l-miski zākiyatan ... min ṭībihā araju-r-Riḍwāni yantashiru",
+      "frenchText": "Empreinte du parfum du musc pur, dont la douceur répand la brise de la satisfaction divine (Ridwan).",
+      "tafsirNote": "Évocation du Ridwan (l'agrément suprême d'Allah) qui descend sur ceux qui envoient des bénédictions."
+    },
+    {
+      "id": "mud_7",
+      "chapterId": 100,
+      "verseNumber": 7,
+      "arabicText": "عَدَّ الحَصَى وَالثَّرَى وَالرَّمْلِ يَتْبَعُهَا ... نَجْمُ السَّماءِ وَنَبْتُ الأَرْضِ والمَدَرُ",
+      "phoneticText": "'Adda-l-ḥaṣā wa-th-tharā wa-r-ramli yatba'uhā ... najmu-s-samā'i wa nabtu-l-arḍi wa-l-madaru",
+      "frenchText": "[Des prières] égales au nombre des cailloux, de la poussière, des grains de sable, suivis des étoiles du ciel, des plantes de la terre et des mottes de terre.",
+      "tafsirNote": "Début du dénombrement infini des bénédictions (Al-Salawat al-Mudariyya), prenant les éléments de la création comme mesure."
+    },
+    {
+      "id": "mud_8",
+      "chapterId": 100,
+      "verseNumber": 8,
+      "arabicText": "وَعَدَّ ما حَوَتِ الأُشْجَارُ منْ وَرَقٍ ... وكُلِّ حَرْفٍ غَدَا يُتْلَى وَيُستَطَرُ",
+      "phoneticText": "Wa 'adda mā ḥawati-l-ashjāru min waraqin ... wa kulli ḥarfin ghadā yutlā wa yustaṭaru",
+      "frenchText": "Et égales au nombre de toutes les feuilles que portent les arbres, ainsi qu'à chaque lettre récitée et écrite dans les livres.",
+      "tafsirNote": "Inclusion des lettres récités dans le Coran et les livres de science sacrée dans la somme des prières."
+    },
+    {
+      "id": "mud_9",
+      "chapterId": 100,
+      "verseNumber": 9,
+      "arabicText": "وَعَدَّ وَزْنَ مَثاقِيلِ الْجِبالِ كَذَا ... يَلِيهِ قَطْرُ جَمِيعِ الماءِ والمَطَرُ",
+      "phoneticText": "Wa 'adda wazni mathāqīli-l-jibāli kadhā ... yalīhi qaṭru jamī'i-l-mā'i wa-l-maṭaru",
+      "frenchText": "Et égales au poids des montagnes, suivies de chaque goutte de toutes les eaux et de la pluie tombée.",
+      "tafsirNote": "Référence au poids des montagnes et aux gouttes d'eau de pluie tombant sur terre."
+    },
+    {
+      "id": "mud_10",
+      "chapterId": 100,
+      "verseNumber": 10,
+      "arabicText": "وَالطَّيْرِ وَالوَحْشِ وَالأسْماكِ مَعْ نَعَمٍ ... يَتْلُوهُمُ الجِنُّ وَالأمْلاكُ وَالبَشَرُ",
+      "phoneticText": "Wa-ṭ-ṭayri wa-l-waḥshi wa-l-asmāki ma' na'amin ... yatlūhumu-l-Jinnu wa-l-Amlāku wa-l-Basharu",
+      "frenchText": "[Au nombre] des oiseaux, des animaux sauvages, des poissons et du bétail, suivis des Jinns, des Anges et des Êtres humains.",
+      "tafsirNote": "Invocation incluant tous les êtres vivants des cieux, des terres et des océans."
+    },
+    {
+      "id": "mud_11",
+      "chapterId": 100,
+      "verseNumber": 11,
+      "arabicText": "وَالذَّرُّ والنَّمْلُ معَ جَمْعِ الحُبُوبِ كَذَا ... وَالشَّعْرُ والصُّوفُ والأَرْياشُ والوَبَرُ",
+      "phoneticText": "Wa-dh-dharru wa-n-namlu ma' jam'i-l-ḥubūbi kadhā ... wa-sh-sha'ru wa-ṣ-ṣūfu wa-l-aryāshu wa-l-wabaru",
+      "frenchText": "Ainsi que les atomes, les fourmis, l'ensemble des graines, les cheveux, la laine, les plumes et le pelage.",
+      "tafsirNote": "Précision minutieuse embrassant les plus infimes détails de la création."
+    },
+    {
+      "id": "mud_12",
+      "chapterId": 100,
+      "verseNumber": 12,
+      "arabicText": "وَمَا أحاطَ بهِ العِلْمُ المُحِيطُ وَما ... جَرَى بهِ القَلَمُ المَأمُونُ وَالقَدَرُ",
+      "phoneticText": "Wa mā aḥāṭa bihi-l-'ilmu-l-muḥīṭu wa mā ... jarā bihi-l-qalamu-l-ma'mūnu wa-l-qadaru",
+      "frenchText": "Et égales à tout ce que la Science Infinie d'Allah embrasse, et à tout ce que la Plume céleste et la Destinée ont tracé.",
+      "tafsirNote": "Élévation de la prière à la dimension du Décret Divin et du Savoir Absolu d'Allah."
+    },
+    {
+      "id": "mud_13",
+      "chapterId": 100,
+      "verseNumber": 13,
+      "arabicText": "وَعَدَّ نَعْمَائِكَ اللاتِي مَنَنْتَ بِهَا ... عَلَى الخلائِقِ مُذْ كانُوا وَمُذْ حُشِرُوا",
+      "phoneticText": "Wa 'adda na'mā'ika-l-lātī mananta bihā ... 'alā-l-khalā'iqi mudh kānū wa mudh ḥushirū",
+      "frenchText": "Et au nombre de Tes bienfaits dont Tu as comblé les créatures depuis leur création jusqu'au Jour du Rassemblement.",
+      "tafsirNote": "Reconnaissance des grâces d'Allah accordées à l'humanité du début à la fin des temps."
+    },
+    {
+      "id": "mud_14",
+      "chapterId": 100,
+      "verseNumber": 14,
+      "arabicText": "وَعَدَّ مِقْدَارِهِ السَّامِي الَّذي شَرُفَتْ ... بهِ النَّبِيُّونَ والأمْلاكُ وافْتَخَرُوا",
+      "phoneticText": "Wa 'adda miqdārihi-s-sāmī-l-ladhī sharufat ... bihi-n-Nabiyyūna wa-l-Amlāku wa-ftakharū",
+      "frenchText": "Et à la mesure de son rang éminent par lequel les Prophètes et les Anges ont été honorés et se sont enorgueillis.",
+      "tafsirNote": "Exaltation de la station spirituelle élevée (Al-Maqam al-Mahmud) du Prophète Muhammad ﷺ."
+    },
+    {
+      "id": "mud_15",
+      "chapterId": 100,
+      "verseNumber": 15,
+      "arabicText": "وَعَدَّ ما كانَ في الأكوانِ يا سَنَدِي ... وما يَكُونُ إلَى أنْ تُبْعَثَ الصُّوَرُ",
+      "phoneticText": "Wa 'adda mā kāna fī-l-akwāni yā Sanadī ... wa mā yakūnu ilā an tub'atha-ṣ-ṣuwaru",
+      "frenchText": "Et au nombre de ce qui a existé dans les mondes, ô mon Appui, et de ce qui existera jusqu'à ce que les formes soient ressuscitées.",
+      "tafsirNote": "Prière englobant l'intégralité du temps, du passé au Jour de la Résurrection."
+    },
+    {
+      "id": "mud_16",
+      "chapterId": 100,
+      "verseNumber": 16,
+      "arabicText": "في كُلِّ طَرْفَةِ عَيْنٍ يَطْرِفُونَ بِها ... أهْلُ السَّموَاتِ والأَرْضِينَ أوْ يَذَرُ",
+      "phoneticText": "Fī kulli ṭarfati 'aynin yaṭrifūna bihā ... ahlu-s-samāwāti wa-l-arḍīna aw yadharu",
+      "frenchText": "À chaque battement de paupière effectué ou omis par les habitants des cieux et des terres.",
+      "tafsirNote": "Intensité poétique mesurant la prière à la vitesse d'un clignement d'œil de chaque être."
+    },
+    {
+      "id": "mud_17",
+      "chapterId": 100,
+      "verseNumber": 17,
+      "arabicText": "مِلْءَ السَّموَاتِ والأَرْضِينَ مَعْ جَبَلٍ ... والْفَرْشِ والعَرْشِ والكُرْسِي وَما حَصَرُوا",
+      "phoneticText": "Mil'a-s-samāwāti wa-l-arḍīna ma' jabalin ... wa-l-farshi wa-l-'arshi wa-l-kursiyyi wa mā ḥaṣarū",
+      "frenchText": "À la plénitude des cieux, des terres, des montagnes, du Sol, du Trône suprême ('Arsh), du Piédestal (Kursi) et de ce qu'ils renferment.",
+      "tafsirNote": "Dimenssion cosmologique de la salutation s'étendant jusqu'au Trône d'Allah."
+    },
+    {
+      "id": "mud_18",
+      "chapterId": 100,
+      "verseNumber": 18,
+      "arabicText": "مَا أَعْدَمَ اللهُ مَوْجُوداً وَأَوْجَدَ مَعْـ ... ـدُوماً صَلاَةً دَوَاماً لَيْسَ تَنْحَصِرُ",
+      "phoneticText": "Mā a'dama-Llāhu mawjūdan wa awjada ma' ... dūman ṣalātan dawāman laysa tanḥaṣiru",
+      "frenchText": "Aussi longtemps qu'Allah anéantira ce qui existe ou fera exister ce qui n'était pas, une prière éternelle et sans limites.",
+      "tafsirNote": "Prière continue calquée sur le renouvellement perpétuel de la création par Allah."
+    },
+    {
+      "id": "mud_19",
+      "chapterId": 100,
+      "verseNumber": 19,
+      "arabicText": "تَسْتَغْرِقُ العدَّ مَعْ جَمعِ الدُّهورِ كَمَا ... يُحِيطُ بالحَدِّ لا تُبْقِي ولا تَذَرُ",
+      "phoneticText": "Tastaghriqu-l-'adda ma' jam'i-d-duhūri kamā ... yuḥīṭu bi-l-ḥaddi lā tubqī wa lā tadharu",
+      "frenchText": "Elle dépasse tout dénombrement et traverse l'ensemble des âges, embrassant toute limite sans rien omettre.",
+      "tafsirNote": "Constat de l'impossibilité d'épuiser le nombre des bénédictions divines."
+    },
+    {
+      "id": "mud_20",
+      "chapterId": 100,
+      "verseNumber": 20,
+      "arabicText": "لا غايَةً وَانتِهَاءً يَا عَظِيمُ لَها ... ولا لَهُم أمَدٌ يُقْضَى وَيُنْتَظَرُ",
+      "phoneticText": "Lā ghāyatan wa-ntihā'an yā 'Aẓīmu lahā ... wa lā lahum amadun yuqḍā wa yuntaẓaru",
+      "frenchText": "Elle n'a ni fin ni terme, ô Tout-Puissant, et elle ne connaît aucune échéance limitée.",
+      "tafsirNote": "Affirmation de la nature infinie et perpétuelle des grâces sur le Prophète ﷺ."
+    },
+    {
+      "id": "mud_21",
+      "chapterId": 100,
+      "verseNumber": 21,
+      "arabicText": "وَعَدَّ أضْعافِ ما قَدْ مَرَّ مِنْ عَدَدٍ ... مَعْ ضِعْفِ أضْعافِهِ يَا مَنْ لَهُ القَدَرُ",
+      "phoneticText": "Wa 'adda aḍ'āfi mā qad marra min 'adadin ... ma' ḍi'fi aḍ'āfihi yā man lahu-l-qadaru",
+      "frenchText": "Et multipliée des multiples de tout ce qui a précédé en nombre, avec encore le double de ces multiples, ô Toi à Qui appartient le Pouvoir Suprême.",
+      "tafsirNote": "Dédoublement et multiplication infinie des prières."
+    },
+    {
+      "id": "mud_22",
+      "chapterId": 100,
+      "verseNumber": 22,
+      "arabicText": "كَمَا تُحِبُّ وَتَرْضَى سَيِّدي وَكَمَا ... أمَرْتَنَا أنْ نُصلِّي أَنْتَ مُقْتَدِرُ",
+      "phoneticText": "Kamā tuḥibbu wa tarḍā Sayyidī wa kamā ... amartanā an nuṣallī Anta Muqtadiru",
+      "frenchText": "Comme Tu l'aimes et l'agrées, ô mon Maître, et comme Tu nous as ordonné de prier sur lui, car Tu es le Puissant.",
+      "tafsirNote": "Soumission de la prière au désir et au commandement d'Allah tel qu'énoncé dans le Coran (Sourate Al-Ahzab, v. 56)."
+    },
+    {
+      "id": "mud_23",
+      "chapterId": 100,
+      "verseNumber": 23,
+      "arabicText": "مَعَ السَّلامِ كَمَا قَدْ مَرَّ مِنْ عَدَدٍ ... رَبِّ وَضَاعِفْهُمَا وَالفَضْلُ مُنْتَشِرُ",
+      "phoneticText": "Ma'a-s-Salāmi kamā qad marra min 'adadin ... Rabbi wa ḍā'ifhumā wa-l-faḍlu muntashiru",
+      "frenchText": "Accompagnée de salutations de paix en nombres tout aussi infinis, ô Seigneur, et double-les encore car Ta grâce est immense.",
+      "tafsirNote": "Association de la Paix (Salam) aux Bénédictions (Salat) avec demande de démultiplication divine."
+    },
+    {
+      "id": "mud_24",
+      "chapterId": 100,
+      "verseNumber": 24,
+      "arabicText": "وَكُلُّ ذَلِكَ مَضْرُوبٌ بِحَقِّكَ فِي ... أَلْفَيْنِ مَضْرُوبَةً فِي أَلْفِ مَاضِ حَصَرُوا",
+      "phoneticText": "Wa kullu dhālika maḍrūbun bi-ḥaqqika fī ... alfayni maḍrūbatan fī alfi māḍi ḥaṣarū",
+      "frenchText": "Et tout cela multiplié, par Ton Droit sacré, par deux mille fois mille au-delà de toute mesure.",
+      "tafsirNote": "Clôture du dénombrement de la Mudariyya par une multiplication exponentielle."
+    },
+    {
+      "id": "mud_25",
+      "chapterId": 100,
+      "verseNumber": 25,
+      "arabicText": "مَا جَنَّ لَيْلُ الدَّيَاجِي أَوْ بَدَا السَّحَرُ ... مَعَ الرِّضَا مِنْكَ فِي عَفْوٍ وَعَافِيَةٍ",
+      "phoneticText": "Mā janna laylu-d-dayājī aw badā-s-saḥaru ... ma'a-r-Riḍā minka fī 'afwin wa 'āfiyati",
+      "frenchText": "Aussi longtemps que la nuit obscure obscurcit le monde ou que l'aube apparaît, avec Ton agrément, Ton pardon et la santé préservée.",
+      "tafsirNote": "Demande de pardon, de santé spirituelle et physique (Afiyah) et d'agrément auprès d'Allah."
+    },
+    {
+      "id": "mud_26",
+      "chapterId": 100,
+      "verseNumber": 26,
+      "arabicText": "وَحُسْنِ خَاتِمَةٍ إِنْ يَنْقَضِي الْعُمُرُ ... وَالآلِ وَالصَّحْبِ ثُمَّ الأَتْبَاعِ كَافَّةً",
+      "phoneticText": "Wa ḥusni khātimatin in yanqaḍī-l-'umuru ... wa-l-Āli wa-ṣ-Ṣaḥbi thumma-l-Atbā'i kāffatan",
+      "frenchText": "Et une fin heureuse (Husn al-Khatimah) quand la vie s'achèvera, ainsi que sur sa Famille, ses Compagnons et l'ensemble de ses disciples.",
+      "tafsirNote": "Prière finale demandant une bonne fin de vie (Husn al-Khatimah) et bénissant toute la communauté (Ummah)."
+    },
+    {
+      "id": "mud_27",
+      "chapterId": 100,
+      "verseNumber": 27,
+      "arabicText": "مَا غَرَّدَتْ فِي رِيَاضِ الأُنْسِ قُمْرِيَّةٌ ... أَوْ نَاحَ فِي عِذْقِهَا قُمْرِيُّ مُحْتَضَرُ",
+      "phoneticText": "Mā gharradat fī riyāḍi-l-unsi qumriyyatun ... aw nāḥa fī 'idhqihā qumriyyu muḥtaḍaru",
+      "frenchText": "Tant qu'une tourterelle roucoule dans les jardins de la proximité spirituelle ou qu'un oiseau chante sur un rameau.",
+      "tafsirNote": "Métaphore poétique traditionnelle concluant le poème avec le chant des oiseaux dans les jardins sacrés."
+    },
+    {
+      "id": "mud_28",
+      "chapterId": 100,
+      "verseNumber": 28,
+      "arabicText": "يَا رَبِّ بِالْمُصْطَفَى بَلِّغْ مَقَاصِدَنَا ... وَاغْفِرْ لَنَا مَا مَضَى يَا وَاسِعَ الْكَرَمِ",
+      "phoneticText": "Yā Rabbi bi-l-Muṣṭafā balligh maqāṣidanā ... wa-ghfir lanā mā maḍā yā Wāsi'a-l-Karami",
+      "frenchText": "Ô Seigneur ! Par la grâce de l'Élu (Al-Mustafa), réalise nos nobles desseins, et pardonne-nous le passé, ô Toi dont la Générosité est infinie !",
+      "tafsirNote": "Invocation de clôture suprême implorant la réalisation des souhaits et la miséricorde divine."
+    }
+  ]
+}

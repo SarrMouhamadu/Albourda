@@ -13,15 +13,27 @@ struct BurdaDataContainer: Codable {
     let supplements: [Supplement]?
 }
 
+struct MudariyyaDataContainer: Codable {
+    let titleArabic: String
+    let titleFrench: String
+    let author: String
+    let verseCount: Int
+    let description: String
+    let verses: [Verse]
+}
+
 class DataService {
     static let shared = DataService()
     
     private(set) var chapters: [Chapter] = []
     private(set) var verses: [Verse] = []
     private(set) var supplements: [Supplement] = []
+    private(set) var mudariyyaVerses: [Verse] = []
+    private(set) var mudariyyaInfo: MudariyyaDataContainer?
     
     private init() {
         loadData()
+        loadMudariyyaData()
     }
     
     private func loadData() {
@@ -42,6 +54,23 @@ class DataService {
         }
     }
     
+    private func loadMudariyyaData() {
+        guard let url = Bundle.main.url(forResource: "mudariyya_verses", withExtension: "json") else {
+            print("⚠️ mudariyya_verses.json introuvable dans le bundle principal.")
+            return
+        }
+        
+        do {
+            let data = try Data(contentsOf: url)
+            let decoder = JSONDecoder()
+            let container = try decoder.decode(MudariyyaDataContainer.self, from: data)
+            self.mudariyyaInfo = container
+            self.mudariyyaVerses = container.verses
+        } catch {
+            print("❌ Erreur lors du décodage de mudariyya_verses.json: \(error)")
+        }
+    }
+    
     func getChapter(by id: Int) -> Chapter? {
         chapters.first { $0.id == id }
     }
@@ -51,6 +80,13 @@ class DataService {
     }
     
     func getVerse(by id: String) -> Verse? {
-        verses.first { $0.id == id }
+        if let burdaVerse = verses.first(where: { $0.id == id }) {
+            return burdaVerse
+        }
+        return mudariyyaVerses.first(where: { $0.id == id })
+    }
+    
+    func getAllVerses() -> [Verse] {
+        return verses + mudariyyaVerses
     }
 }

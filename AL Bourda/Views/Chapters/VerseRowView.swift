@@ -9,7 +9,7 @@ import SwiftUI
 
 struct VerseRowView: View {
     let verse: Verse
-    let chapter: Chapter
+    var chapter: Chapter? = nil
     @EnvironmentObject var appState: AppState
     @State private var isTafsirExpanded: Bool = false
     @State private var isVisible: Bool = false
